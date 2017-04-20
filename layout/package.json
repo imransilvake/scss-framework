@@ -1,0 +1,20 @@
+{
+  "name": "layout",
+  "version": "1.0.0",
+  "description": "A place to design ideas!",
+  "main": "index.js",
+  "scripts": {
+    "compile": "./src/configuration/scripts/compile",
+    "watch": "nodemon -e scss -x \"npm run compile\""
+  },
+  "keywords": [
+    "scss",
+    "html"
+  ],
+  "author": "Imran Khan",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.5.2",
+    "nodeman": "^1.1.2"
+  }
+}
