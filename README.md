@@ -15,9 +15,10 @@ A Platform to start development in no time!
     - Live Reload
     - Variables
     - Mixins
-    - SCSS folder structure
 - HTML
-    - Nested version
+    - html5 setup
+- IMAGES
+    - Minify
 
 ### License
 MIT
