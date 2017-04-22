@@ -1,14 +1,9 @@
 // Base
 @import 'core/base/global';
 
-// Components
-@import 'core/widgets/global';
-
-// Layouts
-@import 'core/layouts/global';
-
-// Vendors
-@import 'core/vendors/global';
-
-// Themes
-@import 'themes/primary';
+a {
+  display: flex;
+  cursor: pointer;
+  font-family: 'Roboto', serif;
+  align-items: center;
+}

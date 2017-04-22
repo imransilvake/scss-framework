@@ -1,5 +1,11 @@
-# stylelint
+# Lint scss
 stylelint "src/scss/**/*.scss" --config src/core/configuration/.stylelintrc.json
 
-# compile scss to css
-node-sass --include-path scss src/scss/main.scss dist/css/main.css
+# Compile scss-to-css
+node-sass src/scss/main.scss dist/css/main.css
+
+# Apply auto-prefixer to css
+postcss --use autoprefixer -b 'last 2 versions' -o dist/css/main.css dist/css/main.css
+
+# Minify css
+cleancss -o dist/css/main.min.css dist/css/main.css
