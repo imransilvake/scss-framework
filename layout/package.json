@@ -4,8 +4,8 @@
   "description": "A place to design ideas!",
   "main": "index.js",
   "scripts": {
-    "compile": "./src/configuration/scripts/compile",
-    "watch": "nodemon -e scss -x \"npm run compile\""
+    "scss-compile": "./src/core/scripts/scss/compile",
+    "scss-watch": "./src/core/scripts/scss/watch"
   },
   "keywords": [
     "scss",
@@ -15,6 +15,7 @@
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^4.5.2",
-    "nodeman": "^1.1.2"
+    "nodeman": "^1.1.2",
+    "stylelint": "^7.10.1"
   }
 }

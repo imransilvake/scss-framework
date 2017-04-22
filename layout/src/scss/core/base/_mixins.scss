@@ -1,52 +1,14 @@
-/**
-  COLORS - COLOR, BACKGROUND, BORDER, SHADOW
-*/
+// COLORS - COLOR, BACKGROUND, BORDER, SHADOW
 
 
 
-/**
-  MEDIA QUERIES
-*/
+// MEDIA QUERIES
 
-$breakpoints: (
-  "phone":        480px,
-  "tablet":       768px,
-  "desktop":      1024px,
-  "desktop-wide": 1200px
-);
 
-@mixin media-queries($width, $type: min) {
-  @if map_has_key($breakpoints, $width) {
-    $width: map_get($breakpoints, $width);
-    @if $type == max {
-      $width: $width - 1px;
-    }
-    @media only screen and (#{$type}-width: $width) {
-      @content;
-    }
-  }
-}
 
-/**
-  Z-INDEX
-*/
+// Z-INDEX
 
-$z-indexes: (
-  "normal",
-  "header",
-  "modal",
-);
 
-@function z-index($name) {
-  @if index($z-indexes, $name) {
-    @return (length($z-indexes) - index($z-indexes, $name)) + 1;
-  } @else {
-    @warn 'There is no item "#{$name}" in this list; choose one of: #{$z-indexes}';
-    @return null;
-  }
-}
 
-/**
-  TRANSITION
-*/
+// TRANSITION
 

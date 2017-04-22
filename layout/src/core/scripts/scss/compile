@@ -1,0 +1,5 @@
+# stylelint
+stylelint "src/scss/**/*.scss" --config src/core/configuration/.stylelintrc.json
+
+# compile scss to css
+node-sass --include-path scss src/scss/main.scss dist/css/main.css
