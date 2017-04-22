@@ -1,3 +1,6 @@
+# Clean dist css folder
+del dist/css/**/*.css
+
 # Lint scss
 stylelint "src/scss/**/*.scss" --config src/core/configuration/.stylelintrc.json
 
