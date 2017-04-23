@@ -3,6 +3,12 @@
 ### Introduction
 A Platform to start development in no time!
 
+### Project Prefix
+`cd`
+
+### SCSS - Stylelint Rules
+Check it out: [Rules](https://stylelint.io/user-guide/rules/)
+
 ### GIT: PULL & PUSH
 - `git status`
 - `git add` .
@@ -10,22 +16,18 @@ A Platform to start development in no time!
 - `git pull origin master`
 - `git push origin master`
 
-### Prefix
-`cd`
-
-### Stylelint Rules
-[Rules](https://stylelint.io/user-guide/rules/)
-
 ### TODO
+As time passes by, improvement will come.
+
 - [x] SCSS
-- [ ] HTML
-    - Minify
-- [ ] IMAGES
-    - Minify
 - [ ] JavaScript
 	- ES6
 	- Webpack
 	- TypeScript
+	- React
+- [ ] HTML
+- [ ] IMAGES
+- [ ] SVG
 
 ### License
 MIT
