@@ -1,6 +1,20 @@
-// COLORS - COLOR, BACKGROUND, BORDER, SHADOW
+/**
+  The hue can be one of the standard values (500, A400, etc.), one of the three pre-configured
+  hues (default, lighter, darker), or any of the aforementioned prefixed with "-contrast".
 
-// MEDIA QUERIES
+  @param $color-map   The theme palette (output of mat-palette).
+  @param $hue         hexa-value
+  @param $opacity     The alpha channel value for the color.
+*/
+@function cd-palette($palette, $hue, $opacity: null) {
+	// If hueKey is a number between zero and one, then it actually contains an
+	// opacity value, so recall this function with the default hue and that given opacity.
+	@if type-of($hue) == number and $hue >= 0 and $hue <= 1 {
+		@return cd-palette($palette, default, $hue);
+	}
 
-// Z-INDEX
+	$color: map-get($palette, $hue);
+	$opacity: if($opacity == null, opacity($color), $opacity);
 
+	@return rgba($color, $opacity);
+}

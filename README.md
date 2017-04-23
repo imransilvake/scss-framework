@@ -10,13 +10,18 @@ A Platform to start development in no time!
 - `git pull origin master`
 - `git push origin master`
 
+### Prefix
+`cd`
+
+### Stylelint Rules
+[Rules](https://stylelint.io/user-guide/rules/)
+
 ### TODO
 - SCSS
-    - Live Reload
     - Variables
     - Mixins
 - HTML
-    - html5 setup
+    - Minify
 - IMAGES
     - Minify
 

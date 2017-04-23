@@ -30,7 +30,6 @@
 
     "selector-no-attribute": true,
     "selector-no-id": true,
-    "selector-no-type": true,
     "selector-no-universal": true,
     "selector-no-vendor-prefix": true,
 
