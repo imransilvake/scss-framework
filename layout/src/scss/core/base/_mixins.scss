@@ -1,20 +1,43 @@
 /**
-  The hue can be one of the standard values (500, A400, etc.), one of the three pre-configured
-  hues (default, lighter, darker), or any of the aforementioned prefixed with "-contrast".
+	A color palette having code values assigned to each color.
 
-  @param $color-map   The theme palette (output of mat-palette).
-  @param $hue         hexa-value
-  @param $opacity     The alpha channel value for the color.
+	@param $palette:	color | background | border | shadow
+	@param $hex-code:	hexadecimal color code
+	@param $opacity:	0-1
 */
-@function cd-palette($palette, $hue, $opacity: null) {
-	// If hueKey is a number between zero and one, then it actually contains an
-	// opacity value, so recall this function with the default hue and that given opacity.
-	@if type-of($hue) == number and $hue >= 0 and $hue <= 1 {
-		@return cd-palette($palette, default, $hue);
+@function cd-palette($palette, $hex-code, $opacity: null) {
+	// If hex-code is a number within 0-1, then it actually contains an opacity value.
+	@if type-of($hex-code) == number and $hex-code >= 0 and $hex-code <= 1 {
+		@return cd-palette($palette, default, $hex-code);
 	}
 
-	$color: map-get($palette, $hue);
+	$color: map-get($palette, $hex-code);
 	$opacity: if($opacity == null, opacity($color), $opacity);
 
 	@return rgba($color, $opacity);
+}
+
+/**
+	Media queries are used to target designs for many standard and popular devices.
+
+	@param $media:	smartphone | tablet | desktop | widescreen
+*/
+@mixin cd-media($cd-breakpoint) {
+	@if map-has-key($cd-breakpoints, $cd-breakpoint) {
+		@media #{inspect(map-get($cd-breakpoints, $cd-breakpoint))} {
+			@content;
+		}
+	} @else {
+		@warn 'Couldn\'t find a breakpoint named \`#{$cd-breakpoint}`.\'';
+	}
+}
+
+
+/**
+	Mixin for the property z-index.
+
+	@param $key:	normal | float | modal
+*/
+@function cd-zindex($key) {
+	@return map-get($cd-zindex, $key);
 }

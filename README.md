@@ -17,13 +17,15 @@ A Platform to start development in no time!
 [Rules](https://stylelint.io/user-guide/rules/)
 
 ### TODO
-- SCSS
-    - Variables
-    - Mixins
-- HTML
+- [x] SCSS
+- [ ] HTML
     - Minify
-- IMAGES
+- [ ] IMAGES
     - Minify
+- [ ] JavaScript
+	- ES6
+	- Webpack
+	- TypeScript
 
 ### License
 MIT

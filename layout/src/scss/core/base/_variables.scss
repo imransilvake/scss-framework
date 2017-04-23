@@ -1,9 +1,14 @@
 // z-index
-$z-normal: 1;
-$z-float: 2;
+$cd-zindex: (
+	'normal':	1,
+	'float':	2,
+	'modal':	3
+);
 
 // media queries
-$media-x-small: 480px;
-$media-small: 767px;
-$media-medium: 992px;
-$media-large: 1200px;
+$cd-breakpoints: (
+	'smartphone':	( max-width:  600px ),
+	'tablet':		( max-width:  992px ),
+	'desktop':		( max-width:  1200px ),
+	'widescreen':	( min-width: 1201px )
+);
