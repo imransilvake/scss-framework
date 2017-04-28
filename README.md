@@ -14,7 +14,10 @@ A SCSS boilerplate using npm scripts.
 ### Run
 ```
 npm install
+```
+```
 npm run scss-compile
+or
 npm run scss-watch
 ```
 
