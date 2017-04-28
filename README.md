@@ -1,15 +1,15 @@
 # SCSS Boilerplate
 SCSS Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
 
-## Project Prefix
-`cd`
-
 ## SCSS
   - Lint SCSS: [Rules](https://stylelint.io/user-guide/rules/)
   - Compile SCSS to CSS
   - Add autoprefixer
   - Minify CSS
   - Auto update on changes in HTML & SCSS files
+
+## Project Prefix
+`cd`
 
 ## Requirements
 ```
@@ -29,7 +29,7 @@ OR
 npm run scss-watch
 ```
 
-## Commands Function
+## Functions
 
 `npm run scss-compile`
   - SCSS Lint, SCSS-to-CSS, Add Autoprefixer, Minfiy CSS
