@@ -17,7 +17,9 @@ npm install
 ```
 ```
 npm run scss-compile
-or
+
+OR
+
 npm run scss-watch
 ```
 
