@@ -1,7 +1,7 @@
 {
-  "name": "Layout",
+  "name": "scss-boilerplate",
   "version": "1.0.0",
-  "description": "A place to design ideas!",
+  "description": "A SCSS boilerplate using npm scripts.",
   "main": "index.js",
   "scripts": {
     "browser-sync": "browser-sync start --server --files \"*.html, dist/css/main.min.css\" --port 8080 --browser \"google chrome\"",
