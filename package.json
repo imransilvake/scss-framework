@@ -1,23 +1,30 @@
 {
-    "name": "Code",
-    "version": "1.0.0",
-    "description": "A platform to learn and build cool stuff!",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+ssh://git@gitlab.com/imransilvake/code.git"
-    },
-    "keywords": [
-      "frontend",
-      "backend"
-    ],
-    "author": "Imran Khan",
-    "license": "ISC",
-    "bugs": {
-      "url": "https://gitlab.com/imransilvake/code/issues"
-    },
-    "homepage": "https://gitlab.com/imransilvake/code#README"
+  "name": "Layout",
+  "version": "1.0.0",
+  "description": "A place to design ideas!",
+  "main": "index.js",
+  "scripts": {
+    "browser-sync": "browser-sync start --server --files \"*.html, dist/css/main.min.css\" --port 8080 --browser \"google chrome\"",
+    "scss-compile": "./src/core/scripts/scss/compile",
+    "scss-watch": "./src/core/scripts/scss/watch"
+  },
+  "keywords": [
+    "scss",
+    "html"
+  ],
+  "author": "Imran Khan",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.7.7",
+    "browser-sync": "^2.18.8",
+    "clean-css-cli": "^4.0.12",
+    "del-cli": "^0.2.1",
+    "node-sass": "^4.5.2",
+    "nodemon": "^1.11.0",
+    "postcss-cli": "^3.2.0",
+    "stylelint": "^7.10.1"
+  },
+  "dependencies": {
+    "normalize.css": "^6.0.0"
+  }
 }
