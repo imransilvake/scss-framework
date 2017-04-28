@@ -17,7 +17,7 @@ SCSS Boilerplate is a professional front-end template for building fast, robust,
 ## Requirements
 ```
 node: v7.9.0 or greater
-npm: 4.2.0 or greater
+npm: v4.2.0 or greater
 ```
 
 ## Run
