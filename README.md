@@ -16,18 +16,5 @@ Check it out: [Rules](https://stylelint.io/user-guide/rules/)
 - `git pull origin master`
 - `git push origin master`
 
-### TODO
-As time passes by, improvement will come.
-
-- [x] SCSS
-- [ ] JavaScript
-	- ES6
-	- Webpack
-	- TypeScript
-	- React
-- [ ] HTML
-- [ ] IMAGES
-- [ ] SVG
-
 ### License
 MIT
