@@ -12,8 +12,10 @@ A SCSS boilerplate using npm scripts.
   - Auto update on changes in HTML & SCSS files
 
 ### Requirements
-`node: v7.9.0 or greater`
-`npm: 4.2.0 or greater`
+```
+node: v7.9.0 or greater
+npm: 4.2.0 or greater
+```
 
 ### Run
 ```
