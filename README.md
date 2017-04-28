@@ -1,5 +1,5 @@
 # SCSS & NPM Scripts - Boilerplate
-A SCSS boilerplate using npm scripts.
+SCSS Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
 
 ## Project Prefix
 `cd`
