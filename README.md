@@ -13,6 +13,7 @@ A SCSS boilerplate using npm scripts.
 
 ### Requirements
 `node: v7.9.0 or greater`
+`npm: 4.2.0 or greater`
 
 ### Run
 ```
