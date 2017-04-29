@@ -1,7 +1,6 @@
 # SCSS Boilerplate
 SCSS Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
 
-[![npm (scoped)](https://img.shields.io/npm/v/@cycle/core.svg)](https://github.com/imransilvake/SCSS-Boilerplate)
 [![Scrutinizer Build](https://img.shields.io/scrutinizer/build/g/filp/whoops.svg)](https://github.com/imransilvake/SCSS-Boilerplate/)
 [![David](https://img.shields.io/david/expressjs/express.svg)](https://github.com/imransilvake/SCSS-Boilerplate)
 [![David](https://img.shields.io/david/dev/expressjs/express.svg)](https://github.com/imransilvake/SCSS-Boilerplate)
