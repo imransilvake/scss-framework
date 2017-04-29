@@ -26,7 +26,6 @@
     "stylelint-order": "^0.4.3"
   },
   "dependencies": {
-    "bootstrap": "^3.3.7",
     "normalize.css": "^6.0.0"
   }
 }
