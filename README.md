@@ -3,8 +3,9 @@ SCSS Boilerplate is a professional front-end template for building fast, robust,
 
 [![Build Status](https://travis-ci.org/imransilvake/SCSS-Boilerplate.svg?branch=master)](#)
 [![devDependency Status](https://david-dm.org/h5bp/html5-boilerplate/dev-status.svg)](#)
+[![GitHub issues](https://img.shields.io/github/issues/imransilvake/SCSS-Boilerplate.svg)](https://github.com/imransilvake/SCSS-Boilerplate/issues)
 [![Software License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![GitHub forks](https://img.shields.io/github/forks/imransilvake/SCSS-Boilerplate.svg)](https://github.com//imransilvake/SCSS-Boilerplate/network)
+[![GitHub forks](https://img.shields.io/github/forks/imransilvake/SCSS-Boilerplate.svg)](https://github.com/imransilvake/SCSS-Boilerplate/network)
 [![GitHub stars](https://img.shields.io/github/stars/imransilvake/SCSS-Boilerplate.svg)](https://github.com/imransilvake/SCSS-Boilerplate/stargazers)
 
 
