@@ -45,7 +45,7 @@ npm run scss-watch
   - `npm run scss-compile` + Watch HTML & SCSS files
 
 ## Note
-No bootstrap, materialize or any other frameworks are included.
+No bootstrap, materialize or any other frameworks are included. Go ahead and include one.
 
 ## License
 MIT
