@@ -1,3 +1,50 @@
 .cd-profile-wrapper {
-	text-align: center;
+	header {
+		background-color: cd-palette($cd-background, 2003);
+		color: cd-palette($cd-color, 1000);
+		padding: 0;
+
+		.row {
+			margin: 0;
+			padding: 25px 0;
+
+			.col {
+				h1 {
+					margin: 0;
+				}
+
+				h4 {
+					font-weight: 100;
+					margin: 5px 0 0;
+				}
+			}
+		}
+	}
+
+	section {
+		&.cd-summary {
+			background-color: cd-palette($cd-background, 2004);
+			padding: 0;
+
+			.container {
+				padding: 0;
+
+				.row {
+					margin: 0;
+
+					.col {
+						padding: 30px 15px;
+
+						h2 {
+							margin: 0;
+						}
+
+						p {
+							margin: 12px 0 0;
+						}
+					}
+				}
+			}
+		}
+	}
 }

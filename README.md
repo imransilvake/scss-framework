@@ -7,7 +7,6 @@ SCSS Boilerplate is a professional front-end template for building fast, robust,
 [![GitHub issues](https://img.shields.io/github/issues/imransilvake/SCSS-Boilerplate.svg)](https://github.com/imransilvake/SCSS-Boilerplate/issues)
 [![Software License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-
 ## SCSS
   - Lint SCSS: [Rules](https://stylelint.io/user-guide/rules/)
   - Compile SCSS to CSS
