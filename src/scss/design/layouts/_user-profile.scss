@@ -50,18 +50,28 @@
 			.container {
 				padding: 0;
 
-				.row {
+				> .row {
 					margin: 0;
+					padding: 30px 15px;
 
-					.cd-up-tags {
-						padding: 30px 15px;
-
+					.cd-up-keywords {
 						h2 {
 							margin: 0;
 						}
 
-						article {
-							margin: 12px 0 0;
+						.cd-logo {
+							margin: 15px 0 0;
+
+							img {
+								border: 1px solid cd-palette($cd-border, 3007);
+								margin-bottom: 15px;
+								padding: 2px;
+								width: 50px;
+							}
+						}
+
+						.cd-tags {
+							margin: 0;
 
 							span {
 								background-color: cd-palette($cd-background, 2005);
@@ -75,10 +85,60 @@
 					}
 
 					.cd-up-background {
-						padding: 30px 15px;
-
 						h2 {
 							margin: 0;
+						}
+
+						.row {
+							margin: 12px 0 0;
+
+							.col {
+								padding: 0;
+
+								&:first-child {
+									.cd-info {
+										h4 {
+											margin: 0 0 10px;
+										}
+
+										p {
+											margin: 0 0 10px;
+										}
+									}
+								}
+
+								&:last-child {
+									align-items: center;
+									display: flex;
+
+									.ts-left {
+										float: left;
+
+										img {
+											border: 1px solid cd-palette($cd-border, 3007);
+											padding: 2px;
+											width: 50px;
+
+											&.cd-bonn {
+												width: 100px;
+											}
+										}
+									}
+
+									.ts-right {
+										margin-left: 20px;
+
+										h4 {
+											margin: 0 0 4px;
+										}
+
+										p {
+											font-weight: 200;
+											margin: 0;
+										}
+									}
+								}
+							}
 						}
 					}
 				}
