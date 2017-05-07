@@ -7,7 +7,8 @@ $cd-zindex: (
 
 // media queries
 $cd-breakpoints: (
-	'smartphone':	( max-width:  600px ),
+	'mini':			( max-width:  480px ),
+	'smartphone':	( max-width:  767px ),
 	'tablet':		( max-width:  992px ),
 	'desktop':		( max-width:  1200px ),
 	'widescreen':	( min-width: 1201px )
