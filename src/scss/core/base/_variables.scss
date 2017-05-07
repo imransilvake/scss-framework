@@ -1,15 +1,32 @@
-// z-index
-$cd-zindex: (
-	'normal':	1,
-	'float':	2,
-	'modal':	3
-);
-
 // media queries
-$cd-breakpoints: (
-	'mini':			( max-width:  480px ),
+$cd-breakPoints: (
+	'portrait':		( max-width:  480px ),
 	'smartphone':	( max-width:  767px ),
 	'tablet':		( max-width:  992px ),
 	'desktop':		( max-width:  1200px ),
 	'widescreen':	( min-width: 1201px )
+);
+
+// z-index
+$cd-zIndex: (
+	'normal':	1,
+	'float':	2,
+	'modal':	3,
+	'loader':	4
+);
+
+// font-family
+$cd-fontFamily: (
+	'helvetica':	'Helvetica Neue'
+);
+
+// font-size
+$cd-fontSize: (
+	'h1':	36px,
+	'h2':	30px,
+	'h3':	24px,
+	'h4':	18px,
+	'h5':	14px,
+	'h6':	12px,
+	'p':	14px
 );

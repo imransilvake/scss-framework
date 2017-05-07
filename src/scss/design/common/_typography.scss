@@ -1,0 +1,64 @@
+.default {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: cd-fontFamily(helvetica);
+}
+
+h1 {
+	@extend .default;
+	color: cd-palette($cd-color, 1009);
+	font-size: cd-fontSize(h1);
+}
+
+h2 {
+	@extend .default;
+	color: cd-palette($cd-color, 1009);
+	font-size: cd-fontSize(h2);
+}
+
+h3 {
+	@extend .default;
+	color: cd-palette($cd-color, 1009);
+	font-size: cd-fontSize(h3);
+}
+
+h4 {
+	@extend .default;
+	color: cd-palette($cd-color, 1009);
+	font-size: cd-fontSize(h4);
+}
+
+h5 {
+	@extend .default;
+	color: cd-palette($cd-color, 1009);
+	font-size: cd-fontSize(h5);
+}
+
+h6 {
+	@extend .default;
+	color: cd-palette($cd-color, 1009);
+	font-size: cd-fontSize(h6);
+}
+
+p {
+	@extend .default;
+	color: cd-palette($cd-color, 1009);
+	font-size: cd-fontSize(p);
+}
+
+hr {
+	border: 0;
+	border-top: 1px solid cd-palette($cd-border, 3007);
+	margin: 20px 0;
+}
+
+.container {
+	padding: 0;
+}
+
+.row {
+	@extend .default;
+}

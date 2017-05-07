@@ -20,24 +20,41 @@
 /**
 	Media queries are used to target designs for many standard and popular devices.
 
-	@param $media:	smartphone | tablet | desktop | widescreen
+	@param $media:	portrait | smartphone | tablet | desktop | widescreen
 */
-@mixin cd-media($cd-breakpoint) {
-	@if map-has-key($cd-breakpoints, $cd-breakpoint) {
-		@media #{inspect(map-get($cd-breakpoints, $cd-breakpoint))} {
+@mixin cd-media($break-point) {
+	@if map-has-key($cd-breakPoints, $break-point) {
+		@media #{inspect(map-get($cd-breakPoints, $break-point))} {
 			@content;
 		}
 	} @else {
-		@warn 'Couldn\'t find a breakpoint named \`#{$cd-breakpoint}`.\'';
+		@warn 'Couldn\'t find a breakpoint named \`#{$break-point}`.\'';
 	}
 }
-
 
 /**
 	Mixin for the property z-index.
 
-	@param $key:	normal | float | modal
+	@param $key:	normal | float | modal | loader
 */
-@function cd-zindex($key) {
-	@return map-get($cd-zindex, $key);
+@function cd-zIndex($key) {
+	@return map-get($cd-zIndex, $key);
+}
+
+/**
+	Mixin for the property font-family.
+
+	@param $key:	helvetica
+*/
+@function cd-fontFamily($key) {
+	@return map-get($cd-fontFamily, $key);
+}
+
+/**
+	Mixin for the property font-size.
+
+	@param $key:	h1 | h2 | h3 | h4 | h5 | h6 | p
+*/
+@function cd-fontSize($key) {
+	@return map-get($cd-fontSize, $key);
 }
