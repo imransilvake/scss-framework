@@ -44,7 +44,25 @@ npm run scss-watch
   - `npm run scss-compile` + Watch HTML & SCSS files
 
 ## Note
-No bootstrap, materialize or any other frameworks are included.
+Bootstrap frameworks is included.
+
+## Mixins and Functions
+	- A color palette having code values assigned to each color.
+		@param $palette:	color | background | border | shadow
+		@param $hex-code:	hexadecimal color code
+		@param $opacity:	0-1
+
+		cd-palette($palette, $hex-code, $opacity);
+
+	- Media queries are used to target designs for many standard and popular devices.
+        @param $media:	portrait | smartphone | tablet | desktop | widescreen
+
+		cd-media($break-point);
+
+	- Mixin for the property z-index.
+      	@param $key:	normal | float | modal | loader
+
+      	cd-zIndex($key)
 
 ## License
 MIT

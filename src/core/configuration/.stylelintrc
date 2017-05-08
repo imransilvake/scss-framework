@@ -43,7 +43,6 @@
 
 		"block-no-empty": true,
 		"block-closing-brace-empty-line-before": "never",
-		"block-closing-brace-newline-before": "always",
 
 		"comment-no-empty": true,
 		"indentation": "tab",
