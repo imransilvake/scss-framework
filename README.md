@@ -26,12 +26,7 @@ npm: v4.2.0 or greater
 ## Run
 ```
 npm install
-```
-```
 npm run scss-compile
-
-OR
-
 npm run scss-watch
 ```
 
