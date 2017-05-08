@@ -47,6 +47,7 @@ npm run scss-watch
 Bootstrap framework is included.
 
 ## Mixins and Functions
+```javascript
 	- A color palette having code values assigned to each color.
 	@param $palette:	color | background | border | shadow
 	@param $hex-code:	hexadecimal color code
@@ -68,6 +69,7 @@ Bootstrap framework is included.
 	- Mixin for the property font-size.
 	@param $key:	h1 | h2 | h3 | h4 | h5 | h6 | p
 	cd-fontSize($key);
+```
 
 ## License
 MIT
