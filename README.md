@@ -49,26 +49,26 @@ Bootstrap framework is included.
 ## Mixins and Functions
 ```javascript
 * A color palette having code values assigned to each color.
-@param $palette:	color | background | border | shadow
-@param $hex-code:	hexadecimal color code
-@param $opacity:	0-1
-cd-palette($palette, $hex-code, $opacity);
+    @param $palette:	color | background | border | shadow
+    @param $hex-code:	hexadecimal color code
+    @param $opacity:	0-1
+    cd-palette($palette, $hex-code, $opacity);
 
 * Media queries are used to target designs for many standard and popular devices.
-@param $media:	portrait | smartphone | tablet | desktop | widescreen
-cd-media($break-point);
+    @param $media:	portrait | smartphone | tablet | desktop | widescreen
+    cd-media($break-point);
 
 * Mixin for the property z-index.
-@param $key:	normal | float | modal | loader
-cd-zIndex($key)
+    @param $key:	normal | float | modal | loader
+    cd-zIndex($key)
 
 * Mixin for the property font-family.
-@param $key:	helvetica
-cd-fontFamily($key);
+    @param $key:	helvetica
+    cd-fontFamily($key);
 
 * Mixin for the property font-size.
-@param $key:	h1 | h2 | h3 | h4 | h5 | h6 | p
-cd-fontSize($key);
+    @param $key:	h1 | h2 | h3 | h4 | h5 | h6 | p
+    cd-fontSize($key);
 ```
 
 ## License
