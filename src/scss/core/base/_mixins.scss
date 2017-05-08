@@ -28,7 +28,7 @@
 			@content;
 		}
 	} @else {
-		@warn 'Couldn\'t find a breakpoint named \`#{$break-point}`.\'';
+		@warn 'Couldn\'t find a breakpoint named: \`#{$break-point}`.\'';
 	}
 }
 
