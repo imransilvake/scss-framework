@@ -2,10 +2,10 @@
 del ./dist/css/**/*.css
 
 # Lint scss
-stylelint "src/scss/**/*.scss" --config ./src/core/configuration/.stylelintrc
+stylelint "./app/src/scss/**/*.scss" --config ./app/src/core/configuration/.stylelintrc
 
 # Compile scss-to-css
-node-sass ./src/scss/main.scss ./dist/css/main.css
+node-sass ./app/src/scss/main.scss ./dist/css/main.css
 
 # Apply auto-prefixer to css
 postcss --use autoprefixer -b 'last 2 versions' -o ./dist/css/main.css ./dist/css/main.css

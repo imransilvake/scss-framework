@@ -26,44 +26,18 @@ node: v7.9.0 or greater
 npm: v4.2.0 or greater
 ```
 
-## Run
-```
-npm install
-```
-
-## NPM Functions
+## NPM Commands
+*** First run this command to install node modules: `npm install`.
 
 `npm run scss-compile`
-  - SCSS Lint, SCSS-to-CSS, Add Autoprefixer, Minfiy CSS
+  - `SCSS Lint`, `SCSS-to-CSS`, `Autoprefixer lLast 2 versions)` and `Minfiy CSS`.
 
 `npm run scss-watch`
-  - `npm run scss-compile` + Watch HTML & SCSS files
+  - Compile src files and watch for `HTML` & `SCSS` files
 
 
-## Mixins and Functions
-```javascript
-* A color palette having code values assigned to each color.
-    @param $palette:	color | background | border | shadow
-    @param $hex-code:	hexadecimal color code
-    @param $opacity:	0-1
-    cd-palette($palette, $hex-code, $opacity);
-
-* Media queries are used to target designs for many standard and popular devices.
-    @param $media:	portrait | smartphone | tablet | desktop | widescreen
-    cd-media($break-point);
-
-* Mixin for the property z-index.
-    @param $key:	normal | float | modal | loader
-    cd-zIndex($key)
-
-* Mixin for the property font-family.
-    @param $key:	helvetica
-    cd-fontFamily($key);
-
-* Mixin for the property font-size.
-    @param $key:	h1 | h2 | h3 | h4 | h5 | h6 | p
-    cd-fontSize($key);
-```
+## SCSS Functions
+please follow this link to go to the documentation.
 
 
 ## Note
