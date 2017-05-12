@@ -18,21 +18,6 @@
 }
 
 /**
-	Media queries are used to target designs for many standard and popular devices.
-
-	@param $media:	portrait | smartphone | tablet | desktop | widescreen
-*/
-@mixin cd-media($break-point) {
-	@if map-has-key($cd-breakPoints, $break-point) {
-		@media #{inspect(map-get($cd-breakPoints, $break-point))} {
-			@content;
-		}
-	} @else {
-		@warn 'Couldn\'t find a breakpoint named: \`#{$break-point}`.\'';
-	}
-}
-
-/**
 	Mixin for the property z-index.
 
 	@param $key:	normal | float | modal | loader

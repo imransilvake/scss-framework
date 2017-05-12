@@ -33,7 +33,6 @@
 
 		"selector-no-attribute": true,
 		"selector-no-id": true,
-		"selector-no-universal": true,
 		"selector-no-vendor-prefix": true,
 
 		"function-comma-space-after": "always",

@@ -1,14 +1,22 @@
-// Tag: body
 body {
+	color: cd-palette($cd-color, 1009);
 	font-family: cd-fontFamily(helvetica);
+	font-size: 14px;
+	line-height: 1.43;
 }
 
-// Tags: h, p
+h1, h2, h3, h4, h5, h6 {
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 1.1;
+}
+
 h1, h2, h3, h4, h5, h6, p {
 	color: cd-palette($cd-color, 1009);
 	margin: 0;
 	padding: 0;
 }
+
 h1 { font-size: cd-fontSize(h1); }
 h2 { font-size: cd-fontSize(h2); }
 h3 { font-size: cd-fontSize(h3); }

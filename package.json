@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "browser-sync": "browser-sync start --server --files \"*.html, dist/css/main.min.css\" --port 8080 --browser \"google chrome\"",
-    "scss-compile": "./app/src/core/scripts/scss/compile",
-    "scss-watch": "./app/src/core/scripts/scss/watch"
+    "scss-compile": "./app/code/core/scripts/scss/compile",
+    "scss-watch": "./app/code/core/scripts/scss/watch"
   },
   "keywords": [
     "scss",
@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "bootstrap": "^3.3.7",
-    "font-awesome": "^4.7.0"
+    "font-awesome": "^4.7.0",
+    "normalize.css": "^7.0.0"
   }
 }

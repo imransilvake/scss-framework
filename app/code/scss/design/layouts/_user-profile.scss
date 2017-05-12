@@ -2,10 +2,10 @@
 	header {
 		background-color: cd-palette($cd-background, 2003);
 
-		.row {
+		.cd-row {
 			padding: 25px 0;
 
-			.col {
+			.cd-col {
 				h1 {
 					color: cd-palette($cd-color, 1000);
 				}
@@ -23,11 +23,11 @@
 		&.cd-up-summary {
 			background-color: cd-palette($cd-background, 2004);
 
-			.container {
-				.row {
-					.col {
-						padding: 30px 15px;
+			.cd-container {
+				.cd-row {
+					padding: 30px 0;
 
+					.cd-col {
 						p {
 							margin-top: 12px;
 						}
@@ -42,6 +42,7 @@
 								border: 1px solid cd-palette($cd-border, 3007);
 								border-radius: 1px;
 								color: cd-palette($cd-color, 1008);
+								font-size: cd-fontSize(span);
 								font-weight: 100;
 								line-height: 2;
 								padding: 4px 5px;
@@ -53,14 +54,12 @@
 		}
 
 		&.cd-up-content {
-			.container {
-				> .row {
-					padding: 30px 15px;
+			.cd-container {
+				> .cd-row {
+					margin: 30px 0;
 
-					.col {
+					.cd-col {
 						&.cd-up-quick-wrapper {
-							padding-left: 0;
-
 							.cd-up-keywords {
 								.cd-logo {
 									margin-top: 15px;
@@ -76,8 +75,10 @@
 								.cd-tags {
 									span {
 										background-color: cd-palette($cd-background, 2005);
+										border: 1px solid cd-palette($cd-border, 3007);
 										border-radius: 1px;
 										color: cd-palette($cd-color, 1006);
+										font-size: cd-fontSize(span);
 										font-weight: 100;
 										line-height: 2;
 										padding: 4px 5px;
@@ -87,8 +88,6 @@
 						}
 
 						&.cd-up-background-wrapper {
-							padding-right: 0;
-
 							.cd-up-education {
 								h5 {
 									border-left: 5px solid cd-palette($cd-border, 3003);
@@ -98,14 +97,12 @@
 									padding-left: 5px;
 								}
 
-								.row {
+								.cd-row {
 									&.cd-first {
 										margin-top: 30px;
 									}
 
-									.col {
-										padding: 0;
-
+									.cd-col {
 										&:first-child {
 											.cd-info {
 												h4 {
@@ -170,11 +167,9 @@
 
 			// media
 			@include cd-media(smartphone) {
-				.container {
-					> .row {
-						.col {
-							padding: 0;
-
+				.cd-container {
+					> .cd-row {
+						.cd-col {
 							&.cd-up-background-wrapper {
 								.cd-up-education {
 									margin-top: 30px;
@@ -186,13 +181,13 @@
 			}
 
 			@include cd-media(portrait) {
-				.container {
-					> .row {
-						.col {
+				.cd-container {
+					> .cd-row {
+						.cd-col {
 							&.cd-up-background-wrapper {
 								.cd-up-education {
-									.row {
-										.col {
+									.cd-row {
+										.cd-col {
 											&:last-child {
 												display: block;
 
