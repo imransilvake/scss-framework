@@ -3,27 +3,12 @@
 	padding: 0 15px;
 }
 
-@media (min-width: 768px) {
-	.cd-container {
-		width: 750px;
-	}
-}
-
-@media (min-width: 992px) {
-	.cd-container {
-		width: 970px;
-	}
-}
-
 .cd-container {
-	// breakpoints loop
-	@each $name, $map in $cd-breakPoints {
+	// containerPoints loop
+	@each $device, $map-value in $cd-containerPoints {
 		// media queries
-		@include cd-media($name) {
-			@if($name == widescreen) {
-				$value: map-get($map, min-width);
-				width: $value - 15 - 15;
-			}
+		@include cd-media($platform-mobile, $device) {
+			width: $map-value;
 		}
 	}
 }

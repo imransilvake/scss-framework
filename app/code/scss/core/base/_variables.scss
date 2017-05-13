@@ -1,10 +1,36 @@
+// platforms and devices
+$platform-desktop:		desktop;
+$platform-mobile:		mobile;
+
+$device-widescreen:		widescreen;
+$device-desktop:		desktop;
+$device-tablet:			tablet;
+$device-smartphone:		smartphone;
+$device-portrait:		portrait;
+
 // media queries
-$cd-breakPoints: (
-	widescreen:	( min-width: 1201px ),
-	desktop:	( max-width: 1200px ),
-	tablet:		( max-width: 992px ),
-	smartphone:	( max-width: 767px ),
-	portrait:	( max-width: 480px )
+$cd-devicePoints: (
+	$platform-desktop: (
+		$device-widescreen:	( min-width: 1201px ),
+		$device-desktop:	( max-width: 1200px, ),
+		$device-tablet:		( max-width: 992px ),
+		$device-smartphone:	( max-width: 767px ),
+		$device-portrait:	( max-width: 480px )
+	),
+	$platform-mobile: (
+		$device-portrait:	( max-width: 479px ),
+		$device-smartphone:	( min-width: 480px ),
+		$device-tablet:		( min-width: 767px ),
+		$device-desktop:	( min-width: 992px, ),
+		$device-widescreen:	( min-width: 1200px )
+	)
+);
+
+// container
+$cd-containerPoints: (
+	$device-tablet:		767 - 30 + px,
+	$device-desktop:	992 - 30 + px,
+	$device-widescreen:	1200 - 30 + px
 );
 
 // grid

@@ -42,7 +42,6 @@
 								border: 1px solid cd-palette($cd-border, 3007);
 								border-radius: 1px;
 								color: cd-palette($cd-color, 1008);
-								font-size: cd-fontSize(span);
 								font-weight: 100;
 								line-height: 2;
 								padding: 4px 5px;
@@ -78,7 +77,6 @@
 										border: 1px solid cd-palette($cd-border, 3007);
 										border-radius: 1px;
 										color: cd-palette($cd-color, 1006);
-										font-size: cd-fontSize(span);
 										font-weight: 100;
 										line-height: 2;
 										padding: 4px 5px;
@@ -91,7 +89,6 @@
 							.cd-up-education {
 								h5 {
 									border-left: 5px solid cd-palette($cd-border, 3003);
-									font-size: 14px;
 									font-weight: 200;
 									margin-top: 4px;
 									padding-left: 5px;
@@ -154,7 +151,6 @@
 
 								h5 {
 									border-left: 5px solid cd-palette($cd-border, 3003);
-									font-size: 14px;
 									font-weight: 200;
 									margin-top: 4px;
 									padding-left: 5px;
@@ -166,7 +162,7 @@
 			}
 
 			// media
-			@include cd-media(smartphone) {
+			@include cd-media(desktop, smartphone) {
 				.cd-container {
 					> .cd-row {
 						.cd-col {
@@ -180,7 +176,7 @@
 				}
 			}
 
-			@include cd-media(portrait) {
+			@include cd-media(desktop, portrait) {
 				.cd-container {
 					> .cd-row {
 						.cd-col {

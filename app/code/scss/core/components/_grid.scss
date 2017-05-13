@@ -3,37 +3,40 @@
 	flex-wrap: wrap;
 
 	.cd-col {
-		// breakpoints loop
-		@each $key, $value in $cd-breakPoints {
-			$key-letter: str-slice($key, 1, 1);
+		// platform loop
+		@each $platform, $device-list in $cd-devicePoints {
+			// devicePoints loop
+			@each $device, $map-value in $device-list {
+				$deviceFirstLetter: str-slice($device, 1, 1);
 
-			// media queries
-			@include cd-media($key) {
-				// grid columns loop
-				@for $column from 1 through $cd-columns {
-					$gutter: $cd-gutter;
-					$width: 100% / $cd-columns * $column;
-					$calculate: calc(#{$width} - #{$gutter});
+				// media queries
+				@include cd-media($platform, $device) {
+					// grid columns loop
+					@for $column from 1 through $cd-columns {
+						$gutter: $cd-gutter;
+						$width: 100% / $cd-columns * $column;
+						$calculate: calc(#{$width} - #{$gutter});
 
-					// zero margin on full width
-					@if($column == 12) {
-						$gutter: 0;
-						$calculate: $width;
-					}
-
-					// column
-					&.cd-col-#{$key-letter}-#{$column} {
-						flex: 0 0 $calculate;
-						margin: 0 $gutter;
-
-						// remove margin from first column of columns
-						&:first-of-type {
-							margin-left: 0;
+						// zero margin on full width
+						@if($column == 12) {
+							$gutter: 0;
+							$calculate: $width;
 						}
 
-						// remove margin from last column of columns
-						&:last-of-type {
-							margin-right: 0;
+						// column
+						&.cd-col-#{$deviceFirstLetter}-#{$column} {
+							flex: 0 0 $calculate;
+							margin: 0 $gutter;
+
+							// remove margin from first column of columns
+							&:first-of-type {
+								margin-left: 0;
+							}
+
+							// remove margin from last column of columns
+							&:last-of-type {
+								margin-right: 0;
+							}
 						}
 					}
 				}

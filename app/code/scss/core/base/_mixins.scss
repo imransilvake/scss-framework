@@ -1,14 +1,23 @@
 /**
 	Media queries are used to target designs for many standard and popular devices.
 
-	@param $media:	portrait | smartphone | tablet | desktop | widescreen
+	@param $platformFirst:	mobile | desktop
+	@param $device:			portrait | smartphone | tablet | desktop | widescreen
 */
-@mixin cd-media($break-point) {
-	@if map-has-key($cd-breakPoints, $break-point) {
-		@media #{inspect(map-get($cd-breakPoints, $break-point))} {
-			@content;
+@mixin cd-media($platformFirst, $device) {
+	@if map-has-key($cd-devicePoints, $platformFirst) {
+		// platform
+		$platform: map-get($cd-devicePoints, $platformFirst);
+
+		// breakpoint
+		@if map-has-key($platform, $device) {
+			@media #{inspect(map-get($platform, $device))} {
+				@content;
+			}
+		} @else {
+			@warn 'Couldn\'t find a breakpoint named: \`#{$device}`.\'';
 		}
 	} @else {
-		@warn 'Couldn\'t find a breakpoint named: \`#{$break-point}`.\'';
+		@warn 'Couldn\'t find a platform named: \`#{$platformFirst}`.\'';
 	}
 }
