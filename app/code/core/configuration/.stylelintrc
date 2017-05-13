@@ -11,7 +11,6 @@
 
 		"font-family-name-quotes": "always-where-recommended",
 		"font-family-no-duplicate-names": true,
-		"font-weight-notation": "numeric",
 
 		"value-keyword-case": "lower",
 		"value-no-vendor-prefix": true,

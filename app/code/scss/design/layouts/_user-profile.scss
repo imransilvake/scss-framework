@@ -2,18 +2,54 @@
 	header {
 		background-color: cd-palette($cd-background, 2003);
 
-		.cd-row {
-			padding: 25px 0;
+		.cd-container {
+			position: relative;
 
-			.cd-col {
-				h1 {
-					color: cd-palette($cd-color, 1000);
+			.cd-row {
+				padding: 25px 0;
+
+				.cd-col {
+					.cd-profile-pic {
+						bottom: -50px;
+						position: absolute;
+						right: 15px;
+
+						img {
+							border: 2px solid cd-palette($cd-border, 3003);
+							border-radius: 50%;
+							display: block;
+							height: auto;
+							margin: auto;
+							width: 100px;
+						}
+					}
+
+					h1 {
+						color: cd-palette($cd-color, 1000);
+					}
+
+					h4 {
+						color: cd-palette($cd-color, 1000);
+						font-weight: cd-fontWeight(100);
+						margin-top: 5px;
+					}
 				}
+			}
+		}
 
-				h4 {
-					color: cd-palette($cd-color, 1000);
-					font-weight: 100;
-					margin-top: 5px;
+		// media
+		@include cd-media(desktop, smartphone) {
+			.cd-container {
+				> .cd-row {
+					.cd-col {
+						.cd-profile-pic {
+							position: static;
+
+							img {
+								width: 140px;
+							}
+						}
+					}
 				}
 			}
 		}
@@ -42,9 +78,9 @@
 								border: 1px solid cd-palette($cd-border, 3007);
 								border-radius: 1px;
 								color: cd-palette($cd-color, 1008);
-								font-weight: 100;
+								font-weight: cd-fontWeight(100);
 								line-height: 2;
-								padding: 4px 5px;
+								padding: 3px 5px;
 							}
 						}
 					}
@@ -77,9 +113,9 @@
 										border: 1px solid cd-palette($cd-border, 3007);
 										border-radius: 1px;
 										color: cd-palette($cd-color, 1006);
-										font-weight: 100;
+										font-weight: cd-fontWeight(100);
 										line-height: 2;
-										padding: 4px 5px;
+										padding: 3px 5px;
 									}
 								}
 							}
@@ -89,69 +125,51 @@
 							.cd-up-education {
 								h5 {
 									border-left: 5px solid cd-palette($cd-border, 3003);
-									font-weight: 200;
+									font-weight: cd-fontWeight(200);
 									margin-top: 4px;
 									padding-left: 5px;
 								}
 
 								.cd-row {
-									&.cd-first {
-										margin-top: 30px;
-									}
+									margin-top: 30px;
 
 									.cd-col {
-										&:first-child {
-											.cd-info {
-												h4 {
-													margin-bottom: 10px;
-												}
+										align-items: center;
+										display: flex;
 
-												p {
-													margin-bottom: 10px;
-												}
+										.ts-left {
+											float: left;
+
+											img {
+												border: 1px solid cd-palette($cd-border, 3007);
+												padding: 2px;
+												width: 45px;
+											}
+										}
+
+										.ts-right {
+											margin-left: 20px;
+
+											h4 {
+												margin-bottom: 4px;
+											}
+
+											p {
+												font-weight: cd-fontWeight(200);
 											}
 										}
 
 										&:last-child {
-											align-items: center;
-											display: flex;
-
-											.ts-left {
-												float: left;
-
-												img {
-													border: 1px solid cd-palette($cd-border, 3007);
-													padding: 2px;
-													width: 45px;
-
-													&.cd-bonn {
-														width: 100px;
-													}
-												}
-											}
-
-											.ts-right {
-												margin-left: 20px;
-
-												h4 {
-													margin-bottom: 4px;
-												}
-
-												p {
-													font-weight: 200;
-												}
-											}
+											margin-top: 30px;
 										}
 									}
 								}
 							}
 
 							.cd-up-experience {
-								margin-top: 30px;
-
 								h5 {
 									border-left: 5px solid cd-palette($cd-border, 3003);
-									font-weight: 200;
+									font-weight: cd-fontWeight(200);
 									margin-top: 4px;
 									padding-left: 5px;
 								}
@@ -184,16 +202,14 @@
 								.cd-up-education {
 									.cd-row {
 										.cd-col {
-											&:last-child {
-												display: block;
+											display: block;
 
-												.ts-left {
-													float: none;
-												}
+											.ts-left {
+												float: none;
+											}
 
-												.ts-right {
-													margin: 10px 0 0;
-												}
+											.ts-right {
+												margin: 10px 0 0;
 											}
 										}
 									}

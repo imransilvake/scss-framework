@@ -43,3 +43,12 @@
 @function cd-fontSize($key) {
 	@return map-get($cd-fontSize, $key);
 }
+
+/**
+	Mixin for the property font-weight.
+
+	@param $key:	100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900
+*/
+@function cd-fontWeight($key) {
+	@return map-get($cd-fontWeight, $key);
+}

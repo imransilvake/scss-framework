@@ -36,12 +36,12 @@ npm: v4.2.0 or greater
   - Compile src files and watch for `HTML` & `SCSS` files
 
 
-## SCSS Functions
+## Documentation
 Please follow the link for the documentation: [Functions](#)
 
 
-## Note
-Bootstrap framework is included.
+## Includes
+`reset` `fonts` `typography` `grid` `helpers` `containers` and many more.
 
 
 ## License
