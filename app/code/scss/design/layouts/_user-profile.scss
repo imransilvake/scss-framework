@@ -45,7 +45,7 @@
 				> .cd-row {
 					.cd-col {
 						.cd-profile-pic {
-							position: static;
+							position: sticky;
 
 							img {
 								box-shadow: none;
@@ -104,11 +104,14 @@
 								.cd-logo {
 									margin-top: 15px;
 
-									img {
-										border: 1px solid cd-palette($cd-border, 3007);
-										height: 50px;
+									span {
 										margin-bottom: 15px;
-										padding: 2px;
+
+										img {
+											border: 1px solid cd-palette($cd-border, 3007);
+											height: 50px;
+											padding: 2px;
+										}
 									}
 								}
 
@@ -206,7 +209,6 @@
 
 											.ts-left {
 												float: left;
-												z-index: cd-zIndex(normal);
 
 												img {
 													border: 1px solid cd-palette($cd-border, 3007);

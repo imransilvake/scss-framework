@@ -1,3 +1,11 @@
-@import 'variables';
-@import 'mixins';
-@import 'functions';
+// Variables: media, container, grid, methods
+@import 'variables/core/global';
+
+// Methods
+@import 'methods/global';
+
+// Colors
+@import 'colors/global';
+
+// Variables: widgets
+@import 'variables/widgets/global';

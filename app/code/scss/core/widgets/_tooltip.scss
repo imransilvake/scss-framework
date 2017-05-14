@@ -1,0 +1,135 @@
+/**
+	Usage:
+
+	<tag class="ts-tooltip">
+		Content
+		<span class="arrow left|right|top|bottom">
+			Tooltip text
+		</span>
+	</tag>
+*/
+
+.ts-tooltip {
+	cursor: help;
+	display: inline-block;
+	position: relative;
+
+	span {
+		background-color: $cd-tooltip-bg-color;
+		border-radius: 1px;
+		box-shadow: 0 0 14px $cd-tooltip-shadow-color;
+		color: $cd-tooltip-font-color;
+		display: block;
+		font-size: $cd-tooltip-font-size;
+		padding: 4px 6px;
+		position: absolute;
+		visibility: hidden;
+		white-space: nowrap;
+		width: auto;
+		z-index: cd-zIndex(float);
+
+		// === Arrow === //
+		&.arrow {
+			&::after {
+				border: ($cd-tooltip-space/2) solid transparent;
+				content: '';
+				position: absolute;
+			}
+		}
+
+		// === Positions: arrow & content block === //
+		&.top, &.bottom {
+			left: 50%;
+			transform: translate(-50%, 0);
+
+			&.arrow {
+				&::after {
+					left: 50%;
+					transform: translate(-50%, 0);
+				}
+			}
+		}
+
+		// Top
+		&.top {
+			bottom: 100%;
+			margin-bottom: ($cd-tooltip-space/2);
+
+			&.arrow {
+				margin-bottom: $cd-tooltip-space;
+
+				&::after {
+					border-top-color: #323232;
+					bottom: 0;
+					margin-bottom: -$cd-tooltip-space;
+				}
+			}
+		}
+
+		// Down
+		&.bottom {
+			margin-top: ($cd-tooltip-space/2);
+			top: 100%;
+
+			&.arrow {
+				margin-top: $cd-tooltip-space;
+
+				&::after {
+					border-bottom-color: #323232;
+					margin-top: -$cd-tooltip-space;
+					top: 0;
+				}
+			}
+		}
+
+		&.left, &.right {
+			top: 50%;
+			transform: translate(0, -50%);
+
+			&.arrow {
+				&::after {
+					top: 50%;
+					transform: translate(0, -50%);
+				}
+			}
+		}
+
+		// Left
+		&.left {
+			margin-right: ($cd-tooltip-space/2);
+			right: 100%;
+
+			&.arrow {
+				margin-right: $cd-tooltip-space;
+
+				&::after {
+					border-left-color: #323232;
+					margin-right: -$cd-tooltip-space;
+					right: 0;
+				}
+			}
+		}
+
+		// Right
+		&.right {
+			left: 100%;
+			margin-left: ($cd-tooltip-space/2);
+
+			&.arrow {
+				margin-left: $cd-tooltip-space;
+
+				&::after {
+					border-right-color: #323232;
+					left: 0;
+					margin-left: -$cd-tooltip-space;
+				}
+			}
+		}
+	}
+
+	&:hover {
+		span {
+			visibility: visible;
+		}
+	}
+}
