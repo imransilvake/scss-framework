@@ -1,9 +1,9 @@
 /**
-	Usage:
+	NOTE: fixed-left|fixed-right can only be used with top or bottom.
 
 	<tag class="ts-tooltip">
 		Content
-		<span class="arrow left|right|top|bottom">
+		<span class="arrow left|right|top|bottom|fixed-left|fixed-right">
 			Tooltip text
 		</span>
 	</tag>
@@ -15,7 +15,7 @@
 	position: relative;
 
 	span {
-		background-color: $cd-tooltip-bg-color;
+		background-color: $cd-tooltip-content-bg-color;
 		border-radius: 1px;
 		box-shadow: 0 0 14px $cd-tooltip-shadow-color;
 		color: $cd-tooltip-font-color;
@@ -59,14 +59,36 @@
 				margin-bottom: $cd-tooltip-space;
 
 				&::after {
-					border-top-color: #323232;
+					border-top-color: $cd-tooltip-arrow-color;
 					bottom: 0;
 					margin-bottom: -$cd-tooltip-space;
 				}
 			}
+
+			&.fixed-left {
+				left: 0;
+				transform: none;
+
+				&::after {
+					left: 10px;
+					transform: none;
+				}
+			}
+
+			&.fixed-right {
+				left: auto;
+				right: 0;
+				transform: none;
+
+				&::after {
+					left: auto;
+					right: 10px;
+					transform: none;
+				}
+			}
 		}
 
-		// Down
+		// Bottom
 		&.bottom {
 			margin-top: ($cd-tooltip-space/2);
 			top: 100%;
@@ -75,9 +97,31 @@
 				margin-top: $cd-tooltip-space;
 
 				&::after {
-					border-bottom-color: #323232;
+					border-bottom-color: $cd-tooltip-arrow-color;
 					margin-top: -$cd-tooltip-space;
 					top: 0;
+				}
+			}
+
+			&.fixed-left {
+				left: 0;
+				transform: none;
+
+				&::after {
+					left: 10px;
+					transform: none;
+				}
+			}
+
+			&.fixed-right {
+				left: auto;
+				right: 0;
+				transform: none;
+
+				&::after {
+					left: auto;
+					right: 10px;
+					transform: none;
 				}
 			}
 		}
@@ -103,7 +147,7 @@
 				margin-right: $cd-tooltip-space;
 
 				&::after {
-					border-left-color: #323232;
+					border-left-color: $cd-tooltip-arrow-color;
 					margin-right: -$cd-tooltip-space;
 					right: 0;
 				}
@@ -119,7 +163,7 @@
 				margin-left: $cd-tooltip-space;
 
 				&::after {
-					border-right-color: #323232;
+					border-right-color: $cd-tooltip-arrow-color;
 					left: 0;
 					margin-left: -$cd-tooltip-space;
 				}
