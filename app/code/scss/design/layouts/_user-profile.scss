@@ -210,10 +210,19 @@
 											.ts-left {
 												float: left;
 
-												img {
-													border: 1px solid cd-palette($cd-border, 3007);
-													padding: 2px;
+												.cd-number {
+													background-color: cd-palette($cd-background, 2006);
+													border-radius: 50%;
+													box-shadow: 1px 1px 1px cd-palette($cd-border, 3013);
+													color: cd-palette($cd-color, 1000);
+													height: 45px;
+													padding-top: 13px;
+													text-align: center;
 													width: 45px;
+
+													&.cd-current {
+														background-color: cd-palette($cd-background, 2012);
+													}
 												}
 											}
 
@@ -229,7 +238,7 @@
 												}
 											}
 
-											&:last-child {
+											&:not(:first-child) {
 												margin-top: 30px;
 											}
 										}

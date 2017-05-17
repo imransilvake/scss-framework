@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "browser-sync": "browser-sync start --server --files \"*.html, dist/css/main.min.css\" --port 8080 --browser \"google chrome\"",
-    "scss-compile": "./app/code/core/scripts/scss/compile",
-    "scss-watch": "./app/code/core/scripts/scss/watch"
+    "compile": "./app/code/core/scripts/scss/compile",
+    "start": "./app/code/core/scripts/scss/watch"
   },
   "keywords": [
     "scss",
