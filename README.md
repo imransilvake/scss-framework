@@ -45,7 +45,7 @@ Please follow the link for the documentation: [Guide](GUIDE)
 
 
 ## TODO
-`reset` `fonts` `typography` `grid` `helpers` `containers`.
+[ ] Modal
 
 
 ## License
