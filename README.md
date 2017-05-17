@@ -14,6 +14,10 @@ SCSS Boilerplate is a professional front-end template for building fast, robust,
   - Add autoprefixer
   - Minify CSS
   - Auto update on changes in HTML & SCSS files
+  
+  
+## Framework
+`reset` `fonts` `typography` `grid` `helpers` `container`
 
 
 ## Project Prefix
@@ -29,19 +33,19 @@ npm: v4.2.0 or greater
 ## NPM Commands
 *** First run this command to install node modules: `npm install`.
 
-`npm run scss-compile`
+`npm compile`
   - `SCSS Lint`, `SCSS-to-CSS`, `Autoprefixer (Last 2 versions)` and `Minfiy CSS`.
 
-`npm run scss-watch`
-  - Compile src files and watch for `HTML` & `SCSS` files
+`npm start`
+  - Compile src files and watch for `HTML` & `SCSS` changes.
 
 
 ## Documentation
-Please follow the link for the documentation: [Functions](#)
+Please follow the link for the documentation: [Guide](GUIDE)
 
 
-## Includes
-`reset` `fonts` `typography` `grid` `helpers` `containers` and many more.
+## TODO
+`reset` `fonts` `typography` `grid` `helpers` `containers`.
 
 
 ## License
