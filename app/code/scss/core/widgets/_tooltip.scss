@@ -1,15 +1,15 @@
 /**
-	NOTE: fixed-left|fixed-right can only be used with top or bottom.
+	NOTE: fixed-left|fixed-right can only be used together with top or bottom.
 
-	<tag class="ts-tooltip">
+	<tag class="cd-tooltip">
 		Content
-		<span class="arrow left|right|top|bottom|fixed-left|fixed-right">
+		<span class="cd-arrow cd-left|cd-right|cd-top|cd-bottom|cd-fixed-left|cd-fixed-right">
 			Tooltip text
 		</span>
 	</tag>
 */
 
-.ts-tooltip {
+.cd-tooltip {
 	cursor: help;
 	display: inline-block;
 	position: relative;
@@ -29,7 +29,7 @@
 		z-index: cd-zIndex(float);
 
 		// === Arrow === //
-		&.arrow {
+		&.cd-arrow {
 			&::after {
 				border: ($cd-tooltip-space/2) solid transparent;
 				content: '';
@@ -38,11 +38,11 @@
 		}
 
 		// === Positions: arrow & content block === //
-		&.top, &.bottom {
+		&.cd-top, &.cd-bottom {
 			left: 50%;
 			transform: translate(-50%, 0);
 
-			&.arrow {
+			&.cd-arrow {
 				&::after {
 					left: 50%;
 					transform: translate(-50%, 0);
@@ -51,11 +51,11 @@
 		}
 
 		// Top
-		&.top {
+		&.cd-top {
 			bottom: 100%;
 			margin-bottom: ($cd-tooltip-space/2);
 
-			&.arrow {
+			&.cd-arrow {
 				margin-bottom: $cd-tooltip-space;
 
 				&::after {
@@ -65,7 +65,7 @@
 				}
 			}
 
-			&.fixed-left {
+			&.cd-fixed-left {
 				left: 0;
 				transform: none;
 
@@ -75,7 +75,7 @@
 				}
 			}
 
-			&.fixed-right {
+			&.cd-fixed-right {
 				left: auto;
 				right: 0;
 				transform: none;
@@ -89,11 +89,11 @@
 		}
 
 		// Bottom
-		&.bottom {
+		&.cd-bottom {
 			margin-top: ($cd-tooltip-space/2);
 			top: 100%;
 
-			&.arrow {
+			&.cd-arrow {
 				margin-top: $cd-tooltip-space;
 
 				&::after {
@@ -103,7 +103,7 @@
 				}
 			}
 
-			&.fixed-left {
+			&.cd-fixed-left {
 				left: 0;
 				transform: none;
 
@@ -113,7 +113,7 @@
 				}
 			}
 
-			&.fixed-right {
+			&.cd-fixed-right {
 				left: auto;
 				right: 0;
 				transform: none;
@@ -126,11 +126,11 @@
 			}
 		}
 
-		&.left, &.right {
+		&.cd-left, &.cd-right {
 			top: 50%;
 			transform: translate(0, -50%);
 
-			&.arrow {
+			&.cd-arrow {
 				&::after {
 					top: 50%;
 					transform: translate(0, -50%);
@@ -139,11 +139,11 @@
 		}
 
 		// Left
-		&.left {
+		&.cd-left {
 			margin-right: ($cd-tooltip-space/2);
 			right: 100%;
 
-			&.arrow {
+			&.cd-arrow {
 				margin-right: $cd-tooltip-space;
 
 				&::after {
@@ -155,11 +155,11 @@
 		}
 
 		// Right
-		&.right {
+		&.cd-right {
 			left: 100%;
 			margin-left: ($cd-tooltip-space/2);
 
-			&.arrow {
+			&.cd-arrow {
 				margin-left: $cd-tooltip-space;
 
 				&::after {
@@ -177,3 +177,5 @@
 		}
 	}
 }
+
+// Common

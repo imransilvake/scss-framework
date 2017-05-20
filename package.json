@@ -4,7 +4,7 @@
   "description": "A SCSS boilerplate using npm scripts.",
   "main": "index.js",
   "scripts": {
-    "browser-sync": "browser-sync start --server --files \"*.html, dist/css/main.min.css\" --port 8080 --browser \"google chrome\"",
+    "browser-sync": "browser-sync start --server  --files '**/*.html, dist/css/main.min.css' --port 8080 --browser 'google chrome'",
     "compile": "./app/code/core/scripts/scss/compile",
     "start": "./app/code/core/scripts/scss/watch"
   },
@@ -27,7 +27,6 @@
     "stylelint-order": "^0.4.3"
   },
   "dependencies": {
-    "bootstrap": "^3.3.7",
     "font-awesome": "^4.7.0",
     "normalize.css": "^7.0.0"
   }
