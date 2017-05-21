@@ -4,6 +4,8 @@ SCSS Boilerplate is a scss framework for building responsive, fast, robust, and 
 [![GitHub issues](https://img.shields.io/github/issues/imransilvake/SCSS-Boilerplate.svg)](https://github.com/imransilvake/SCSS-Boilerplate/issues)
 [![Software License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
+## Browser Support
+ - Last 2 Browsers (Chrome, Firefox, Safari, IE)
 
 ## SCSS
   - Lint SCSS: [Rules](https://stylelint.io/user-guide/rules/)
