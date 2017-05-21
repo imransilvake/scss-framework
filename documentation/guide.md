@@ -3,7 +3,7 @@
 - [X] Normalize CSS
 - [X] Media Queries
 - [ ] Container
-- [X] Grid
+- [X] Grid System
 - [X] Properties Functions
 	- [X] Color Palette: `cd-palette`
 	- [X] Z Index: `cd-zIndex`
@@ -50,7 +50,7 @@ Example:
 ```
 
 
-## Grid
+## Grid System
 ```
 Columns: 			12
 Gutter(margin): 		30px (15px on each side of a column)
