@@ -2,7 +2,7 @@
 
 - [X] Normalize CSS
 - [X] Media Queries
-- [ ] Container
+- [X] Container
 - [X] Grid System
 - [X] Properties Functions
 	- [X] Color Palette: `cd-palette`
@@ -45,8 +45,11 @@ Example:
 
 
 ## Container
-```
+Bootstrap requires a containing element to wrap site contents and house our grid system. Containers are nestable.
 
+```
+widescreen			1200 	- 	30: 1170px
+desktop				992 	- 	30: 962px
 ```
 
 
@@ -95,6 +98,7 @@ background color: cd-palette($cd-background, 2000);
 border: 1px solid cd-palette($cd-border, 3000);
 box shadow: 1px 1px 1px cd-palette($cd-shadow, 4000);
 ```
+
 Note: Here you can find the list of colors palette: [Color Palette](color-palette.md)
 
 ###### Z Index: `cd-zIndex`
