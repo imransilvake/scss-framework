@@ -1,8 +1,8 @@
-# SCSS Boilerplate
-SCSS Boilerplate is a pure scss framework (no JavaScript) for building responsive, fast, robust, and adaptable web apps or sites.
-
 [![GitHub issues](https://img.shields.io/github/issues/imransilvake/SCSS-Boilerplate.svg)](https://github.com/imransilvake/SCSS-Boilerplate/issues)
 [![Software License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+# SCSS Boilerplate
+SCSS Boilerplate is a pure scss framework (no JavaScript) for building responsive, fast, robust, and adaptable web apps or sites.
 
 ## Browser Support
  - Last 2 Browsers (Chrome, Firefox, Safari, IE)
