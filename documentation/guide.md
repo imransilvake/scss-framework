@@ -35,8 +35,8 @@ For improved cross-browser rendering, [Normalize.css](https://necolas.github.io/
 	portrait:		0 	- 	480
 ```
 
-#### Media queries has two styles:
-- Mobile First: `(order: p -> s -> t -> d -> w)`
+#### Media Queries has two styles:
+- Mobile First:	`(order: p -> s -> t -> d -> w)`
 - Desktop First: `(order: w -> d -> t -> s -> p)`
 
 ```
