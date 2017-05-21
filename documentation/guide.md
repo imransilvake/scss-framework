@@ -1,5 +1,6 @@
 ## Documentation
 
+#### CORE
 - [X] Normalize CSS
 - [X] Media Queries
 	- [X] Mobile First
@@ -13,6 +14,8 @@
 	- [X] Font Size: `cd-fontSize`
 	- [X] Font Weight: `cd-fontWeight`
 	- [X] Line Height: `cd-lineHeight`
+	
+#### WIDGETS
 - [X] Tooltip
 - [ ] Modal
 
