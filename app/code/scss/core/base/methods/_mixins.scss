@@ -15,9 +15,9 @@
 				@content;
 			}
 		} @else {
-			@warn 'Couldn\'t find a breakpoint named: \`#{$device}`.\'';
+			@error 'Couldn\'t find a breakpoint named: `#{$device}`.';
 		}
 	} @else {
-		@warn 'Couldn\'t find a platform named: \`#{$platformFirst}`.\'';
+		@error 'Couldn\'t find a platform named: `#{$platformFirst}`.';
 	}
 }

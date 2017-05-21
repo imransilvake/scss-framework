@@ -6,15 +6,18 @@
 	@param $opacity:	0-1
 */
 @function cd-palette($palette, $hex-code, $opacity: null) {
-	// If hex-code is a number within 0-1, then it actually contains an opacity value.
-	@if type-of($hex-code) == number and $hex-code >= 0 and $hex-code <= 1 {
-		@return cd-palette($palette, default, $hex-code);
+	@if map-has-key($palette, $hex-code) {
+		$color: map-get($palette, $hex-code);
+		$opacity: if($opacity == null, opacity($color), $opacity);
+
+		@if ($opacity >= 0 and $opacity <=1) {
+			@return rgba($color, $opacity);
+		} @else {
+			@error 'Opacity value `#{$opacity}` must range from 0-1.';
+		}
+	} @else {
+		@error 'Couldn\'t find a palette code: `#{$hex-code}`.';
 	}
-
-	$color: map-get($palette, $hex-code);
-	$opacity: if($opacity == null, opacity($color), $opacity);
-
-	@return rgba($color, $opacity);
 }
 
 /**
@@ -23,7 +26,11 @@
 	@param $key:	normal | float | modal | loader
 */
 @function cd-zIndex($key) {
-	@return map-get($cd-zIndex, $key);
+	@if map-has-key($cd-zIndex, $key) {
+		@return map-get($cd-zIndex, $key);
+	} @else {
+		@error 'Couldn\'t find a z-index: `#{$key}`.';
+	}
 }
 
 /**
@@ -32,7 +39,11 @@
 	@param $key:	helvetica
 */
 @function cd-fontFamily($key) {
-	@return map-get($cd-fontFamily, $key);
+	@if map-has-key($cd-fontFamily, $key) {
+		@return map-get($cd-fontFamily, $key);
+	} @else {
+		@error 'Couldn\'t find a font-family: `#{$key}`.';
+	}
 }
 
 /**
@@ -41,7 +52,11 @@
 	@param $key:	h1 | h2 | h3 | h4 | h5 | h6 | p | span
 */
 @function cd-fontSize($key) {
-	@return map-get($cd-fontSize, $key);
+	@if map-has-key($cd-fontSize, $key) {
+		@return map-get($cd-fontSize, $key);
+	} @else {
+		@error 'Couldn\'t find a font-size: `#{$key}`.';
+	}
 }
 
 /**
@@ -50,5 +65,22 @@
 	@param $key:	100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900
 */
 @function cd-fontWeight($key) {
-	@return map-get($cd-fontWeight, $key);
+	@if map-has-key($cd-fontWeight, $key) {
+		@return map-get($cd-fontWeight, $key);
+	} @else {
+		@error 'Couldn\'t find a font-weight: `#{$key}`.';
+	}
+}
+
+/**
+	Mixin for the property line-height.
+
+	@param $key:	1 | 1.1 | 1.2 | 1.3 | 1.4 | 1.5 | 1.6 | 1.7 | 1.8 | 1.9 | 2
+*/
+@function cd-lineHeight($key) {
+	@if map-has-key($cd-lineHeight, $key) {
+		@return map-get($cd-lineHeight, $key);
+	} @else {
+		@error 'Couldn\'t find a line-height: `#{$key}`.';
+	}
 }
