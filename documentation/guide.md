@@ -75,10 +75,9 @@ Offsets:			Yes
 Column ordering:		Yes
 ```
 
-Note:
-
-	- If column has full width, it will have `gutter: 0`.
-	- If row has more than one column and their widths are not 100%, then first and last columns will have margin zero on left and right side respectively.
+###### Note:
+- column will have `gutter: 0` on full width.
+- If row has more than one column and their widths are not full, then first and last columns will have margin zero on left and right side respectively.
 
 #### Mobile First
 
