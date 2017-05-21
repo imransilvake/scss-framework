@@ -1,5 +1,6 @@
 ## Documentation
 
+- Normalize CSS
 - Media Queries
 - Properties Functions
 	- Color Palette: cd-palette
@@ -12,6 +13,9 @@
 - Container
 - Tooltip
 - Modal
+
+## Normalize CSS
+For improved cross-browser rendering, we use Normalize.css, a project by Nicolas Gallagher and Jonathan Neal.
 
 ## Media Queries
 ```
@@ -30,7 +34,7 @@ Example:
 @include cd-media(desktop, smartphone) { }
 ```
 
-##Properties Functions
+## Properties Functions
 
 ###### Color Palette: cd-palette
 ```
