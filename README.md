@@ -43,10 +43,23 @@ npm: v4.2.0 or greater
 ## Documentation
 Please follow the link for the documentation: [GUIDE](documentation/guide.md)
 
-
 ## TODO
-[ ] Modal
-
-
+- [ ] Modal
+- [ ] Forms
+  - [ ] input
+  - [ ] password
+  - [ ] date
+  - [ ] date range picker
+  - [ ] checkbox
+  - [ ] radio
+  - [ ] tabs
+  - [ ] collapsible  
+  - [ ] textarea
+  - [ ] select
+  - [ ] combo box
+- [ ] Grid
+  - [ ] Pull & Push
+  - [ ] Fixed cols
+  
 ## License
 MIT
