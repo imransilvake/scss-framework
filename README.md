@@ -17,7 +17,7 @@ SCSS Boilerplate is a professional front-end template for building fast, robust,
   
   
 ## Framework
-`reset` `fonts` `typography` `grid` `helpers` `container`
+`reset` `fonts` `typography` `container` `grid` `media queries` `helpers` `tooltip` `modal`
 
 
 ## Project Prefix
