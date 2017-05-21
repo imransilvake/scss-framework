@@ -1,8 +1,17 @@
 /**
-	Media queries are used to target designs for many standard and popular devices.
+	Media queries has two styles:
+		1. Mobile First: mobile friendly styles
+			Sequence: portrait, smartphone, tablet, desktop, widescreen
+
+		2. Desktop First: desktop friendly styles
+			Sequence: widescreen, desktop, tablet, smartphone, portrait
 
 	@param $platformFirst:	mobile | desktop
 	@param $device:			portrait | smartphone | tablet | desktop | widescreen
+
+	Example:
+	@include cd-media(mobile, smartphone) { }
+	@include cd-media(desktop, smartphone) { }
 */
 @mixin cd-media($platformFirst, $device) {
 	@if map-has-key($cd-devicePoints, $platformFirst) {
