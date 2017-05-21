@@ -19,6 +19,13 @@ For improved cross-browser rendering, Normalize.css is used, a project by Nicola
 
 ## Media Queries
 ```
+Break Points: (in pixels)
+	widescreen:		1201	- 	greater
+	desktop:		993 	- 	1200
+	tablet:			768 	- 	992
+	smartphone:		481 	- 	767
+	portrait:		0 	- 	480
+
 Media queries has two styles:
 	1. Mobile First: mobile friendly styles
 		Sequence (top to bottom): portrait, smartphone, tablet, desktop, widescreen 
@@ -36,7 +43,7 @@ Example:
 
 ## Properties Functions
 
-###### Color Palette: cd-palette
+###### Color Palette: `cd-palette`
 ```
 A color palette having code values assigned to each color.
 
@@ -52,7 +59,7 @@ box shadow: 1px 1px 1px cd-palette($cd-shadow, 4000);
 ```
 Note: Here you can find the list of colors palette: [Color Palette](color-palette.md)
 
-###### Z Index: cd-zIndex
+###### Z Index: `cd-zIndex`
 ```
 A function for the property z-index.
 
@@ -62,7 +69,7 @@ Example:
 z-index: cd-zIndex(normal);
 ```
 
-###### Font Family: cd-fontFamily
+###### Font Family: `cd-fontFamily`
 ```
 A function for the property font-family.
 
@@ -70,4 +77,34 @@ A function for the property font-family.
 
 Example:
 font-family: cd-fontFamily(helvetica);
+```
+
+###### Font Size: `cd-fontSize`
+```
+A function for the property font-size.
+
+@param $key:	h1 | h2 | h3 | h4 | h5 | h6 | p | span
+
+Example:
+font-family: cd-fontSize(h1);
+```
+
+###### Font Weight: `cd-fontWeight`
+```
+A function for the property font-weight.
+
+@param $key:	100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900
+
+Example:
+font-family: cd-fontWeight(100);
+```
+
+###### Font Height: `cd-lineHeight`
+```
+A function for the property line-height.
+
+@param $key:	1 | 1.1 | 1.2 | 1.3 | 1.4 | 1.5 | 1.6 | 1.7 | 1.8 | 1.9 | 2
+
+Example:
+font-family: cd-lineHeight(1);
 ```
