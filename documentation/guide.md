@@ -21,7 +21,7 @@
 
 
 ## Normalize CSS
-For improved cross-browser rendering, Normalize.css is used, a project by Nicolas Gallagher and Jonathan Neal.
+For improved cross-browser rendering, [Normalize.css](https://necolas.github.io/normalize.css/) is used, a project by Nicolas Gallagher and Jonathan Neal.
 
 
 ## Media Queries
