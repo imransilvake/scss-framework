@@ -48,8 +48,8 @@ Example:
 Bootstrap requires a containing element to wrap site contents and house our grid system. Containers are nestable.
 
 ```
-widescreen			1200 	- 	30: 1170px
-desktop				992 	- 	30: 962px
+widescreen			1200 - 30	=	1170px
+desktop				992 - 30	=	962px
 ```
 
 
