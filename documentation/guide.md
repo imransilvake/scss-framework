@@ -25,21 +25,32 @@ For improved cross-browser rendering, [Normalize.css](https://necolas.github.io/
 
 
 ## Media Queries
+
+#### Break Points: (in pixels)
 ```
-Break Points: (in pixels)
 	widescreen:		1201	- 	greater
 	desktop:		993 	- 	1200
 	tablet:			768 	- 	992
 	smartphone:		481 	- 	767
 	portrait:		0 	- 	480
+```
 
-Media queries has two styles:
-	1. Mobile First: mobile friendly styles
-		Sequence (top to bottom): portrait, smartphone, tablet, desktop, widescreen 
+#### Media queries has two styles:
+- Mobile First: mobile friendly styles
+	- portrait
+	- smartphone
+	- tablet
+	- desktop
+	- widescreen 
 	
-	2. Desktop First: desktop friendly styles
-		Sequence (top to bottom): widescreen, desktop, tablet, smartphone, portrait
+- Desktop First: desktop friendly styles
+	- widescreen
+	- desktop
+	- tablet
+	- smartphone
+	- portrait
 
+```
 @param $platformFirst:	mobile | desktop
 @param $device:		portrait | smartphone | tablet | desktop | widescreen
 
@@ -80,7 +91,6 @@ Column ordering:		Yes
 - If row has more than one column and their widths are not full, then first and last columns will have margin zero on left and right side respectively.
 
 #### Mobile First
-
 ```
 <div class="row">
   <div class="cd-col cd-col-p-12 cd-col-s-12 cd-col-t-6 cd-col-d-4 cd-col-w-4">content</div>
@@ -89,7 +99,6 @@ Column ordering:		Yes
 ```
 
 #### Desktop First
-
 ```
 <div class="row">
   <div class="cd-col cd-col-w-4 cd-col-d-4 cd-col-t-6 cd-col-s-12 cd-col-p-12">content</div>
