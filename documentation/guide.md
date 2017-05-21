@@ -36,19 +36,8 @@ For improved cross-browser rendering, [Normalize.css](https://necolas.github.io/
 ```
 
 #### Media queries has two styles:
-- Mobile First: mobile friendly styles
-	- portrait
-	- smartphone
-	- tablet
-	- desktop
-	- widescreen 
-	
-- Desktop First: desktop friendly styles
-	- widescreen
-	- desktop
-	- tablet
-	- smartphone
-	- portrait
+- Mobile First: mobile friendly styles `(order: p -> s -> t -> d -> w)`
+- Desktop First: desktop friendly styles `(order: w -> d -> t -> s -> p)`
 
 ```
 @param $platformFirst:	mobile | desktop
