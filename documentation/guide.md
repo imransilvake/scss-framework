@@ -3,12 +3,12 @@
 - [X] Normalize CSS
 - [X] Media Queries
 - [ ] Properties Functions
-	- [X] Color Palette: cd-palette
-	- [X] Z Index: cd-zIndex
-	- [ ] Font Family: cd-fontFamily
-	- [ ] Font Size: cd-fontSize
-	- [ ] Font Weight: cd-fontWeight
-	- [ ] Line Height: cd-lineHeight
+	- [X] Color Palette: `cd-palette`
+	- [X] Z Index: `cd-zIndex`
+	- [ ] Font Family: `cd-fontFamily`
+	- [ ] Font Size: `cd-fontSize`
+	- [ ] Font Weight: `cd-fontWeight`
+	- [ ] Line Height: `cd-lineHeight`
 - [ ] Grid System
 - [ ] Container
 - [ ] Tooltip
