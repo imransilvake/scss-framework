@@ -1,11 +1,14 @@
 [![GitHub issues](https://img.shields.io/github/issues/imransilvake/SCSS-Boilerplate.svg)](https://github.com/imransilvake/SCSS-Boilerplate/issues)
 [![Software License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
+
 # SCSS Boilerplate
 SCSS Boilerplate is a pure scss framework (no JavaScript) for building responsive, fast, robust, and adaptable web apps or sites.
 
+
 ## Browser Support
  - Last 2 Browsers (Chrome, Firefox, Safari, IE)
+
 
 ## SCSS
   - Lint SCSS: [Rules](https://stylelint.io/user-guide/rules/)
@@ -16,6 +19,7 @@ SCSS Boilerplate is a pure scss framework (no JavaScript) for building responsiv
   
   
 ## Framework
+
 #### CORE
 - [X] Reset
 - [X] Fonts
@@ -24,6 +28,7 @@ SCSS Boilerplate is a pure scss framework (no JavaScript) for building responsiv
 - [X] Container
 - [X] Grid System
 - [X] Helpers
+
 #### WIDGETS
 - [X] Tooltip
 
@@ -40,6 +45,7 @@ npm: v4.2.0 or greater
 
 
 ## NPM Commands
+
 ###### First run this command to install node modules: `npm install`.
 
 `npm compile`
