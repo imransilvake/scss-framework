@@ -11,7 +11,7 @@
 	- [X] Font Size: `cd-fontSize`
 	- [X] Font Weight: `cd-fontWeight`
 	- [X] Line Height: `cd-lineHeight`
-- [ ] Tooltip
+- [X] Tooltip
 - [ ] Modal
 
 
@@ -153,4 +153,5 @@ font-family: cd-lineHeight(1);
 
 ## Widgets
 
-- ######Tooltip: [Link](widgets/tooltip.md)
+- Tooltip: [Link](widgets/tooltip.md)
+- Modal: [Link](widgets/modal.md)
