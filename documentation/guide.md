@@ -5,10 +5,10 @@
 - [ ] Properties Functions
 	- [X] Color Palette: cd-palette
 	- [X] Z Index: cd-zIndex
-	- [ ] cd-fontFamily
-	- [ ] cd-fontSize
-	- [ ] cd-fontWeight
-	- [ ] cd-lineHeight
+	- [ ] Font Family: cd-fontFamily
+	- [ ] Font Size: cd-fontSize
+	- [ ] Font Weight: cd-fontWeight
+	- [ ] Line Height: cd-lineHeight
 - [ ] Grid System
 - [ ] Container
 - [ ] Tooltip
