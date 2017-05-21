@@ -15,7 +15,7 @@
 - [ ] Modal
 
 ## Normalize CSS
-For improved cross-browser rendering, we use Normalize.css, a project by Nicolas Gallagher and Jonathan Neal.
+For improved cross-browser rendering, Normalize.css is used, a project by Nicolas Gallagher and Jonathan Neal.
 
 ## Media Queries
 ```
