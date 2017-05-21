@@ -50,7 +50,7 @@ background color: cd-palette($cd-background, 2000);
 border: 1px solid cd-palette($cd-border, 3000);
 box shadow: 1px 1px 1px cd-palette($cd-shadow, 4000);
 ```
-Note: Here you can find the list of colors palette: [colors](Colors Palette)
+Note: Here you can find the list of colors palette: [colors](colors-palette.md)
 
 ###### Z Index: cd-zIndex
 ```
