@@ -47,7 +47,6 @@ npm: v4.2.0 or greater
 ## NPM Commands
 
 ###### First run this command to install node modules: `npm install`.
-
 `npm compile`
   - `SCSS Lint`, `SCSS-to-CSS`, `Autoprefixer (Last 2 versions)` and `Minfiy CSS`.
 
