@@ -2,20 +2,22 @@
 
 - [X] Normalize CSS
 - [X] Media Queries
-- [ ] Properties Functions
+- [ ] Container
+- [X] Grid
+- [X] Properties Functions
 	- [X] Color Palette: `cd-palette`
 	- [X] Z Index: `cd-zIndex`
-	- [ ] Font Family: `cd-fontFamily`
-	- [ ] Font Size: `cd-fontSize`
-	- [ ] Font Weight: `cd-fontWeight`
-	- [ ] Line Height: `cd-lineHeight`
-- [ ] Grid System
-- [ ] Container
+	- [X] Font Family: `cd-fontFamily`
+	- [X] Font Size: `cd-fontSize`
+	- [X] Font Weight: `cd-fontWeight`
+	- [X] Line Height: `cd-lineHeight`
 - [ ] Tooltip
 - [ ] Modal
 
+
 ## Normalize CSS
 For improved cross-browser rendering, Normalize.css is used, a project by Nicolas Gallagher and Jonathan Neal.
+
 
 ## Media Queries
 ```
@@ -40,6 +42,42 @@ Example:
 @include cd-media(mobile, smartphone) { }
 @include cd-media(desktop, smartphone) { }
 ```
+
+
+## Container
+```
+
+```
+
+
+## Grid
+```
+Columns: 			12
+Gutter(margin): 		30px (15px on each side of a column)
+Nestable: 			Yes
+Offsets:			Yes
+Column ordering:		Yes
+```
+
+###### Example:
+- Mobile First
+
+```
+<div class="row">
+  <div class="cd-col cd-col-p-12 cd-col-s-12 cd-col-t-6 cd-col-d-4 cd-col-w-4">content</div>
+  <div class="cd-col cd-col-p-12 cd-col-s-12 cd-col-t-6 cd-col-d-8 cd-col-w-8">content</div>
+</div>
+```
+
+- Desktop First
+
+```
+<div class="row">
+  <div class="cd-col cd-col-w-4 cd-col-d-4 cd-col-t-6 cd-col-s-12 cd-col-p-12">content</div>
+  <div class="cd-col cd-col-w-8 cd-col-d-8 cd-col-t-6 cd-col-s-12 cd-col-p-12">content</div>
+</div>
+```
+
 
 ## Properties Functions
 
