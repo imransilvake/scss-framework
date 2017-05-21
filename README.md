@@ -17,8 +17,13 @@ SCSS Boilerplate is a scss framework for building responsive, fast, robust, and 
   
   
 ## Framework
-`reset` `fonts` `typography` `container` `grid` `media queries` `helpers` `tooltip` `modal`
-
+- [X] reset
+- [X] typography
+- [X] container
+- [X] grid
+- [X] media queries
+- [X] helpers
+- [X] tooltip
 
 ## Project Prefix
 `cd`
