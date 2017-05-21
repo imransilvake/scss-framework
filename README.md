@@ -22,6 +22,7 @@ SCSS Boilerplate is a scss framework for building responsive, fast, robust, and 
 - [X] helpers
 - [X] tooltip
 
+
 ## Project Prefix
 `cd`
 
@@ -31,6 +32,7 @@ SCSS Boilerplate is a scss framework for building responsive, fast, robust, and 
 node: v7.9.0 or greater
 npm: v4.2.0 or greater
 ```
+
 
 ## NPM Commands
 ###### First run this command to install node modules: `npm install`.
@@ -44,6 +46,7 @@ npm: v4.2.0 or greater
 
 ## Documentation
 Please follow the link for the documentation: [GUIDE](documentation/guide.md)
+
 
 ## TODO
 - [ ] Modal
@@ -62,6 +65,7 @@ Please follow the link for the documentation: [GUIDE](documentation/guide.md)
 - [ ] Grid
   - [ ] Pull & Push
   - [ ] Fixed cols
-  
+
+
 ## License
 MIT
