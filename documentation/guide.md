@@ -2,6 +2,8 @@
 
 - [X] Normalize CSS
 - [X] Media Queries
+	- [X] Mobile First
+	- [X] Desktop First
 - [X] Container
 - [X] Grid System
 - [X] Properties Functions
