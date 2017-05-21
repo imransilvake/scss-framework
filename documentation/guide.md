@@ -52,9 +52,17 @@ Example:
 ## Container
 We need a containing element to wrap site contents and house our grid system. Containers are nestable.
 
+#### Container Fluid
+```
+<div class="cd-container-fluid">content</div>
+```
+
+#### Container
 ```
 widescreen			1200 - 30	=	1170px
 desktop				992 - 30	=	962px
+
+<div class="cd-container">content</div>
 ```
 
 
@@ -67,8 +75,7 @@ Offsets:			Yes
 Column ordering:		Yes
 ```
 
-###### Example:
-- Mobile First
+#### Mobile First
 
 ```
 <div class="row">
@@ -77,7 +84,7 @@ Column ordering:		Yes
 </div>
 ```
 
-- Desktop First
+#### Desktop First
 
 ```
 <div class="row">
