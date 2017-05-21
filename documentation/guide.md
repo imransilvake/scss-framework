@@ -1,18 +1,18 @@
 ## Documentation
 
-- Normalize CSS
-- Media Queries
-- Properties Functions
-	- Color Palette: cd-palette
-	- Z Index: cd-zIndex
-	- cd-fontFamily
-	- cd-fontSize
-	- cd-fontWeight
-	- cd-lineHeight
-- Grid System
-- Container
-- Tooltip
-- Modal
+- [X] Normalize CSS
+- [X] Media Queries
+- [ ] Properties Functions
+	- [X] Color Palette: cd-palette
+	- [X] Z Index: cd-zIndex
+	- [ ] cd-fontFamily
+	- [ ] cd-fontSize
+	- [ ] cd-fontWeight
+	- [ ] cd-lineHeight
+- [ ] Grid System
+- [ ] Container
+- [ ] Tooltip
+- [ ] Modal
 
 ## Normalize CSS
 For improved cross-browser rendering, we use Normalize.css, a project by Nicolas Gallagher and Jonathan Neal.
