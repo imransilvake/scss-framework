@@ -45,7 +45,7 @@ Example:
 
 
 ## Container
-Bootstrap requires a containing element to wrap site contents and house our grid system. Containers are nestable.
+We need a containing element to wrap site contents and house our grid system. Containers are nestable.
 
 ```
 widescreen			1200 - 30	=	1170px
