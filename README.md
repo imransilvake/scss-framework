@@ -41,7 +41,7 @@ npm: v4.2.0 or greater
 
 
 ## Documentation
-Please follow the link for the documentation: [Guide](GUIDE)
+Please follow the link for the documentation: [GUIDE](documentation/guide.md)
 
 
 ## TODO
