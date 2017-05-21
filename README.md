@@ -67,5 +67,10 @@ Please follow the link for the documentation: [GUIDE](documentation/guide.md)
   - [ ] Fixed cols
 
 
+## Layouts
+- [X] User Profile (Resume)
+- [ ] Responsive Video
+
+
 ## License
 MIT
