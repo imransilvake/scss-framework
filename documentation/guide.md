@@ -26,7 +26,7 @@ For improved cross-browser rendering, [Normalize.css](https://necolas.github.io/
 
 ## Media Queries
 
-#### Break Points: (in pixels)
+###### Break Points: (in pixels)
 ```
 	widescreen:		1201	- 	greater
 	desktop:		993 	- 	1200
@@ -35,7 +35,7 @@ For improved cross-browser rendering, [Normalize.css](https://necolas.github.io/
 	portrait:		0 	- 	480
 ```
 
-#### Media Queries has two styles:
+###### Media Queries has two styles:
 - Mobile First:	`(order: p -> s -> t -> d -> w)`
 - Desktop First: `(order: w -> d -> t -> s -> p)`
 
@@ -52,12 +52,12 @@ Example:
 ## Container
 We need a containing element to wrap site contents and house our grid system. Containers are nestable.
 
-#### Container Fluid
+###### Container Fluid
 ```
 <div class="cd-container-fluid">content</div>
 ```
 
-#### Container
+###### Container
 ```
 widescreen			1200 - 30	=	1170px
 desktop				992 - 30	=	962px
@@ -75,7 +75,7 @@ Offsets:			Yes
 Ordering:			Yes
 ```
 
-#### Mobile First
+###### Mobile First
 ```
 <div class="row">
   <div class="cd-col cd-col-p-12 cd-col-s-12 cd-col-t-6 cd-col-d-4 cd-col-w-4">content</div>
@@ -83,7 +83,7 @@ Ordering:			Yes
 </div>
 ```
 
-#### Desktop First
+###### Desktop First
 ```
 <div class="row">
   <div class="cd-col cd-col-w-4 cd-col-d-4 cd-col-t-6 cd-col-s-12 cd-col-p-12">content</div>
