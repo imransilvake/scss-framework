@@ -1,0 +1,90 @@
+.cd-modal-wrapper {
+	background-color: cd-palette($cd-background, 2000, .8);
+	display: none;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: cd-zIndex(modal);
+
+	&.cd-modal-open {
+		display: block;
+	}
+
+	.cd-modal {
+		background-color: cd-palette($cd-background, 2001);
+		box-shadow: 0 0 90px 0 cd-palette($cd-shadow, 4000, .7);
+		display: block;
+		left: 50%;
+		max-height: 90%;
+		max-width: 90%;
+		overflow: auto;
+		position: fixed;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		width: 700px;
+
+		// Messages
+		.cd-modal-messages {
+			header {
+				position: relative;
+
+				.cd-header {
+					background-color: cd-palette($cd-background, 2008);
+					padding: 20px;
+
+					&.cd-error {
+						background-color: cd-palette($cd-background, 2002);
+					}
+
+					&.cd-success {
+						background-color: cd-palette($cd-background, 2005);
+					}
+
+					&.cd-warning {
+						background-color: cd-palette($cd-background, 2003);
+					}
+
+					i {
+						color: cd-palette($cd-color, 1001);
+					}
+
+					h2 {
+						color: cd-palette($cd-color, 1001);
+					}
+				}
+
+				.cd-close {
+					position: absolute;
+					right: 5px;
+					top: 5px;
+
+					i {
+						color: cd-palette($cd-color, 1009);
+						margin-top: -2px;
+					}
+				}
+			}
+
+			section {
+				.cd-content {
+					padding: 20px;
+
+					p {
+						color: cd-palette($cd-color, 1000);
+					}
+				}
+			}
+		}
+	}
+
+	// media
+	@include cd-media(desktop, portrait) {
+		.cd-modal {
+			height: 100%;
+			max-height: 100%;
+			max-width: 100%;
+		}
+	}
+}

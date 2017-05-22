@@ -80,7 +80,6 @@
 							span {
 								@extend .cd-tag;
 								background-color: cd-palette($cd-background, 2001);
-								border: 1px solid cd-palette($cd-border, 3012);
 								color: cd-palette($cd-color, 1008);
 							}
 						}
@@ -115,7 +114,6 @@
 									span {
 										@extend .cd-tag;
 										background-color: cd-palette($cd-background, 2010);
-										border: 1px solid cd-palette($cd-border, 3010);
 										color: cd-palette($cd-color, 1006);
 									}
 								}
@@ -237,45 +235,10 @@
 								.cd-tags {
 									margin: 30px 0 0;
 
-									> span {
+									span {
 										@extend .cd-tag;
 										background-color: cd-palette($cd-background, 2010);
-										border: 1px solid cd-palette($cd-border, 3010);
 										color: cd-palette($cd-color, 1006);
-										position: relative;
-
-										&.cd-level {
-											margin-right: 3px;
-											padding-right: 18px;
-										}
-
-										b {
-											background-color: cd-palette($cd-background, 2008);
-											border: 1px solid cd-palette($cd-border, 3008);
-											color: cd-palette($cd-color, 1001);
-											font-size: 11px;
-											margin-left: 5px;
-											padding: 0 3px;
-											position: absolute;
-											right: 0;
-											top: -1px;
-
-
-											&.cd-green {
-												background-color: cd-palette($cd-background, 2005);
-												border: 1px solid cd-palette($cd-border, 3005);
-											}
-
-											&.cd-blue {
-												background-color: cd-palette($cd-background, 2004);
-												border: 1px solid cd-palette($cd-border, 3004);
-											}
-
-											&.cd-red {
-												background-color: cd-palette($cd-background, 2002);
-												border: 1px solid cd-palette($cd-border, 3002);
-											}
-										}
 									}
 								}
 							}
@@ -287,7 +250,6 @@
 									span {
 										@extend .cd-tag;
 										background-color: cd-palette($cd-background, 2010);
-										border: 1px solid cd-palette($cd-border, 3010);
 										color: cd-palette($cd-color, 1006);
 									}
 								}
@@ -415,6 +377,7 @@
 
 // Common
 .cd-tag {
+	border: 1px solid cd-palette($cd-border, 3011);
 	border-radius: 1px;
 	font-weight: cd-fontWeight(100);
 	line-height: cd-lineHeight(2);
