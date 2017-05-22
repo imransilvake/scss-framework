@@ -79,7 +79,9 @@ Please follow the link for the documentation: [GUIDE](documentation/guide.md)
 
 ## Layouts
 - [X] User Profile (Resume)
-- [ ] Responsive Video
+- [ ] Tooltip
+- [X] Modal
+- [ ] Responsive Video Player
 
 
 ## Support
