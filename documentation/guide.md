@@ -28,11 +28,11 @@ For improved cross-browser rendering, [Normalize.css](https://necolas.github.io/
 
 ###### Break Points: (in pixels)
 ```
-	widescreen:		1201	- 	greater
-	desktop:		993 	- 	1200
-	tablet:			768 	- 	992
-	smartphone:		481 	- 	767
-	portrait:		0 	- 	480
+	widescreen (w):		1201	- 	greater
+	desktop (d):		993 	- 	1200
+	tablet (t):		768 	- 	992
+	smartphone (s):		481 	- 	767
+	portrait (p):		0 	- 	480
 ```
 
 ###### Media Queries has two styles:
@@ -71,8 +71,8 @@ desktop				992 - 30	=	962px
 Columns: 			12
 Gutter:		 		30px (15px on each side of a column)
 Nestable: 			Yes
-Offsets:			Yes
-Ordering:			Yes
+Offsets:			Yes (cd-col-offset-device-column)
+Ordering:			Yes (cd-col-order-device-column)
 ```
 
 ###### Mobile First
