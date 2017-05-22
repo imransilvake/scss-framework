@@ -1,6 +1,6 @@
 ## Tooltip
 
-NOTE: fixed-left|fixed-right can only be used together with top or bottom.
+###### NOTE: fixed-left|fixed-right can only be used together with top or bottom.
 
 ```
 <tag class="cd-tooltip">
