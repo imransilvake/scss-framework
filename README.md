@@ -73,7 +73,6 @@ Please follow the link for the documentation: [GUIDE](documentation/guide.md)
   - [ ] select
   - [ ] combo box
 - [ ] Grid
-  - [ ] Pull & Push
   - [ ] Fixed & Fluid Columns
 
 

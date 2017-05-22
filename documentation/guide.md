@@ -69,15 +69,11 @@ desktop				992 - 30	=	962px
 ## Grid System
 ```
 Columns: 			12
-Gutter(margin): 		30px (15px on each side of a column)
+Gutter:		 		30px (15px on each side of a column)
 Nestable: 			Yes
 Offsets:			Yes
-Column ordering:		Yes
+Ordering:			Yes
 ```
-
-###### Note:
-- column will have `gutter: 0` on full width.
-- If row has more than one column and their widths are not full, then first and last columns will have margin zero on left and right side respectively.
 
 #### Mobile First
 ```

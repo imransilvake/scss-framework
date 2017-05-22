@@ -1,9 +1,10 @@
 .cd-container-fluid, .cd-container {
 	margin: 0 auto;
-	padding: 0 15px;
 }
 
 .cd-container {
+	padding: 0 15px;
+
 	// containerPoints loop
 	@each $device, $map-value in $cd-containerPoints {
 		// media queries
