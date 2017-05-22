@@ -31,6 +31,7 @@ SCSS Boilerplate is a pure scss framework (no JavaScript) for building responsiv
 
 #### WIDGETS
 - [X] Tooltip
+- [X] Modal
 
 
 ## Project Prefix
@@ -59,7 +60,6 @@ Please follow the link for the documentation: [GUIDE](documentation/guide.md)
 
 
 ## TODO
-- [ ] Modal
 - [ ] Forms
   - [ ] input
   - [ ] password
@@ -74,7 +74,7 @@ Please follow the link for the documentation: [GUIDE](documentation/guide.md)
   - [ ] combo box
 - [ ] Grid
   - [ ] Pull & Push
-  - [ ] Fixed cols
+  - [ ] Fixed & Fluid Columns
 
 
 ## Layouts
