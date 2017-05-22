@@ -79,8 +79,9 @@ Please follow the link for the documentation: [GUIDE](documentation/guide.md)
 
 ## Layouts
 - [X] User Profile (Resume)
-- [ ] Tooltip
-- [X] Modal
+- [ ] Home Page
+- [ ] Multiple Content Page
+- [ ] Single Content Page
 - [ ] Responsive Video Player
 
 
