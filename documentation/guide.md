@@ -165,3 +165,4 @@ font-family: cd-lineHeight(1);
 
 - Tooltip: [Link](widgets/tooltip.md)
 - Modal: [Link](widgets/modal.md)
+- Navbar: [Link](widgets/navbar.md)
