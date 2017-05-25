@@ -28,11 +28,11 @@ For improved cross-browser rendering, [Normalize.css](https://necolas.github.io/
 
 ###### Break Points: (in pixels)
 ```
-	widescreen (w):		1201	- 	greater
-	desktop (d):		993 	- 	1200
-	tablet (t):		768 	- 	992
-	smartphone (s):		481 	- 	767
-	portrait (p):		0 	- 	480
+widescreen (w):		1201	- 	greater
+desktop (d):		993 	- 	1200
+tablet (t):		768 	- 	992
+smartphone (s):		481 	- 	767
+portrait (p):		0 	- 	480
 ```
 
 ###### Media Queries has two styles:
