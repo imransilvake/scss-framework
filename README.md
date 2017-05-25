@@ -32,6 +32,9 @@ SCSS Boilerplate is a pure scss framework (no JavaScript) for building responsiv
 #### WIDGETS
 - [X] Tooltip
 - [X] Modal
+- [ ] Navigation Menu
+- [ ] Collapsible
+- [ ] Pre Loader
 
 
 ## Project Prefix
@@ -68,7 +71,6 @@ Please follow the link for the documentation: [GUIDE](documentation/guide.md)
   - [ ] checkbox
   - [ ] radio
   - [ ] tabs
-  - [ ] collapsible  
   - [ ] textarea
   - [ ] select
   - [ ] combo box
@@ -79,9 +81,6 @@ Please follow the link for the documentation: [GUIDE](documentation/guide.md)
 ## Layouts
 - [X] User Profile (Resume)
 - [ ] Home Page
-- [ ] Multiple Content Page
-- [ ] Single Content Page
-- [ ] Responsive Video Player
 
 
 ## Support

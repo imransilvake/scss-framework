@@ -1,0 +1,15 @@
+$cd-modal-wrapper-bg-color:				cd-palette($cd-background, 2000, .8);
+
+$cd-modal-bg-color:						cd-palette($cd-background, 2001);
+$cd-modal-shadow-color:					cd-palette($cd-shadow, 4000, .7);
+
+$cd-modal-header-default-bg-color:		cd-palette($cd-background, 2008);
+$cd-modal-header-error-bg-color:		cd-palette($cd-background, 2002);
+$cd-modal-header-success-bg-color:		cd-palette($cd-background, 2005);
+$cd-modal-header-warning-bg-color:		cd-palette($cd-background, 2003);
+
+$cd-modal-header-icon-color:			cd-palette($cd-color, 1001);
+$cd-modal-header-label-color:			cd-palette($cd-color, 1001);
+$cd-modal-header-close-icon-color:		cd-palette($cd-color, 1009);
+
+$cd-modal-content-paragraph-color:		cd-palette($cd-color, 1009);

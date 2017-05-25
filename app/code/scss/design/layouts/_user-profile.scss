@@ -373,26 +373,24 @@
 			}
 		}
 	}
-}
 
-// Common
-.cd-tag {
-	border: 1px solid cd-palette($cd-border, 3011);
-	border-radius: 1px;
-	font-weight: cd-fontWeight(100);
-	line-height: cd-lineHeight(2);
-	padding: 3px 5px;
-}
+	// Common
+	.cd-tag {
+		border: 1px solid cd-palette($cd-border, 3011);
+		border-radius: 1px;
+		font-weight: cd-fontWeight(100);
+		line-height: cd-lineHeight(2);
+		padding: 3px 5px;
+	}
 
-.cd-h5 {
-	border-left: 3px solid cd-palette($cd-border, 3009);
-	font-weight: cd-fontWeight(200);
-	margin-top: 5px;
-	padding-left: 5px;
-}
+	.cd-h5 {
+		border-left: 3px solid cd-palette($cd-border, 3009);
+		font-weight: cd-fontWeight(200);
+		margin-top: 5px;
+		padding-left: 5px;
+	}
 
-.cd-ul {
-	list-style: none;
-	margin: 30px 0 0;
-	padding: 0;
+	.cd-ul {
+		margin: 30px 0 0;
+	}
 }

@@ -1,5 +1,5 @@
 .cd-modal-wrapper {
-	background-color: cd-palette($cd-background, 2000, .8);
+	background-color: $cd-modal-wrapper-bg-color;
 	display: none;
 	height: 100%;
 	left: 0;
@@ -13,16 +13,13 @@
 	}
 
 	.cd-modal {
-		background-color: cd-palette($cd-background, 2001);
-		box-shadow: 0 0 90px 0 cd-palette($cd-shadow, 4000, .7);
+		@extend .cd-vh-center;
+		background-color: $cd-modal-bg-color;
+		box-shadow: 0 0 90px 0 $cd-modal-shadow-color;
 		display: block;
-		left: 50%;
 		max-height: 90%;
 		max-width: 90%;
 		overflow: auto;
-		position: fixed;
-		top: 50%;
-		transform: translate(-50%, -50%);
 		width: 700px;
 
 		// Messages
@@ -31,38 +28,43 @@
 				position: relative;
 
 				.cd-header {
-					background-color: cd-palette($cd-background, 2008);
+					background-color: $cd-modal-header-default-bg-color;
 					padding: 15px;
 
 					&.cd-error {
-						background-color: cd-palette($cd-background, 2002);
+						background-color: $cd-modal-header-error-bg-color;
 					}
 
 					&.cd-success {
-						background-color: cd-palette($cd-background, 2005);
+						background-color: $cd-modal-header-success-bg-color;
 					}
 
 					&.cd-warning {
-						background-color: cd-palette($cd-background, 2003);
+						background-color: $cd-modal-header-warning-bg-color;
 					}
 
 					i {
-						color: cd-palette($cd-color, 1001);
+						color: $cd-modal-header-icon-color;
 					}
 
 					h2 {
-						color: cd-palette($cd-color, 1001);
+						color: $cd-modal-header-label-color;
 						font-weight: 200;
 					}
 				}
 
 				.cd-close {
+					cursor: pointer;
 					position: absolute;
 					right: 5px;
 					top: 5px;
 
+					&:hover {
+						opacity: .9;
+					}
+
 					i {
-						color: cd-palette($cd-color, 1009);
+						color: $cd-modal-header-close-icon-color;
 						margin-top: -2px;
 					}
 				}
@@ -73,7 +75,7 @@
 					padding: 20px;
 
 					p {
-						color: cd-palette($cd-color, 1000);
+						color: $cd-modal-content-paragraph-color;
 					}
 				}
 			}

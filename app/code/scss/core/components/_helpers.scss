@@ -21,3 +21,22 @@
 .cd-hide-overflow {
 	overflow: hidden;
 }
+
+.cd-vh-center {
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.cd-h-center {
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, 0);
+}
+
+.cd-v-center {
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+}
