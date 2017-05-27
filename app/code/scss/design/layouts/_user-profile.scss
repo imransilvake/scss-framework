@@ -73,7 +73,7 @@
 						}
 
 						.cd-tags {
-							h5 {
+							h6 {
 								margin-bottom: 10px;
 							}
 
@@ -122,8 +122,8 @@
 
 						&.cd-background-wrapper {
 							.cd-education {
-								h5 {
-									@extend .cd-h5;
+								h6 {
+									@extend .cd-sub-headline;
 								}
 
 								.cd-list-wrapper {
@@ -165,8 +165,8 @@
 							}
 
 							.cd-experience {
-								h5 {
-									@extend .cd-h5;
+								h6 {
+									@extend .cd-sub-headline;
 								}
 
 								.cd-list-wrapper {
@@ -228,8 +228,8 @@
 							}
 
 							.cd-languages {
-								h5 {
-									@extend .cd-h5;
+								h6 {
+									@extend .cd-sub-headline;
 								}
 
 								.cd-tags {
@@ -383,7 +383,7 @@
 		padding: 3px 5px;
 	}
 
-	.cd-h5 {
+	.cd-sub-headline {
 		border-left: 3px solid cd-palette($cd-border, 3009);
 		font-weight: cd-fontWeight(200);
 		margin-top: 5px;
