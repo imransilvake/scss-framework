@@ -26,8 +26,7 @@ For improved cross-browser rendering, [Normalize.css](https://necolas.github.io/
 
 ## Media Queries
 
-#### Break Points
-###### NOTE: in `pixels`
+#### Break Points `pixels`
 ```
 widescreen (w):		1201	- 	greater
 desktop (d):		993 	- 	1200
@@ -37,7 +36,6 @@ portrait (p):		0 	- 	480
 ```
 
 #### Media Queries Styles
-###### NOTE: Order Direction: `Left to Right`
 ```
 @param $platformFirst:	mobile | desktop
 @param $device:		portrait | smartphone | tablet | desktop | widescreen
