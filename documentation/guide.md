@@ -26,7 +26,7 @@ For improved cross-browser rendering, [Normalize.css](https://necolas.github.io/
 
 ## Media Queries
 
-#### Break Points `pixels`
+#### Break Points `(pixels)`
 ```
 widescreen (w):		1201	- 	greater
 desktop (d):		993 	- 	1200
