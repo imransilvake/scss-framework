@@ -1,12 +1,12 @@
 ## Modal
 
-###### Dynamic classes
+#### Dynamic classes
 ```
 body: 			cd-hide-overflow
 cd-modal-wrapper: 	cd-modal-open
 ```
 
-###### Modal Structure
+#### Structure
 ```
 <div class="cd-modal-wrapper">
 	<div class="cd-modal">
