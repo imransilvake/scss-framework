@@ -76,8 +76,8 @@ We need a containing element to wrap site contents and house our grid system. Co
 
 #### Container
 ```
-widescreen			1200 - 30	=	1170px
-desktop				992 - 30	=	962px
+widescreen		1200 - 30	=	1170px
+desktop			992 - 30	=	962px
 
 <div class="cd-container">content</div>
 ```
@@ -85,11 +85,11 @@ desktop				992 - 30	=	962px
 
 ## Grid System
 ```
-Columns: 			12
-Gutter:		 		30px (15px on each side of a column)
-Nestable: 			Yes
-Offsets:			Yes (cd-col-offset-device-column)
-Ordering:			Yes (cd-col-order-device-column)
+Columns: 		12
+Gutter:		 	30px (15px on each side of a column)
+Nestable: 		Yes
+Offsets:		Yes (cd-col-offset-device-column)
+Ordering:		Yes (cd-col-order-device-column)
 ```
 
 #### Mobile First
