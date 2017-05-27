@@ -12,11 +12,11 @@ SCSS Boilerplate is a pure scss framework (no JavaScript) for building responsiv
 
 
 ## SCSS
-  - Lint SCSS: [Rules](https://stylelint.io/user-guide/rules/)
-  - Compile SCSS to CSS
+  - SCSS Lint: [Rules](https://stylelint.io/user-guide/rules/)
+  - Compile SCSS-to-CSS
   - Add Autoprefixer `(Last 2 versions)`
   - Minify CSS
-  - Automatic reload on changes in HTML & SCSS files
+  - Watch: `HTML & SCSS` files
   
 
 ## Project Prefix
