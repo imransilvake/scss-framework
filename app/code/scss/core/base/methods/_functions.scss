@@ -1,16 +1,4 @@
-/**
-	A color palette having code values assigned to each color.
-
-	@param $palette:	color | background | border | shadow
-	@param $hex-code:	hexadecimal color code
-	@param $opacity:	0-1
-
-	Example:
-	color: cd-palette($cd-color, 1000);
-	background color: cd-palette($cd-background, 2000);
-	border: 1px solid cd-palette($cd-border, 3000);
-	box shadow: 1px 1px 1px cd-palette($cd-shadow, 4000);
-*/
+// Color Palette
 @function cd-palette($palette, $hex-code, $opacity: null) {
 	@if map-has-key($palette, $hex-code) {
 		$color: map-get($palette, $hex-code);
@@ -22,86 +10,51 @@
 			@error 'Opacity value `#{$opacity}` must range from 0-1.';
 		}
 	} @else {
-		@error 'Couldn\'t find a palette code: `#{$hex-code}`.';
+		@error 'Unable to find a palette code: `#{$hex-code}`.';
 	}
 }
 
-/**
-	A function for the property z-index.
-
-	@param $key:	normal | float | modal | loader
-
-	Example:
-	z-index: cd-zIndex(normal);
-*/
+// Property: z-index
 @function cd-zIndex($key) {
 	@if map-has-key($cd-zIndex, $key) {
 		@return map-get($cd-zIndex, $key);
 	} @else {
-		@error 'Couldn\'t find a z-index: `#{$key}`.';
+		@error 'Unable to find a z-index: `#{$key}`.';
 	}
 }
 
-/**
-	A function for the property font-family.
-
-	@param $key:	helvetica
-
-	Example:
-	font-family: cd-fontFamily(helvetica);
-*/
+// Property: font-family
 @function cd-fontFamily($key) {
 	@if map-has-key($cd-fontFamily, $key) {
 		@return map-get($cd-fontFamily, $key);
 	} @else {
-		@error 'Couldn\'t find a font-family: `#{$key}`.';
+		@error 'Unable to find a font-family: `#{$key}`.';
 	}
 }
 
-/**
-	A function for the property font-size.
-
-	@param $key:	h1 | h2 | h3 | h4 | h5 | h6 | p | span | a
-
-	Example:
-	font-family: cd-fontSize(h1);
-*/
+// Property: font-size
 @function cd-fontSize($key) {
 	@if map-has-key($cd-fontSize, $key) {
 		@return map-get($cd-fontSize, $key);
 	} @else {
-		@error 'Couldn\'t find a font-size: `#{$key}`.';
+		@error 'Unable to find a font-size: `#{$key}`.';
 	}
 }
 
-/**
-	A function for the property font-weight.
-
-	@param $key:	100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900
-
-	Example:
-	font-family: cd-fontWeight(100);
-*/
+// Property: font-weight
 @function cd-fontWeight($key) {
 	@if map-has-key($cd-fontWeight, $key) {
 		@return map-get($cd-fontWeight, $key);
 	} @else {
-		@error 'Couldn\'t find a font-weight: `#{$key}`.';
+		@error 'Unable to find a font-weight: `#{$key}`.';
 	}
 }
 
-/**
-	A function for the property line-height.
-
-	@param $key:	1 | 1.1 | 1.2 | 1.3 | 1.4 | 1.5 | 1.6 | 1.7 | 1.8 | 1.9 | 2
-
-	Example:
-	font-family: cd-lineHeight(1);
-*/
+// Property: line-height
 @function cd-lineHeight($key) {
 	@if map-has-key($cd-lineHeight, $key) {
 		@return map-get($cd-lineHeight, $key);
 	} @else {
-		@error 'Couldn\'t find a line-height: `#{$key}`.';
+		@error 'Unable to find a line-height: `#{$key}`.';
 	}
 }
