@@ -8,7 +8,7 @@ SCSS Boilerplate is a pure scss framework (no JavaScript) for building responsiv
 
 ## Browser Support
  - Last 2 Browser Versions (Chrome, Firefox, Safari, IE)
- - Can work for older versions though it is not yet tested.
+ - It can work for older versions although it is not yet tested.
 
 
 ## SCSS
