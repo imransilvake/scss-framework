@@ -1,9 +1,9 @@
 ## Navbar
 
-###### Positions
+#### Positions
 `cd-bottom-left` `cd-bottom-right` `cd-top-left` `cd-top-right`
 
-###### Structure
+#### Structure
 ```
 <nav class="cd-navigation-menu-wrapper">
 	<ul class="cd-navigation-menu">
