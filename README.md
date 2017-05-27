@@ -56,7 +56,7 @@ npm: v4.2.0 or greater
   - `SCSS Lint`, `SCSS-to-CSS`, `Autoprefixer (Last 2 versions)` and `Minfiy CSS`.
 
 `npm start`
-  - Compile src files and watch for `HTML` & `SCSS` changes.
+  - `npm compile` `watch: HTML & SCSS`.
 
 
 ## Documentation
