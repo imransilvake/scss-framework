@@ -3,7 +3,7 @@
 
 
 # SCSS Boilerplate
-SCSS Boilerplate is a pure scss framework (no JavaScript) for building responsive, fast, robust, and adaptable web apps or sites. This framework is especially designed according to developers needs.
+SCSS Boilerplate is a pure scss framework (no JavaScript) for building responsive, fast, robust, and adaptable web apps or sites. This framework is especially designed according to developer's need.
 
 
 ## Browser Support
@@ -34,7 +34,7 @@ npm: v4.2.0 or greater
 
 ###### First run this command to install node modules: `npm install`.
 `npm compile`
-  - `SCSS Lint`, `SCSS-to-CSS`, `Autoprefixer (Last 2 versions)` and `Minfiy CSS`
+  - `SCSS Lint`, `SCSS-to-CSS`, `Autoprefixer (Last 2 versions)` and `CSS Minification`
 
 `npm start`
   - `npm compile` and `watch: HTML & SCSS`
