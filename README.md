@@ -18,25 +18,6 @@ SCSS Boilerplate is a pure scss framework (no JavaScript) for building responsiv
   - Minify CSS
   - Automatic reload on changes in HTML & SCSS files
   
-  
-## Framework
-
-#### CORE
-- [X] Reset
-- [X] Fonts
-- [X] Typography
-- [X] Media Queries
-- [X] Container
-- [X] Grid System
-- [X] Helpers
-
-#### WIDGETS
-- [X] Tooltip
-- [X] Modal
-- [ ] Navigation Menu
-- [ ] Collapsible
-- [ ] Pre Loader
-
 
 ## Project Prefix
 `cd`
@@ -64,6 +45,9 @@ Please follow the link for the documentation: [GUIDE](documentation/guide.md)
 
 
 ## TODO
+- [ ] Navigation Menu
+- [ ] Collapsible
+- [ ] Pre Loader
 - [ ] Carousel
 - [ ] Forms
   - [ ] input
