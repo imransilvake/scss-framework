@@ -1,6 +1,6 @@
 ## Color Palette
 
-###### `primary.scss` is used for the default color
+###### Note: `primary.scss` is used for the default color.
 
 #### Color
 ```
