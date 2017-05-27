@@ -38,16 +38,33 @@ portrait (p):		0 	- 	480
 
 #### Media Queries Styles
 ###### NOTE: Order Direction: `Left to Right`
-
-- Mobile First:	`p -> s -> t -> d -> w`
-- Desktop First: `w -> d -> t -> s -> p`
 ```
 @param $platformFirst:	mobile | desktop
 @param $device:		portrait | smartphone | tablet | desktop | widescreen
+```
+
+###### Mobile First
+```
+Order:			p -> s -> t -> d -> w
 
 Example:
+@include cd-media(mobile, portrait) { }
 @include cd-media(mobile, smartphone) { }
+@include cd-media(mobile, tablet) { }
+@include cd-media(mobile, desktop) { }
+@include cd-media(mobile, widescreen) { }
+```
+
+###### Desktop First
+```
+Order:			w -> d -> t -> s -> p
+
+Example:
+@include cd-media(desktop, widescreen) { }
+@include cd-media(desktop, desktop) { }
+@include cd-media(desktop, tablet) { }
 @include cd-media(desktop, smartphone) { }
+@include cd-media(desktop, portrait) { }
 ```
 
 
