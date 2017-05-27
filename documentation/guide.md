@@ -26,7 +26,7 @@ For improved cross-browser rendering, [Normalize.css](https://necolas.github.io/
 
 ## Media Queries
 
-###### Break Points: (in pixels)
+#### Break Points: (in pixels)
 ```
 widescreen (w):		1201	- 	greater
 desktop (d):		993 	- 	1200
@@ -35,7 +35,7 @@ smartphone (s):		481 	- 	767
 portrait (p):		0 	- 	480
 ```
 
-###### Media Queries has two styles:
+#### Media Queries has two styles:
 - Mobile First:	`(order: p -> s -> t -> d -> w)`
 - Desktop First: `(order: w -> d -> t -> s -> p)`
 
@@ -52,12 +52,12 @@ Example:
 ## Container
 We need a containing element to wrap site contents and house our grid system. Containers are nestable.
 
-###### Container Fluid
+#### Container Fluid
 ```
 <div class="cd-container-fluid">content</div>
 ```
 
-###### Container
+#### Container
 ```
 widescreen			1200 - 30	=	1170px
 desktop				992 - 30	=	962px
@@ -75,7 +75,7 @@ Offsets:			Yes (cd-col-offset-device-column)
 Ordering:			Yes (cd-col-order-device-column)
 ```
 
-###### Mobile First
+#### Mobile First
 ```
 <div class="row">
   <div class="cd-col cd-col-p-12 cd-col-s-12 cd-col-t-6 cd-col-d-4 cd-col-w-4">content</div>
@@ -83,7 +83,7 @@ Ordering:			Yes (cd-col-order-device-column)
 </div>
 ```
 
-###### Desktop First
+#### Desktop First
 ```
 <div class="row">
   <div class="cd-col cd-col-w-4 cd-col-d-4 cd-col-t-6 cd-col-s-12 cd-col-p-12">content</div>
@@ -94,7 +94,7 @@ Ordering:			Yes (cd-col-order-device-column)
 
 ## Properties Functions
 
-###### Color Palette: `cd-palette`
+#### Color Palette: `cd-palette`
 ```
 A color palette having code values assigned to each color.
 
@@ -109,9 +109,9 @@ border: 1px solid cd-palette($cd-border, 3000);
 box shadow: 1px 1px 1px cd-palette($cd-shadow, 4000);
 ```
 
-Note: Here you can find the list of colors palette: [Color Palette](color-palette.md)
+###### Note: Here you can find the list of colors palette: [Color Palette](color-palette.md)
 
-###### Z Index: `cd-zIndex`
+#### Z Index: `cd-zIndex`
 ```
 A function for the property z-index.
 
@@ -121,7 +121,7 @@ Example:
 z-index: cd-zIndex(normal);
 ```
 
-###### Font Family: `cd-fontFamily`
+#### Font Family: `cd-fontFamily`
 ```
 A function for the property font-family.
 
@@ -131,7 +131,7 @@ Example:
 font-family: cd-fontFamily(helvetica);
 ```
 
-###### Font Size: `cd-fontSize`
+#### Font Size: `cd-fontSize`
 ```
 A function for the property font-size.
 
@@ -141,7 +141,7 @@ Example:
 font-family: cd-fontSize(h1);
 ```
 
-###### Font Weight: `cd-fontWeight`
+#### Font Weight: `cd-fontWeight`
 ```
 A function for the property font-weight.
 
@@ -151,7 +151,7 @@ Example:
 font-family: cd-fontWeight(100);
 ```
 
-###### Font Height: `cd-lineHeight`
+#### Font Height: `cd-lineHeight`
 ```
 A function for the property line-height.
 
