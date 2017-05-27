@@ -76,6 +76,10 @@
 								top: 0;
 								width: 5px;
 							}
+
+							> a {
+								cursor: default;
+							}
 						}
 
 						&:hover {

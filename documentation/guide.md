@@ -41,7 +41,7 @@ portrait (p):		0 	- 	480
 @param $device:		portrait | smartphone | tablet | desktop | widescreen
 ```
 
-###### Mobile First
+###### Mobile First `(mobile friendly styles)`
 ```
 Order:			p -> s -> t -> d -> w
 
@@ -53,7 +53,7 @@ Example:
 @include cd-media(mobile, widescreen) { }
 ```
 
-###### Desktop First
+###### Desktop First `(desktop friendly styles)`
 ```
 Order:			w -> d -> t -> s -> p
 

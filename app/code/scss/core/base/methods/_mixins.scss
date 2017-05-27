@@ -1,24 +1,35 @@
 /**
-	Break Points: (in pixels)
+	Break Points: (pixels)
 		widescreen:		1201	- 	greater
 		desktop:		993 	- 	1200
 		tablet:			768 	- 	992
 		smartphone:		481 	- 	767
 		portrait:		0 		- 	480
 
-	Media queries has two styles:
-		1. Mobile First: mobile friendly styles
-			Sequence (top to bottom): portrait, smartphone, tablet, desktop, widescreen
-
-		2. Desktop First: desktop friendly styles
-			Sequence (top to bottom): widescreen, desktop, tablet, smartphone, portrait
+	Media Queries Styles:
 
 	@param $platformFirst:	mobile | desktop
-	@param $device:		portrait | smartphone | tablet | desktop | widescreen
+	@param $device:			portrait | smartphone | tablet | desktop | widescreen
 
-	Example:
-	@include cd-media(mobile, smartphone) { }
-	@include cd-media(desktop, smartphone) { }
+	1. Mobile First: mobile friendly styles
+		Order:			p -> s -> t -> d -> w
+
+		Example:
+		@include cd-media(mobile, portrait) { }
+		@include cd-media(mobile, smartphone) { }
+		@include cd-media(mobile, tablet) { }
+		@include cd-media(mobile, desktop) { }
+		@include cd-media(mobile, widescreen) { }
+
+	2. Desktop First: desktop friendly styles
+		Order:			w -> d -> t -> s -> p
+
+		Example:
+		@include cd-media(desktop, widescreen) { }
+		@include cd-media(desktop, desktop) { }
+		@include cd-media(desktop, tablet) { }
+		@include cd-media(desktop, smartphone) { }
+		@include cd-media(desktop, portrait) { }
 */
 @mixin cd-media($platformFirst, $device) {
 	@if map-has-key($cd-devicePoints, $platformFirst) {
