@@ -1,3 +1,39 @@
+/**
+	<nav class="cd-navigation-menu-wrapper">
+		<ul class="cd-navigation-menu">
+			<li><a href="#">Item 1</a></li>
+			<li class="cd-dropdown cd-bottom-left|cd-bottom-right|cd-top-left|cd-top-right">
+				<a href="#">Item 2 - Sub Menu</a>
+				<ul>
+					<li><a href="#">Item 1</a></li>
+					<li><a href="#">Item 2</a></li>
+					<li class="cd-dropdown cd-dropdown-sub">
+						<a href="#">Item 3 - Sub Menu</a>
+						<ul>
+							<li><a href="#">Item 1</a></li>
+							<li class="cd-dropdown cd-dropdown-sub">
+								<a href="#">Item 2 - Sub Menu</a>
+								<ul>
+									<li><a href="#">Item 1</a></li>
+									<li><a href="#">Item 2</a></li>
+									<li><a href="#">Item 3</a></li>
+									<li><a href="#">Item 4</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Item 3</a></li>
+							<li><a href="#">Item 4</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Item 4</a></li>
+				</ul>
+			</li>
+
+			<li><a href="#">Item 3</a></li>
+			<li><a href="#">Item 4</a></li>
+		</ul>
+	</nav>
+*/
+
 .cd-navigation-menu-wrapper {
 	.cd-navigation-menu {
 		> li {
@@ -7,12 +43,9 @@
 				position: relative;
 
 				ul {
-					box-shadow: 0 2px 5px cd-palette($cd-shadow, 4012);
 					display: none;
-					left: 0;
-					max-width: 300px;
-					min-width: 150px;
 					position: absolute;
+					width: 200px;
 
 					li {
 						border-bottom: 1px solid $cd-nav-border-color;
@@ -34,10 +67,14 @@
 						&.cd-dropdown-sub {
 							position: relative;
 
-							ul {
-								left: 100%;
-								margin-left: 5px;
+							&::after {
+								background: transparent;
+								bottom: 0;
+								content: '';
+								height: 100%;
+								position: absolute;
 								top: 0;
+								width: 5px;
 							}
 						}
 
@@ -47,6 +84,111 @@
 							}
 						}
 					}
+				}
+
+				// === Positions === Bottom: left right === //
+
+				// Bottom Left
+				&.cd-bottom-left {
+					ul {
+						box-shadow: 1px 1px 5px cd-palette($cd-shadow, 4012);
+						right: 0;
+
+						li {
+							&.cd-dropdown-sub {
+								&::after {
+									left: -5px;
+								}
+
+								ul {
+									margin-right: 5px;
+									right: 100%;
+									top: 0;
+								}
+							}
+						}
+					}
+				}
+
+				// Bottom Right
+				&.cd-bottom-right {
+					ul {
+						box-shadow: 1px 1px 5px cd-palette($cd-shadow, 4012);
+						left: 0;
+
+						li {
+							&.cd-dropdown-sub {
+								&::after {
+									right: -5px;
+								}
+
+								ul {
+									left: 100%;
+									margin-left: 5px;
+									top: 0;
+								}
+							}
+						}
+					}
+				}
+
+				// === Positions === Top: left & right === //
+
+				// Top Left
+				&.cd-top-left {
+					ul {
+						bottom: 100%;
+						box-shadow: 1px 0 5px cd-palette($cd-shadow, 4012);
+						margin-bottom: 5px;
+						right: 0;
+
+						li {
+							&.cd-dropdown-sub {
+								&::after {
+									left: -5px;
+								}
+
+								ul {
+									bottom: 0;
+									margin-bottom: -1px;
+									margin-right: 5px;
+									right: 100%;
+								}
+							}
+						}
+					}
+				}
+
+				// Top Right
+				&.cd-top-right {
+					ul {
+						bottom: 100%;
+						box-shadow: 1px 0 5px cd-palette($cd-shadow, 4012);
+						left: 0;
+						margin-bottom: 5px;
+
+						li {
+							&.cd-dropdown-sub {
+								&::after {
+									right: -5px;
+								}
+
+								ul {
+									bottom: 0;
+									left: 100%;
+									margin-bottom: -1px;
+									margin-left: 5px;
+								}
+							}
+						}
+					}
+				}
+
+				// === Positions: Top, Bottom === //
+
+				// Bottom
+				&.cd-bottom {
+
 				}
 
 				&:hover {

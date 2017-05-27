@@ -135,7 +135,7 @@ font-family: cd-fontFamily(helvetica);
 ```
 A function for the property font-size.
 
-@param $key:	h1 | h2 | h3 | h4 | h5 | h6 | p | span
+@param $key:	h1 | h2 | h3 | h4 | h5 | h6 | p | span | a
 
 Example:
 font-family: cd-fontSize(h1);
