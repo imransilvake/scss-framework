@@ -53,10 +53,10 @@ npm: v4.2.0 or greater
 
 ###### First run this command to install node modules: `npm install`.
 `npm compile`
-  - `SCSS Lint`, `SCSS-to-CSS`, `Autoprefixer (Last 2 versions)` and `Minfiy CSS`.
+  - `SCSS Lint`, `SCSS-to-CSS`, `Autoprefixer (Last 2 versions)` and `Minfiy CSS`
 
 `npm start`
-  - `npm compile` `watch: HTML & SCSS`.
+  - `npm compile` and `watch: HTML & SCSS`
 
 
 ## Documentation
