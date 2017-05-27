@@ -70,7 +70,7 @@ Please follow the link for the documentation: [GUIDE](documentation/guide.md)
 
 
 ## Support
-If you are good in scss, help me improve this scss framework.
+If you are good in css and scss, join in and improve this framework with me.
 
 
 ## License
