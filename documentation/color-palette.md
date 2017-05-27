@@ -1,4 +1,6 @@
-## Color Palette: `primary.scss`
+## Color Palette
+
+#### `primary.scss`
 
 ###### Color
 ```
