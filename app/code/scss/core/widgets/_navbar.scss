@@ -191,6 +191,46 @@
 						}
 					}
 				}
+
+				// Top
+				&.cd-top {
+					ul {
+						bottom: 100%;
+						margin-bottom: 5px;
+
+						li {
+							&.cd-dropdown-sub {
+								background-color: $cd-nav-highlight-bg-color;
+
+								&::after {
+									width: 0;
+								}
+
+								> a {
+									&:hover {
+										background-color: $cd-nav-highlight-bg-color;
+										color: $cd-nav-color;
+									}
+								}
+
+								ul {
+									border-bottom: 1px solid $cd-nav-highlight-bg-color;
+									position: static;
+								}
+							}
+						}
+					}
+
+					> ul {
+						box-shadow: 1px 0 5px $cd-nav-shadow-color;
+					}
+
+					&:hover {
+						ul {
+							display: block;
+						}
+					}
+				}
 			}
 
 			> a {
