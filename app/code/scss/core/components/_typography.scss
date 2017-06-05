@@ -5,14 +5,11 @@ body {
 	line-height: cd-lineHeight(1.4);
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-weight: cd-fontWeight(400);
-	line-height: cd-lineHeight(1.1);
-}
+h1, h2, h3, h4, h5, h6, p {  margin: 0; }
 
+h1, h2, h3, h4, h5, h6 { font-weight: cd-fontWeight(400); }
 p, span { font-weight: cd-fontWeight(300); }
 
-h1, h2, h3, h4, h5, h6, p {  margin: 0; }
 h1 { font-size: cd-fontSize(h1); }
 h2 { font-size: cd-fontSize(h2); }
 h3 { font-size: cd-fontSize(h3); }
@@ -21,6 +18,4 @@ h5 { font-size: cd-fontSize(h5); }
 h6 { font-size: cd-fontSize(h6); }
 p { font-size: cd-fontSize(p); }
 span { font-size: cd-fontSize(span); }
-
-
 a { font-size: cd-fontSize(a); }

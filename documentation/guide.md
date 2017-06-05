@@ -203,12 +203,12 @@ h6:			15px
 p:			15px
 span:			15px
 a:			15px
+body:			15px
 ```
 
 #### Line Height
 ```
 body:			1.4
-h1-h6:			1.1
 ```
 
 #### Font Weight
