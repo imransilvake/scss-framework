@@ -151,7 +151,7 @@ font-family: cd-fontFamily(helvetica);
 ```
 A function for the property font-size.
 
-@param $key:	h1 | h2 | h3 | h4 | h5 | h6 | p | span | a
+@param $key:	h1 | h2 | h3 | h4 | h5 | h6 | p | span | a | body
 
 Example:
 font-family: cd-fontSize(h1);
@@ -176,6 +176,50 @@ A function for the property line-height.
 Example:
 font-family: cd-lineHeight(1);
 ```
+
+
+## Typography
+
+#### Default Color
+```
+color:			cd-palette($cd-color, 1009)
+```
+
+#### Font Family
+```
+helvetica:		'Helvetica Neue'
+```
+
+#### Font Size
+```
+h1:			36px
+h2:			30px
+h3:			26px
+h4:			22px
+h5:			18px
+h6:			15px
+p:			15px
+span:			15px
+a:			15px
+```
+
+#### Line Height
+```
+body:			1.4
+h1-h6:			1.1
+```
+
+#### Font Weight
+```
+h1-h6:			400
+p:			300
+span:			300
+```
+
+
+## Helpers
+```blank```
+
 
 ## Widgets
 

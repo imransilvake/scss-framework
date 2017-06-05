@@ -1,17 +1,16 @@
 body {
 	color: $default-color;
 	font-family: cd-fontFamily(helvetica);
-	font-size: 14px;
-	line-height: 1.43;
+	font-size: cd-fontSize(body);
+	line-height: cd-lineHeight(1.4);
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: inherit;
-	font-weight: 400;
-	line-height: 1.1;
+	font-weight: cd-fontWeight(400);
+	line-height: cd-lineHeight(1.1);
 }
 
-p, span { font-weight: 300; }
+p, span { font-weight: cd-fontWeight(300); }
 
 h1, h2, h3, h4, h5, h6, p {  margin: 0; }
 h1 { font-size: cd-fontSize(h1); }

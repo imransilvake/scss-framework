@@ -7,15 +7,14 @@
 				position: relative;
 
 				ul {
+					background-color: $cd-nav-bg-color;
 					display: none;
 					position: absolute;
 					width: 200px;
+					z-index: cd-zIndex(float);
 
 					li {
-						border-bottom: 1px solid $cd-nav-border-color;
-
 						a {
-							background-color: $cd-nav-bg-color;
 							color: $cd-nav-color;
 							display: block;
 							padding: 6px 10px;
@@ -32,12 +31,8 @@
 							position: relative;
 
 							&::after {
+								@extend .cd-transparent-overlay;
 								background: transparent;
-								bottom: 0;
-								content: '';
-								height: 100%;
-								position: absolute;
-								top: 0;
 								width: 5px;
 							}
 
@@ -54,12 +49,18 @@
 					}
 				}
 
+				&:hover {
+					> ul {
+						display: block;
+					}
+				}
+
 				// === Positions === Bottom: left right === //
 
 				// Bottom Left
 				&.cd-bottom-left {
 					ul {
-						box-shadow: 1px 1px 5px cd-palette($cd-shadow, 4012);
+						box-shadow: 1px 1px 5px $cd-nav-shadow-color;
 						right: 0;
 
 						li {
@@ -81,7 +82,7 @@
 				// Bottom Right
 				&.cd-bottom-right {
 					ul {
-						box-shadow: 1px 1px 5px cd-palette($cd-shadow, 4012);
+						box-shadow: 1px 1px 5px $cd-nav-shadow-color;
 						left: 0;
 
 						li {
@@ -106,7 +107,7 @@
 				&.cd-top-left {
 					ul {
 						bottom: 100%;
-						box-shadow: 1px 0 5px cd-palette($cd-shadow, 4012);
+						box-shadow: 1px 0 5px $cd-nav-shadow-color;
 						margin-bottom: 5px;
 						right: 0;
 
@@ -131,7 +132,7 @@
 				&.cd-top-right {
 					ul {
 						bottom: 100%;
-						box-shadow: 1px 0 5px cd-palette($cd-shadow, 4012);
+						box-shadow: 1px 0 5px $cd-nav-shadow-color;
 						left: 0;
 						margin-bottom: 5px;
 
@@ -156,12 +157,38 @@
 
 				// Bottom
 				&.cd-bottom {
+					ul {
+						li {
+							&.cd-dropdown-sub {
+								background-color: $cd-nav-highlight-bg-color;
 
-				}
+								&::after {
+									width: 0;
+								}
 
-				&:hover {
+								> a {
+									&:hover {
+										background-color: $cd-nav-highlight-bg-color;
+										color: $cd-nav-color;
+									}
+								}
+
+								ul {
+									border-bottom: 1px solid $cd-nav-highlight-bg-color;
+									position: static;
+								}
+							}
+						}
+					}
+
 					> ul {
-						display: block;
+						box-shadow: 1px 0 5px $cd-nav-shadow-color;
+					}
+
+					&:hover {
+						ul {
+							display: block;
+						}
 					}
 				}
 			}
@@ -171,5 +198,31 @@
 				padding: 5px;
 			}
 		}
+	}
+
+	// media
+	@include cd-media(desktop, portrait) {
+		.cd-navigation-menu {
+			&.cd-p-items-break {
+				> li {
+					background-color: cd-palette($cd-background, 2010);
+					display: block;
+					margin-bottom: 5px;
+
+					&:last-child {
+						margin-bottom: 0;
+					}
+				}
+			}
+		}
+	}
+
+	// Common
+	.cd-transparent-overlay {
+		bottom: 0;
+		content: '';
+		height: 100%;
+		position: absolute;
+		top: 0;
 	}
 }
