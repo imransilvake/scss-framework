@@ -14,7 +14,9 @@
 	- [X] Font Size: `cd-fontSize`
 	- [X] Font Weight: `cd-fontWeight`
 	- [X] Line Height: `cd-lineHeight`
-	
+- [X] Typography
+- [ ] Helpers
+
 #### WIDGETS
 - [X] Tooltip
 - [X] Modal
