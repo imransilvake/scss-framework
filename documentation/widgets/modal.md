@@ -15,10 +15,10 @@ cd-modal-wrapper: 	cd-modal-open
 </div>
 ```
 
-#### Open Modal:
+#### Open Modal
 - Add class `cd-modal-open` next to wrapper class `cd-modal-wrapper`.
 - To hide body tag scroll, add class `cd-hide-overflow`.
 
-#### Close Modal:
+#### Close Modal
 - Remove class `cd-modal-open` next to wrapper class `cd-modal-wrapper`.
 - To show body tag scroll, remove class `cd-hide-overflow`.
