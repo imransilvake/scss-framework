@@ -39,6 +39,10 @@
 						background-color: $cd-modal-header-success-bg-color;
 					}
 
+					&.cd-alert {
+						background-color: $cd-modal-header-alert-bg-color;
+					}
+
 					&.cd-warning {
 						background-color: $cd-modal-header-warning-bg-color;
 					}

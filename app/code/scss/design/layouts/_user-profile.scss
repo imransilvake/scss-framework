@@ -60,7 +60,7 @@
 		position: relative;
 
 		.cd-summary {
-			background-color: cd-palette($cd-background, 2010);
+			background-color: cd-palette($cd-background, 2002);
 
 			.cd-container {
 				.cd-row {
@@ -102,7 +102,7 @@
 										margin-bottom: 15px;
 
 										img {
-											border: 1px solid cd-palette($cd-border, 3011);
+											border: 1px solid cd-palette($cd-border, 3003);
 											height: 50px;
 											padding: 2px;
 										}
@@ -112,7 +112,7 @@
 								.cd-tags {
 									span {
 										@extend .cd-tag;
-										background-color: cd-palette($cd-background, 2010);
+										background-color: cd-palette($cd-background, 2002);
 										color: cd-palette($cd-color, 1006);
 									}
 								}
@@ -137,18 +137,14 @@
 												float: left;
 
 												img {
-													border: 1px solid cd-palette($cd-border, 3011);
+													border: 1px solid cd-palette($cd-border, 3003);
 													padding: 2px;
-													width: 45px;
+													width: 46px;
 												}
 											}
 
 											.cd-right {
 												margin-left: 20px;
-
-												h5 {
-													margin-bottom: 4px;
-												}
 
 												p {
 													font-weight: cd-fontWeight(200);
@@ -175,7 +171,7 @@
 										@extend .cd-ul;
 
 										&::before {
-											border-left: 1px solid cd-palette($cd-border, 3012);
+											border-left: 1px solid cd-palette($cd-border, 3004);
 											bottom: 0;
 											content: '';
 											left: 22px;
@@ -193,25 +189,21 @@
 												.cd-number {
 													background-color: cd-palette($cd-background, 2006);
 													border-radius: 50%;
-													box-shadow: 1px 1px 1px cd-palette($cd-shadow, 4012);
+													box-shadow: 1px 1px 1px cd-palette($cd-shadow, 4004);
 													color: cd-palette($cd-color, 1001);
-													height: 45px;
+													height: 46px;
 													padding-top: 13px;
 													text-align: center;
-													width: 45px;
+													width: 46px;
 
 													&.cd-current {
-														background-color: cd-palette($cd-background, 2005);
+														background-color: cd-palette($cd-background, 2016);
 													}
 												}
 											}
 
 											.cd-right {
 												margin-left: 20px;
-
-												h5 {
-													margin-bottom: 4px;
-												}
 
 												p {
 													font-weight: cd-fontWeight(200);
@@ -236,7 +228,7 @@
 
 									span {
 										@extend .cd-tag;
-										background-color: cd-palette($cd-background, 2010);
+										background-color: cd-palette($cd-background, 2002);
 										color: cd-palette($cd-color, 1006);
 									}
 								}
@@ -248,7 +240,7 @@
 
 									span {
 										@extend .cd-tag;
-										background-color: cd-palette($cd-background, 2010);
+										background-color: cd-palette($cd-background, 2002);
 										color: cd-palette($cd-color, 1006);
 									}
 								}
@@ -353,7 +345,7 @@
 	}
 
 	footer {
-		background-color: cd-palette($cd-background, 2010);
+		background-color: cd-palette($cd-background, 2002);
 
 		.cd-container {
 			.cd-row {
@@ -365,7 +357,7 @@
 						font-weight: cd-fontWeight(100);
 
 						i {
-							color: cd-palette($cd-color, 1002);
+							color: cd-palette($cd-color, 1010);
 						}
 					}
 				}
@@ -375,7 +367,7 @@
 
 	// Common
 	.cd-tag {
-		border: 1px solid cd-palette($cd-border, 3011);
+		border: 1px solid cd-palette($cd-border, 3003);
 		border-radius: 1px;
 		font-weight: cd-fontWeight(100);
 		line-height: cd-lineHeight(2);

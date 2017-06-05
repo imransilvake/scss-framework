@@ -1,0 +1,15 @@
+a, cd-link {
+	color: $cd-link-color;
+
+	&:visited {
+		color: $cd-link-visited-color;
+	}
+
+	&:hover {
+		color: $cd-link-hover-color;
+	}
+
+	&:active {
+		color: $cd-link-active-color;
+	}
+}
