@@ -3,7 +3,7 @@
 	display: inline-block;
 	position: relative;
 
-	.cd-content {
+	> span {
 		background-color: $cd-tooltip-bg-color;
 		border-radius: 1px;
 		box-shadow: 0 0 14px $cd-tooltip-shadow-color;
