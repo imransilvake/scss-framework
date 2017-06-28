@@ -13,7 +13,7 @@
       "email": "imransilvake@gmail.com"
     }
   ],
-  "license": "ISC",
+  "license": "MIT",
   "scripts": {
     "browser-sync": "browser-sync start --server  --files '**/*.html, dist/css/main.min.css' --port 8080 --browser 'google chrome'",
     "compile": "./app/code/core/scripts/scss/compile",
