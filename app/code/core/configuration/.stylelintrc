@@ -30,8 +30,8 @@
 		"property-no-unknown": true,
 		"property-no-vendor-prefix": true,
 
-		"selector-no-attribute": true,
-		"selector-no-id": true,
+		"selector-max-attribute": 0,
+		"selector-max-id": 0,
 		"selector-no-vendor-prefix": true,
 
 		"function-comma-space-after": "always",
