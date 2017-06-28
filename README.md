@@ -48,18 +48,7 @@ Please follow the link for the documentation: [GUIDE](documentation/guide.md)
 - [ ] Navigation Menu
 - [ ] Collapsible
 - [ ] Pre Loader
-- [ ] Carousel
-- [ ] Forms
-  - [ ] input
-  - [ ] password
-  - [ ] date
-  - [ ] date range picker
-  - [ ] checkbox
-  - [ ] radio
-  - [ ] tabs
-  - [ ] textarea
-  - [ ] select
-  - [ ] combo box
+- [ ] Helpers
 - [ ] Grid
   - [ ] Fixed & Fluid Columns
 
