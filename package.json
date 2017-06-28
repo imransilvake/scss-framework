@@ -2,18 +2,23 @@
   "name": "scss-boilerplate",
   "version": "1.0.0",
   "description": "A SCSS boilerplate using npm scripts.",
-  "main": "index.js",
-  "scripts": {
-    "browser-sync": "browser-sync start --server  --files '**/*.html, dist/css/main.min.css' --port 8080 --browser 'google chrome'",
-    "compile": "./app/code/core/scripts/scss/compile",
-    "start": "./app/code/core/scripts/scss/watch"
-  },
   "keywords": [
     "scss",
     "html"
   ],
   "author": "Imran Khan",
+  "maintainers": [
+    {
+      "name": "Imran Khan",
+      "email": "imransilvake@gmail.com"
+    }
+  ],
   "license": "ISC",
+  "scripts": {
+    "browser-sync": "browser-sync start --server  --files '**/*.html, dist/css/main.min.css' --port 8080 --browser 'google chrome'",
+    "compile": "./app/code/core/scripts/scss/compile",
+    "start": "./app/code/core/scripts/scss/watch"
+  },
   "devDependencies": {
     "autoprefixer": "^6.7.7",
     "browser-sync": "^2.18.8",
