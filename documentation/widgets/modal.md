@@ -17,7 +17,7 @@ cd-modal-wrapper: 	cd-show, cd-hide
 
 #### Open Modal
 - Remove class `cd-hide` next to wrapper class `cd-modal-wrapper`.
-- Add class `cd-hide` next to wrapper class `cd-modal-wrapper`.
+- Add class `cd-show` next to wrapper class `cd-modal-wrapper`.
 - To hide scroll, add class `cd-hide-overflow`.
 
 #### Close Modal
