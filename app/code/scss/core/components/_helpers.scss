@@ -20,6 +20,14 @@
 	display: block;
 }
 
+.cd-visible {
+	visibility: visible;
+}
+
+.cd-hidden {
+	visibility: hidden;
+}
+
 // === Overflow === //
 .cd-hide-overflow {
 	overflow: hidden;

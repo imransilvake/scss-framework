@@ -1,16 +1,11 @@
 .cd-modal-wrapper {
 	background-color: $cd-modal-wrapper-bg-color;
-	display: none;
 	height: 100%;
 	left: 0;
 	position: fixed;
 	top: 0;
 	width: 100%;
 	z-index: cd-zIndex(modal);
-
-	&.cd-modal-open {
-		display: block;
-	}
 
 	.cd-modal {
 		@extend .cd-vh-center;

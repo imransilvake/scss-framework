@@ -3,7 +3,7 @@
 #### Dynamic classes
 ```
 body: 			cd-hide-overflow
-cd-modal-wrapper: 	cd-modal-open
+cd-modal-wrapper: 	cd-show, cd-hide
 ```
 
 #### Structure
@@ -16,9 +16,11 @@ cd-modal-wrapper: 	cd-modal-open
 ```
 
 #### Open Modal
-- Add class `cd-modal-open` next to wrapper class `cd-modal-wrapper`.
-- To hide body tag scroll, add class `cd-hide-overflow`.
+- Remove class `cd-hide` next to wrapper class `cd-modal-wrapper`.
+- Add class `cd-hide` next to wrapper class `cd-modal-wrapper`.
+- To hide scroll, add class `cd-hide-overflow`.
 
 #### Close Modal
-- Remove class `cd-modal-open` next to wrapper class `cd-modal-wrapper`.
-- To show body tag scroll, remove class `cd-hide-overflow`.
+- Remove class `cd-show` next to wrapper class `cd-modal-wrapper`.
+- Add class `cd-hide` next to wrapper class `cd-modal-wrapper`.
+- To show scroll, remove class `cd-hide-overflow`.
