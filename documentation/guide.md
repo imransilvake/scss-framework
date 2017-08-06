@@ -242,6 +242,7 @@ cd-hide-overflow
 ```
 
 #### Position
+###### v: vertical, h: horizontal
 ```
 cd-vh-center
 cd-h-center
