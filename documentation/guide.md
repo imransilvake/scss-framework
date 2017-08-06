@@ -220,8 +220,33 @@ span:			300
 
 
 ## Helpers
-```blank```
 
+#### Alignment
+```
+cd-left-align
+cd-right-align
+cd-center-align
+```
+
+#### Visibility
+```
+cd-hide
+cd-show
+cd-visible
+cd-hidden
+```
+
+#### Overflow
+```
+cd-hide-overflow
+```
+
+#### Position
+```
+cd-vh-center
+cd-h-center
+cd-v-center
+```
 
 ## Widgets
 
