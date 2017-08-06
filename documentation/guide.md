@@ -15,7 +15,7 @@
 	- [X] Font Weight: `cd-fontWeight`
 	- [X] Line Height: `cd-lineHeight`
 - [X] Typography
-- [ ] Helpers
+- [ ] Helpers: Responsive Classes
 
 #### WIDGETS
 - [X] Tooltip
