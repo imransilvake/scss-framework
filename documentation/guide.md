@@ -205,6 +205,7 @@ p:			15px
 span:			15px
 a:			15px
 body:			15px
+a:			15px
 ```
 
 #### Line Height
@@ -215,8 +216,10 @@ body:			1.4
 #### Font Weight
 ```
 h1-h6:			400
+a:			400
 p:			300
 span:			300
+b:			700
 ```
 
 

@@ -1,4 +1,15 @@
 .cd-home-wrapper {
+	header {
+		.cd-top {
+			background-color: cd-palette($cd-background, 2002);
+			padding: 10px 0;
+
+			.cd-col {
+				margin: 0;
+			}
+		}
+	}
+
 	footer {
 		background-color: cd-palette($cd-background, 2002);
 

@@ -20,3 +20,8 @@ ul {
 	margin: 0;
 	padding: 0;
 }
+
+::selection {
+	background-color: cd-palette($cd-background, 2010);
+	color: cd-palette($cd-color, 1001);
+}
