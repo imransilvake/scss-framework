@@ -141,7 +141,8 @@ z-index: cd-zIndex(normal);
 
 #### Font Family: `cd-fontFamily`
 ```
-// Font Face
+Font Face: With @font-face rule, you do not have to use one of the 'web-safe' fonts anymore.
+
 @param $key: fontName, fontPath, fontWeight, fontStyle, fontExtentions
 
 Example:
