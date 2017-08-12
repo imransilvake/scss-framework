@@ -15,6 +15,7 @@
 	- [X] Font Weight: `cd-fontWeight`
 	- [X] Line Height: `cd-lineHeight`
 - [X] Typography
+- [X] Utilities
 - [ ] Helpers: Responsive Classes
 
 #### WIDGETS
@@ -141,15 +142,6 @@ z-index: cd-zIndex(normal);
 
 #### Font Family: `cd-fontFamily`
 ```
-Font Face: With @font-face rule, you do not have to use one of the 'web-safe' fonts anymore.
-
-@param $key: fontName, fontPath, fontWeight, fontStyle, fontExtentions
-
-Example:
-@include cd-fontFace('Roboto', './../../app/assets/fonts/roboto/Roboto-Thin', 100, null, woff2 woff);
-```
-
-```
 A function for the property font-family.
 
 @param $key:	roboto
@@ -186,6 +178,19 @@ A function for the property line-height.
 
 Example:
 font-family: cd-lineHeight(1);
+```
+
+
+## Utilites
+
+#### Font Face
+```
+With @font-face rule, you do not have to use one of the 'web-safe' fonts anymore.
+
+@param $keys: fontName, fontPath, fontWeight, fontStyle, fontExtentions
+
+Example:
+@include cd-fontFace('Roboto', './../../app/assets/fonts/roboto/Roboto-Thin', 100, null, woff2 woff);
 ```
 
 
