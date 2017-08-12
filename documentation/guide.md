@@ -141,6 +141,14 @@ z-index: cd-zIndex(normal);
 
 #### Font Family: `cd-fontFamily`
 ```
+// Font Face
+@param $key: fontName, fontPath, fontWeight, fontStyle, fontExtentions
+
+Example:
+@include cd-fontFace('Roboto', './../../app/assets/fonts/roboto/Roboto-Thin', 100, null, woff2 woff);
+```
+
+```
 A function for the property font-family.
 
 @param $key:	roboto
