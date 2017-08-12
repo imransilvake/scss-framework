@@ -16,3 +16,31 @@
 		@error 'Unable to find a platform named: `#{$platformFirst}`.';
 	}
 }
+
+// Font Face
+@mixin cd-fontFace($fontName, $fontPath, $fontWeight: null, $fontStyle: null, $fontExtentions: eot woff2 woff ttf svg) {
+	$src: null;
+
+	$modes: (
+		eot: '?',
+		svg: '#' + cd-stringReplace($fontName, ' ', '_')
+	);
+
+	$formats: (
+		otf: 'opentype',
+		ttf: 'truetype'
+	);
+
+	@each $fontExtention in $fontExtentions {
+		$mode: if(map-has-key($modes, $fontExtention), $fontExtention + map-get($modes, $fontExtention), $fontExtention);
+		$format: if(map-has-key($formats, $fontExtention), map-get($formats, $fontExtention), $fontExtention);
+		$src: append($src, url(quote($fontPath + '.' + $mode)) format(quote($format)), comma);
+	}
+
+	@font-face {
+		font-family: quote($fontName);
+		font-style: $fontStyle;
+		font-weight: $fontWeight;
+		src: $src;
+	}
+}
