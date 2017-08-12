@@ -181,19 +181,6 @@ font-family: cd-lineHeight(1);
 ```
 
 
-## Utilities
-
-#### Font Face
-```
-With @font-face rule, you do not have to use one of the 'web-safe' fonts anymore.
-
-@param $keys: fontName, fontPath, fontWeight, fontStyle, fontExtentions
-
-Example:
-@include cd-fontFace('Roboto', './../../app/assets/fonts/roboto/Roboto-Thin', 100, null, woff2 woff);
-```
-
-
 ## Typography
 
 #### Default Color
@@ -230,6 +217,19 @@ body:			1.4
 h1-h6:			400
 p:			300
 span:			300
+```
+
+
+## Utilities
+
+#### Font Face
+```
+With @font-face rule, you do not have to use one of the 'web-safe' fonts anymore.
+
+@param $keys: fontName, fontPath, fontWeight, fontStyle, fontExtentions
+
+Example:
+@include cd-fontFace('Roboto', './../../app/assets/fonts/roboto/Roboto-Thin', 100, null, woff2 woff);
 ```
 
 
