@@ -7,7 +7,7 @@
 				position: relative;
 
 				ul {
-					background-color: $cd-nav-bg-color;
+					background-color: $cd-nav-default-bg-color;
 					display: none;
 					position: absolute;
 					width: 200px;
@@ -32,7 +32,7 @@
 
 							&::after {
 								@extend .cd-transparent-overlay;
-								background: transparent;
+								background-color: transparent;
 								width: 5px;
 							}
 
@@ -245,7 +245,7 @@
 		.cd-navigation-menu {
 			&.cd-p-items-break {
 				> li {
-					background-color: cd-palette($cd-background, 2002);
+					background-color: $cd-nav-bg-color;
 					display: block;
 					margin-bottom: 5px;
 

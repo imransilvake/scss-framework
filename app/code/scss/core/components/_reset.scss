@@ -22,6 +22,6 @@ ul {
 }
 
 ::selection {
-	background-color: cd-palette($cd-background, 2010);
-	color: cd-palette($cd-color, 1001);
+	background-color: $cd-selection-bg-color;
+	color: $cd-selection-color;
 }

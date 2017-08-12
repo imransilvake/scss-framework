@@ -12,4 +12,14 @@ a, .cd-link {
 	&:active {
 		color: $cd-link-active-color;
 	}
+
+	&.cd-active {
+		color: $cd-link-active-color;
+	}
+
+	&.cd-disabled {
+		color: $cd-link-disabled-color;
+		opacity: .4;
+		pointer-events: none;
+	}
 }

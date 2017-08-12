@@ -6,6 +6,41 @@
 
 			.cd-col {
 				margin: 0;
+
+				a {
+					text-transform: uppercase;
+				}
+			}
+		}
+
+		.cd-bottom {
+			background-color: cd-palette($cd-background, 2001);
+			padding: 20px 0;
+
+			.cd-col {
+				&:last-child {
+					.cd-list-items {
+						li {
+							display: inline-block;
+
+							a {
+								padding: 0 10px;
+							}
+
+							&:first-child {
+								a {
+									padding-left: 0;
+								}
+							}
+
+							&:last-child {
+								a {
+									padding-right: 0;
+								}
+							}
+						}
+					}
+				}
 			}
 		}
 	}
