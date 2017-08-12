@@ -45,7 +45,6 @@ Please follow the link for the documentation: [GUIDE](documentation/guide.md)
 
 
 ## TODO
-- [ ] Fonts
 - [ ] Navigation Menu
 - [ ] Collapsible
 - [ ] Pre Loader
