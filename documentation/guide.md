@@ -146,7 +146,7 @@ A function for the property font-family.
 @param $key:	roboto
 
 Example:
-font-family: cd-fontFamily(helvetica);
+font-family: cd-fontFamily(roboto);
 ```
 
 #### Font Size: `cd-fontSize`
@@ -189,7 +189,7 @@ color:			cd-palette($cd-color, 1009)
 
 #### Font Family
 ```
-roboto:		'Roboto'
+roboto:			'Roboto'
 ```
 
 #### Font Size
