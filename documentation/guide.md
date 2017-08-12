@@ -181,7 +181,7 @@ font-family: cd-lineHeight(1);
 ```
 
 
-## Utilites
+## Utilities
 
 #### Font Face
 ```
