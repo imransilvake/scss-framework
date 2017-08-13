@@ -259,7 +259,7 @@ cd-hide-overflow
 ```
 
 #### Visibility: Responsive Classes
-![Visibility Chart](http://url/to/img.png)
+![Visibility Chart](https://github.com/imransilvake/SCSS-Boilerplate/blob/master/documentation/resources/visibility-chart.png)
 
 
 #### Position
