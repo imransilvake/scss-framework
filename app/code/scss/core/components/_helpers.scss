@@ -28,6 +28,35 @@
 	visibility: hidden;
 }
 
+// platform loop
+@each $platform, $device-list in $cd-devicePoints {
+	$down: 'down';
+	$up: 'up';
+	$direction: '';
+
+	// Check direction based on platform.
+	@if ($platform == $platform-desktop) {
+		$direction: $down
+	} @else {
+		$direction: $up
+	}
+
+	// devicePoints loop
+	@each $device, $map-value in $device-list {
+		$deviceFirstLetter: str-slice($device, 1, 1);
+
+		// media queries
+		@include cd-media($platform, $device) {
+			// exclude widescreen for desktop platform and portrait for mobile desktop: redundancy
+			@if ($platform == $platform-desktop and $deviceFirstLetter != 'w' or $platform == $platform-mobile and $deviceFirstLetter != 'p') {
+				.ts-hide-on-#{$deviceFirstLetter}-#{$direction} {
+					display: none;
+				}
+			}
+		}
+	}
+}
+
 // === Overflow === //
 .cd-hide-overflow {
 	overflow: hidden;
