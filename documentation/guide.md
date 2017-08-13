@@ -258,8 +258,8 @@ cd-hidden
 cd-hide-overflow
 ```
 
-#### Visibility
-
+#### Visibility: Responsive Classes
+![Visibility Chart](http://url/to/img.png)
 
 
 #### Position
