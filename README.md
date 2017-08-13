@@ -48,7 +48,6 @@ Please follow the link for the documentation: [GUIDE](documentation/guide.md)
 - [ ] Navigation Menu
 - [ ] Collapsible
 - [ ] Pre Loader
-- [ ] Helpers: Responsive Classes
 - [ ] Grid
   - [ ] Fixed & Fluid Columns
 
