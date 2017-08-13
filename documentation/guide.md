@@ -16,7 +16,7 @@
 	- [X] Line Height: `cd-lineHeight`
 - [X] Typography
 - [X] Utilities
-- [ ] Helpers: Responsive Classes
+- [X] Helpers
 
 #### WIDGETS
 - [X] Tooltip
@@ -257,6 +257,10 @@ cd-hidden
 ```
 cd-hide-overflow
 ```
+
+#### Visibility
+
+
 
 #### Position
 ###### v: vertical, h: horizontal
