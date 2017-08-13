@@ -245,7 +245,12 @@ cd-right-align
 cd-center-align
 ```
 
-#### Visibility
+#### Overflow
+```
+cd-hide-overflow
+```
+
+#### Visibility: Responsive Classes
 ```
 cd-hide
 cd-show
@@ -253,12 +258,6 @@ cd-visible
 cd-hidden
 ```
 
-#### Overflow
-```
-cd-hide-overflow
-```
-
-#### Visibility: Responsive Classes
 ![Visibility Chart](https://github.com/imransilvake/SCSS-Boilerplate/blob/master/documentation/resources/classes-visibility-chart.png)
 
 
