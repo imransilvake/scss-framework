@@ -15,11 +15,13 @@
 
 		.cd-bottom {
 			background-color: cd-palette($cd-background, 2001);
-			padding: 20px 0;
+			padding: 10px 0;
 
 			.cd-col {
 				&:last-child {
 					.cd-list-items {
+						margin-top: 14px;
+
 						li {
 							display: inline-block;
 
@@ -39,6 +41,18 @@
 								}
 							}
 						}
+					}
+				}
+			}
+		}
+
+
+		// media
+		@include cd-media(desktop, portrait) {
+			.cd-bottom {
+				.cd-col {
+					&:first-child {
+						text-align: center;
 					}
 				}
 			}

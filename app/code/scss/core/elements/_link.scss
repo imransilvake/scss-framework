@@ -7,6 +7,7 @@ a, .cd-link {
 
 	&:hover {
 		color: $cd-link-hover-color;
+		opacity: .9;
 	}
 
 	&:active {
