@@ -258,6 +258,7 @@ cd-visible
 cd-hidden
 ```
 
+![Visibility Chart](https://github.com/imransilvake/SCSS-Boilerplate/blob/master/documentation/resources/classes-visibility-chart.png)
 ```
 You can combine one .ts-hide-*-up class with one .ts-hide-*-down class to show an element only on a given interval of screen sizes.
 
@@ -266,8 +267,6 @@ ts-hide-on-s-down & ts-hide-on-d-up: shows the element only on tablet viewport.
 
 Using multiple .ts-hide-*-up or .ts-hide-*-down classes is redundant and pointless.
 ```
-![Visibility Chart](https://github.com/imransilvake/SCSS-Boilerplate/blob/master/documentation/resources/classes-visibility-chart.png)
-
 
 #### Position
 ###### v: vertical, h: horizontal
