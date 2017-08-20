@@ -238,6 +238,12 @@ Example:
 
 ## Helpers
 
+#### Opacity
+```
+cd-opacity-high		(.5 -> 1)
+cd-opacity-low		(1 -> .9)
+```
+
 #### Alignment
 ```
 cd-left-align
