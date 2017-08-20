@@ -46,13 +46,67 @@
 			}
 		}
 
-
 		// media
 		@include cd-media(desktop, portrait) {
 			.cd-bottom {
 				.cd-col {
 					&:first-child {
 						text-align: center;
+					}
+				}
+			}
+		}
+	}
+
+	section {
+		.cd-slider {
+			background-color: cd-palette($cd-background, 2002);
+
+			.cd-row {
+				.cd-col {
+					padding: 0;
+
+					.cd-slides-wrapper {
+						position: relative;
+
+						.cd-slides {
+							.cd-slide {
+								max-height: 400px;
+
+								img {
+									display: block;
+									max-height: 400px;
+									object-fit: cover;
+									width: 100%;
+								}
+							}
+						}
+
+						.cd-navs {
+							left: 20px;
+							margin-top: -15px;
+							position: absolute;
+							right: 20px;
+							top: 50%;
+
+							.cd-left {
+								cursor: pointer;
+								float: left;
+
+								i {
+									@extend .cd-common-navs-icon;
+								}
+							}
+
+							.cd-right {
+								cursor: pointer;
+								float: right;
+
+								i {
+									@extend .cd-common-navs-icon;
+								}
+							}
+						}
 					}
 				}
 			}
@@ -78,5 +132,15 @@
 				}
 			}
 		}
+	}
+
+	// Common
+	.cd-common-navs-icon {
+		background-color: cd-palette($cd-background, 2000);
+		border-radius: 50%;
+		color: cd-palette($cd-color, 1001);
+		display: block;
+		font-size: 30px;
+		padding: 0 2px;
 	}
 }

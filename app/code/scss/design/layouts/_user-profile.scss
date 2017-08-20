@@ -77,7 +77,7 @@
 							}
 
 							span {
-								@extend .cd-tag;
+								@extend .cd-common-tag;
 								background-color: cd-palette($cd-background, 2001);
 								color: cd-palette($cd-color, 1008);
 							}
@@ -111,7 +111,7 @@
 
 								.cd-tags {
 									span {
-										@extend .cd-tag;
+										@extend .cd-common-tag;
 										background-color: cd-palette($cd-background, 2002);
 										color: cd-palette($cd-color, 1006);
 									}
@@ -122,12 +122,12 @@
 						&.cd-background-wrapper {
 							.cd-education {
 								h6 {
-									@extend .cd-sub-headline;
+									@extend .cd-common-sub-headline;
 								}
 
 								.cd-list-wrapper {
 									ul {
-										@extend .cd-ul;
+										@extend .cd-common-ul;
 
 										li {
 											align-items: center;
@@ -161,14 +161,14 @@
 
 							.cd-experience {
 								h6 {
-									@extend .cd-sub-headline;
+									@extend .cd-common-sub-headline;
 								}
 
 								.cd-list-wrapper {
 									position: relative;
 
 									ul {
-										@extend .cd-ul;
+										@extend .cd-common-ul;
 
 										&::before {
 											border-left: 1px solid cd-palette($cd-border, 3004);
@@ -220,14 +220,14 @@
 
 							.cd-languages {
 								h6 {
-									@extend .cd-sub-headline;
+									@extend .cd-common-sub-headline;
 								}
 
 								.cd-tags {
 									margin: 30px 0 0;
 
 									span {
-										@extend .cd-tag;
+										@extend .cd-common-tag;
 										background-color: cd-palette($cd-background, 2002);
 										color: cd-palette($cd-color, 1006);
 									}
@@ -239,7 +239,7 @@
 									margin: 30px 0 0;
 
 									span {
-										@extend .cd-tag;
+										@extend .cd-common-tag;
 										background-color: cd-palette($cd-background, 2002);
 										color: cd-palette($cd-color, 1006);
 									}
@@ -366,7 +366,7 @@
 	}
 
 	// Common
-	.cd-tag {
+	.cd-common-tag {
 		border: 1px solid cd-palette($cd-border, 3003);
 		border-radius: 1px;
 		font-weight: cd-fontWeight(100);
@@ -374,14 +374,14 @@
 		padding: 3px 5px;
 	}
 
-	.cd-sub-headline {
+	.cd-common-sub-headline {
 		border-left: 3px solid cd-palette($cd-border, 3009);
 		font-weight: cd-fontWeight(200);
 		margin-top: 5px;
 		padding-left: 5px;
 	}
 
-	.cd-ul {
+	.cd-common-ul {
 		margin: 30px 0 0;
 	}
 }
