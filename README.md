@@ -44,12 +44,12 @@ npm: v4.2.0 or greater
 Please follow the link for the documentation: [GUIDE](documentation/guide.md)
 
 
-## TODO
-- [ ] Navigation Menu
-- [ ] Collapsible
-- [ ] Pre Loader
-- [ ] Grid
+## Future Work
+- [ ] Helpers
   - [ ] Fixed & Fluid Columns
+- [ ] Widgets
+  - [ ] Slider
+  - [ ] Collapsible
 
 
 ## Layouts
