@@ -49,7 +49,7 @@
 		@include cd-media($platform, $device) {
 			// exclude widescreen for desktop platform and portrait for mobile desktop: redundancy
 			@if ($platform == $platform-desktop and $deviceFirstLetter != 'w' or $platform == $platform-mobile and $deviceFirstLetter != 'p') {
-				.ts-hide-on-#{$deviceFirstLetter}-#{$direction} {
+				.cd-hide-on-#{$deviceFirstLetter}-#{$direction} {
 					display: none;
 				}
 			}
