@@ -52,15 +52,15 @@
 					}
 				}
 
-				.cd-close {
-					cursor: pointer;
-					position: absolute;
-					right: 5px;
-					top: 5px;
+				i {
+					color: $cd-modal-header-close-icon-color;
+					margin-top: -2px;
 
-					i {
-						color: $cd-modal-header-close-icon-color;
-						margin-top: -2px;
+					&.cd-close {
+						cursor: pointer;
+						position: absolute;
+						right: 5px;
+						top: 5px;
 					}
 				}
 			}
