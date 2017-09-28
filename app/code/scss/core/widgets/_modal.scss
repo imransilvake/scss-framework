@@ -1,5 +1,4 @@
 .cd-modal-wrapper {
-	background-color: $cd-modal-wrapper-bg-color;
 	height: 100%;
 	left: 0;
 	position: fixed;
@@ -7,10 +6,21 @@
 	width: 100%;
 	z-index: cd-zIndex(modal);
 
+	&::before {
+		background-color: $cd-modal-wrapper-bg-color;
+		bottom: 0;
+		content: '';
+		filter: blur(50px);
+		left: 0;
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+
 	.cd-modal {
 		@extend .cd-vh-center;
 		background-color: $cd-modal-bg-color;
-		box-shadow: 0 0 90px 0 $cd-modal-shadow-color;
+		box-shadow: 0 0 10px 0 $cd-modal-shadow-color;
 		display: block;
 		max-height: 90%;
 		max-width: 90%;
