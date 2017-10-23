@@ -59,57 +59,13 @@
 	}
 
 	section {
-		.cd-slider {
+		&.cd-under-construction {
 			background-color: cd-palette($cd-background, 2002);
+			padding: 10px;
+		}
 
-			.cd-row {
-				.cd-col {
-					padding: 0;
-
-					.cd-slides-wrapper {
-						position: relative;
-
-						.cd-slides {
-							.cd-slide {
-								max-height: 400px;
-
-								img {
-									display: block;
-									max-height: 400px;
-									object-fit: cover;
-									width: 100%;
-								}
-							}
-						}
-
-						.cd-navs {
-							left: 20px;
-							margin-top: -15px;
-							position: absolute;
-							right: 20px;
-							top: 50%;
-
-							.cd-left {
-								cursor: pointer;
-								float: left;
-
-								i {
-									@extend .cd-common-navs-icon;
-								}
-							}
-
-							.cd-right {
-								cursor: pointer;
-								float: right;
-
-								i {
-									@extend .cd-common-navs-icon;
-								}
-							}
-						}
-					}
-				}
-			}
+		&.cd-recent-posts {
+			padding: 10px;
 		}
 	}
 
