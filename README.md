@@ -49,8 +49,6 @@ The core of the framework is complete and for the future work, I will only add h
 
 - [ ] Media Queries
   - [ ] Landscape
-- [ ] Helpers
-  - [ ] Fixed & Fluid Columns
 
 
 ## Layouts
