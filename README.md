@@ -47,11 +47,10 @@ Please follow the link for the documentation: [GUIDE](documentation/guide.md)
 ## Future Work
 The core of the framework is complete and for the future work, I will only add helpers or widgets.
 
+- [ ] Media Queries
+  - [ ] Landscape
 - [ ] Helpers
   - [ ] Fixed & Fluid Columns
-- [ ] Widgets
-  - [ ] Slider
-  - [ ] Collapsible
 
 
 ## Layouts
