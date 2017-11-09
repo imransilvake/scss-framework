@@ -45,7 +45,7 @@ Please follow the link for the documentation: [GUIDE](documentation/guide.md)
 
 
 ## Future Work
-The core of the framework is complete and for the future work, I will only add helpers or widgets.
+The core of the framework is complete and for the future work, only helpers or widgets will be added.
 
 - [ ] Media Queries
   - [ ] Landscape
@@ -53,11 +53,6 @@ The core of the framework is complete and for the future work, I will only add h
 
 ## Layouts
 - [X] User Profile (Resume)
-- [ ] WebSite Sample
-
-
-## Support
-If you are good in css and scss, join in and improve this framework with me.
 
 
 ## License
