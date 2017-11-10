@@ -1,4 +1,4 @@
-[![GitHub issues](https://img.shields.io/codeclimate/issues/github/me-and/mdf.svg)](https://github.com/imransilvake/SCSS-Framework)
+[![GitHub issues](https://img.shields.io/github/issues/detail/s/badges/shields/979.svg)](https://github.com/imransilvake/SCSS-Framework/issues)
 [![Software License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 
