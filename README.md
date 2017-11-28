@@ -1,4 +1,3 @@
-[![GitHub issues](https://img.shields.io/github/issues/imransilvake/SCSS-Framework.svg)](https://github.com/imransilvake/SCSS-Framework/issues)
 [![Software License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 
