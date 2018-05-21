@@ -4,6 +4,8 @@
 # SCSS Framework
 SCSS Framework is a pure scss framework (no JavaScript) for building responsive, fast, robust, and adaptable web apps or sites. This framework is especially designed according to developer's need.
 
+![Alt text](preview.png?raw=true "Resume")
+
 
 ## Browser Support
  - Last 2 Browser Versions (Chrome, Firefox, Safari, IE)
