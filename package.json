@@ -20,19 +20,19 @@
     "start": "./app/code/core/scripts/scss/watch"
   },
   "devDependencies": {
-    "autoprefixer": "^6.7.7",
-    "browser-sync": "^2.18.13",
-    "clean-css-cli": "^4.1.10",
-    "del-cli": "^0.2.1",
+    "autoprefixer": "^8.5.0",
+    "browser-sync": "^2.24.4",
+    "clean-css-cli": "^4.1.11",
+    "del-cli": "^1.1.0",
     "gulp": "^3.9.1",
-    "node-sass": "^4.7.2",
-    "nodemon": "^1.12.1",
-    "postcss-cli": "^3.2.0",
-    "stylelint": "^7.13.0",
-    "stylelint-order": "^0.4.3"
+    "node-sass": "^4.9.0",
+    "nodemon": "^1.17.4",
+    "postcss-cli": "^5.0.0",
+    "stylelint": "^9.2.1",
+    "stylelint-order": "^0.8.1"
   },
   "dependencies": {
     "font-awesome": "^4.7.0",
-    "normalize.css": "^7.0.0"
+    "normalize.css": "^8.0.0"
   }
 }
