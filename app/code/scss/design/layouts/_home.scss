@@ -47,7 +47,7 @@
 		}
 
 		// media
-		@include cd-media(desktop, portrait) {
+		@include cd-media(desktop, mini) {
 			.cd-bottom {
 				.cd-col {
 					&:first-child {

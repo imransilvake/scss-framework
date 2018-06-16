@@ -88,7 +88,7 @@
 	}
 
 	// media
-	@include cd-media(desktop, portrait) {
+	@include cd-media(desktop, mini) {
 		.cd-modal {
 			height: 100%;
 			max-height: 100%;

@@ -241,9 +241,9 @@
 	}
 
 	// media
-	@include cd-media(desktop, portrait) {
+	@include cd-media(desktop, mini) {
 		.cd-navigation-menu {
-			&.cd-p-items-break {
+			&.cd-m-items-break {
 				> li {
 					background-color: $cd-nav-bg-color;
 					display: block;

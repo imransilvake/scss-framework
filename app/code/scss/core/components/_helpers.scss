@@ -47,8 +47,8 @@
 
 		// media queries
 		@include cd-media($platform, $device) {
-			// exclude widescreen for desktop platform and portrait for mobile desktop: redundancy
-			@if ($platform == $platform-desktop and $deviceFirstLetter != 'w' or $platform == $platform-mobile and $deviceFirstLetter != 'p') {
+			// exclude widescreen for desktop platform and mini for mobile desktop: redundancy
+			@if ($platform == $platform-desktop and $deviceFirstLetter != 'w' or $platform == $platform-mobile and $deviceFirstLetter != 'm') {
 				.cd-hide-on-#{$deviceFirstLetter}-#{$direction} {
 					display: none;
 				}

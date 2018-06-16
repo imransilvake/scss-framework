@@ -6,7 +6,7 @@ $device-widescreen:		widescreen;
 $device-desktop:		desktop;
 $device-tablet:			tablet;
 $device-smartphone:		smartphone;
-$device-portrait:		portrait;
+$device-mini:			mini;
 
 // Media Queries
 $cd-devicePoints: (
@@ -15,10 +15,10 @@ $cd-devicePoints: (
 		$device-desktop:	( max-width: 1200px ),
 		$device-tablet:		( max-width: 992px ),
 		$device-smartphone:	( max-width: 767px ),
-		$device-portrait:	( max-width: 480px )
+		$device-mini:		( max-width: 480px )
 	),
 	$platform-mobile: (
-		$device-portrait:	( max-width: 479px ),
+		$device-mini:		( max-width: 479px ),
 		$device-smartphone:	( min-width: 480px ),
 		$device-tablet:		( min-width: 767px ),
 		$device-desktop:	( min-width: 992px ),

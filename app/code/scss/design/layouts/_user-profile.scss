@@ -265,7 +265,7 @@
 				}
 			}
 
-			@include cd-media(desktop, portrait) {
+			@include cd-media(desktop, mini) {
 				.cd-container {
 					> .cd-row {
 						.cd-col {

@@ -36,21 +36,21 @@ widescreen (w):		1201	- 	greater
 desktop (d):		993 	- 	1200
 tablet (t):		768 	- 	992
 smartphone (s):		481 	- 	767
-portrait (p):		0 	- 	480
+mini (m):		0 	- 	480
 ```
 
 #### Media Queries Styles
 ```
 @param $platformFirst:	mobile | desktop
-@param $device:		portrait | smartphone | tablet | desktop | widescreen
+@param $device:		mini | smartphone | tablet | desktop | widescreen
 ```
 
 ###### Mobile First `(mobile friendly styles)`
 ```
-Order:			p -> s -> t -> d -> w
+Order:			m -> s -> t -> d -> w
 
 Example:
-@include cd-media(mobile, portrait) { }
+@include cd-media(mobile, mini) { }
 @include cd-media(mobile, smartphone) { }
 @include cd-media(mobile, tablet) { }
 @include cd-media(mobile, desktop) { }
@@ -59,14 +59,14 @@ Example:
 
 ###### Desktop First `(desktop friendly styles)`
 ```
-Order:			w -> d -> t -> s -> p
+Order:			w -> d -> t -> s -> m
 
 Example:
 @include cd-media(desktop, widescreen) { }
 @include cd-media(desktop, desktop) { }
 @include cd-media(desktop, tablet) { }
 @include cd-media(desktop, smartphone) { }
-@include cd-media(desktop, portrait) { }
+@include cd-media(desktop, mini) { }
 ```
 
 
