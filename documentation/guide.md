@@ -21,7 +21,7 @@
 #### WIDGETS
 - [X] Tooltip
 - [X] Modal
-- [ ] Navigation
+- [X] Navigation
 
 
 ## Normalize CSS
