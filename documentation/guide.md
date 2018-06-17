@@ -47,9 +47,6 @@ mini (m):		0 	- 	480
 
 ###### Mobile First `(mobile friendly styles)`
 ```
-Order:			m -> s -> t -> d -> w
-
-Example:
 @include cd-media(mobile, mini) { }
 @include cd-media(mobile, smartphone) { }
 @include cd-media(mobile, tablet) { }
@@ -59,9 +56,6 @@ Example:
 
 ###### Desktop First `(desktop friendly styles)`
 ```
-Order:			w -> d -> t -> s -> m
-
-Example:
 @include cd-media(desktop, widescreen) { }
 @include cd-media(desktop, desktop) { }
 @include cd-media(desktop, tablet) { }
@@ -96,19 +90,19 @@ Offsets:		Yes (cd-col-offset-device-column)
 Ordering:		Yes (cd-col-order-device-column)
 ```
 
-#### Mobile First
+#### Mobile First `pm`
 ```
 <div class="cd-row">
-  <div class="cd-col cd-col-m-12 cd-col-s-12 cd-col-t-6 cd-col-d-4 cd-col-w-4">content</div>
-  <div class="cd-col cd-col-m-12 cd-col-s-12 cd-col-t-6 cd-col-d-8 cd-col-w-8">content</div>
+	<div class="cd-col cd-col-pm-w-4 cd-col-pm-d-4 cd-col-pm-t-6 cd-col-pm-s-12 cd-col-pm-m-12">content</div>
+	<div class="cd-col cd-col-pm-w-8 cd-col-pm-d-8 cd-col-pm-t-6 cd-col-pm-s-12 cd-col-pm-m-12">content</div>
 </div>
 ```
 
-#### Desktop First
+#### Desktop First `pd`
 ```
 <div class="cd-row">
-  <div class="cd-col cd-col-w-4 cd-col-d-4 cd-col-t-6 cd-col-s-12 cd-col-m-12">content</div>
-  <div class="cd-col cd-col-w-8 cd-col-d-8 cd-col-t-6 cd-col-s-12 cd-col-m-12">content</div>
+	<div class="cd-col cd-col-pd-w-4 cd-col-pd-d-4 cd-col-pd-t-6 cd-col-pd-s-12 cd-col-pd-m-12">content</div>
+	<div class="cd-col cd-col-pd-w-8 cd-col-pd-d-8 cd-col-pd-t-6 cd-col-pd-s-12 cd-col-pd-m-12">content</div>
 </div>
 ```
 

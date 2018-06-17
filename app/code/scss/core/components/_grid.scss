@@ -10,6 +10,7 @@
 			// devicePoints loop
 			@each $device, $map-value in $device-list {
 				$deviceFirstLetter: str-slice($device, 1, 1);
+				$platformFirstLetter: str-slice($platform, 1, 1);
 
 				// media queries
 				@include cd-media($platform, $device) {
@@ -18,17 +19,17 @@
 						$width: 100% / $cd-columns * $column;
 
 						// size
-						&.cd-col-#{$deviceFirstLetter}-#{$column} {
+						&.cd-col-p#{$platformFirstLetter}-#{$deviceFirstLetter}-#{$column} {
 							flex: 0 0 $width;
 						}
 
 						// offset
-						&.cd-col-offset-#{$deviceFirstLetter}-#{$column} {
+						&.cd-col-p#{$platformFirstLetter}-offset-#{$deviceFirstLetter}-#{$column} {
 							margin: 0 0 0 100% / $cd-columns * $column;
 						}
 
 						// order
-						&.cd-col-order-#{$deviceFirstLetter}-#{$column} {
+						&.cd-col-p#{$platformFirstLetter}-order-#{$deviceFirstLetter}-#{$column} {
 							order: $column;
 						}
 					}
