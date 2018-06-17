@@ -99,16 +99,16 @@ Ordering:		Yes (cd-col-order-device-column)
 #### Mobile First
 ```
 <div class="cd-row">
-  <div class="cd-col cd-col-p-12 cd-col-s-12 cd-col-t-6 cd-col-d-4 cd-col-w-4">content</div>
-  <div class="cd-col cd-col-p-12 cd-col-s-12 cd-col-t-6 cd-col-d-8 cd-col-w-8">content</div>
+  <div class="cd-col cd-col-m-12 cd-col-s-12 cd-col-t-6 cd-col-d-4 cd-col-w-4">content</div>
+  <div class="cd-col cd-col-m-12 cd-col-s-12 cd-col-t-6 cd-col-d-8 cd-col-w-8">content</div>
 </div>
 ```
 
 #### Desktop First
 ```
 <div class="cd-row">
-  <div class="cd-col cd-col-w-4 cd-col-d-4 cd-col-t-6 cd-col-s-12 cd-col-p-12">content</div>
-  <div class="cd-col cd-col-w-8 cd-col-d-8 cd-col-t-6 cd-col-s-12 cd-col-p-12">content</div>
+  <div class="cd-col cd-col-w-4 cd-col-d-4 cd-col-t-6 cd-col-s-12 cd-col-m-12">content</div>
+  <div class="cd-col cd-col-w-8 cd-col-d-8 cd-col-t-6 cd-col-s-12 cd-col-m-12">content</div>
 </div>
 ```
 
