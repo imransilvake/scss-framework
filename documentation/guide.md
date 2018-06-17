@@ -93,16 +93,16 @@ Ordering:		Yes (cd-col-order-device-column)
 #### Mobile First `pm`
 ```
 <div class="cd-row">
-	<div class="cd-col cd-col-pm-w-4 cd-col-pm-d-4 cd-col-pm-t-6 cd-col-pm-s-12 cd-col-pm-m-12">content</div>
-	<div class="cd-col cd-col-pm-w-8 cd-col-pm-d-8 cd-col-pm-t-6 cd-col-pm-s-12 cd-col-pm-m-12">content</div>
+	<div class="cd-col cd-col-pm-m-12 cd-col-pm-s-12 cd-col-pm-t-6 cd-col-pm-d-4 cd-col-pm-w-4">content</div>
+	<div class="cd-col cd-col-pm-m-12 cd-col-pm-s-12 cd-col-pm-t-6 cd-col-pm-d-8 cd-col-pm-w-8">content</div>
 </div>
 ```
 
 #### Desktop First `pd`
 ```
 <div class="cd-row">
-	<div class="cd-col cd-col-pd-w-4 cd-col-pd-d-4 cd-col-pd-t-6 cd-col-pd-s-12 cd-col-pd-m-12">content</div>
-	<div class="cd-col cd-col-pd-w-8 cd-col-pd-d-8 cd-col-pd-t-6 cd-col-pd-s-12 cd-col-pd-m-12">content</div>
+	<div class="cd-col cd-col-pd-m-12 cd-col-pd-s-12 cd-col-pd-t-6 cd-col-pd-d-4 cd-col-pd-w-4">content</div>
+	<div class="cd-col cd-col-pd-m-12 cd-col-pd-s-12 cd-col-pd-t-6 cd-col-pd-d-8 cd-col-pd-w-8">content</div>
 </div>
 ```
 
