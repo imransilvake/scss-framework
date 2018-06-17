@@ -3,14 +3,15 @@
 	flex-flow: row wrap;
 
 	.cd-col {
+		flex: 0 0 100%;
 		padding: 0 $cd-gutter;
 
 		// platform loop
 		@each $platform, $device-list in $cd-devicePoints {
 			// devicePoints loop
 			@each $device, $map-value in $device-list {
-				$deviceFirstLetter: str-slice($device, 1, 1);
 				$platformFirstLetter: str-slice($platform, 1, 1);
+				$deviceFirstLetter: str-slice($device, 1, 1);
 
 				// media queries
 				@include cd-media($platform, $device) {

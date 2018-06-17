@@ -46,6 +46,8 @@ mini (m):		0 	- 	480
 ```
 
 ###### Mobile First `(mobile friendly styles)`
+min-width is used in the media queries
+
 ```
 @include cd-media(mobile, mini) { }
 @include cd-media(mobile, smartphone) { }
@@ -55,6 +57,8 @@ mini (m):		0 	- 	480
 ```
 
 ###### Desktop First `(desktop friendly styles)`
+max-width is used in the media queries
+
 ```
 @include cd-media(desktop, widescreen) { }
 @include cd-media(desktop, desktop) { }
