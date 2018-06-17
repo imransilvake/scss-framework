@@ -264,14 +264,12 @@ cd-hidden
 ```
 
 ![Visibility Chart](https://github.com/imransilvake/SCSS-Boilerplate/blob/master/documentation/resources/classes-visibility-chart.png)
-```
-You can combine one .cd-hide-*-up and one .cd-hide-*-down class to show an element only on a given interval of screen sizes.
 
-Example:
-cd-hide-on-s-down & cd-hide-on-d-up: shows the element only on tablet viewport. 
+###### Important Information
+- You can combine `.cd-hide-*-up` and `.cd-hide-*-down` classes to show an element only on a given interval of screen sizes.
+- `cd-hide-on-s-down` & `cd-hide-on-d-up`: shows the element only on tablet viewport. 
+- Using multiple `.cd-hide-*-up` or `.cd-hide-*-down` classes is redundant and pointless.
 
-Using multiple .cd-hide-*-up or .cd-hide-*-down classes is redundant and pointless.
-```
 
 #### Position
 ###### v: vertical, h: horizontal
