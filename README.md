@@ -45,10 +45,6 @@ npm: v4.2.0 or greater
 Please follow the link for the documentation: [GUIDE](documentation/guide.md)
 
 
-## Layouts
-- [X] User Profile (Resume)
-
-
 ## Future Work
 The core of the framework is complete and for the future work, only helpers or widgets will be added.
 
