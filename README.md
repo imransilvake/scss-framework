@@ -7,18 +7,18 @@ SCSS Framework is a pure scss framework (no JavaScript) for building responsive,
 ![Alt text](preview.png?raw=true "Resume")
 
 
-## Browser Support
- - Last 2 Browser Versions (Chrome, Firefox, Safari, IE)
- - It can work for older versions although it is not yet tested.
-
-
-## SCSS
+## Content
   - SCSS Lint: [Rules](https://stylelint.io/user-guide/rules/)
   - Compile SCSS-to-CSS
   - Add Autoprefixer `(Last 2 versions)`
   - Minify CSS
   - Watch: `HTML & SCSS` files
-  
+
+
+## Browser Support
+ - Last 2 Browser Versions (Chrome, Firefox, Safari, IE)
+ - It can work for older versions although it is not yet tested.
+
 
 ## Project Prefix
 `cd`
@@ -32,7 +32,6 @@ npm: v4.2.0 or greater
 
 
 ## NPM Commands
-
 ###### NOTE: First run this command to install node modules: `npm install`.
 `npm compile`
   - `SCSS Lint`, `SCSS-to-CSS`, `Autoprefixer (Last 2 versions)` and `CSS Minification`
