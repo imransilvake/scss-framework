@@ -253,6 +253,7 @@ cd-center-align
 #### Overflow
 ```
 cd-hide-overflow
+cd-disable-overflow
 ```
 
 #### Visibility: Responsive Classes
