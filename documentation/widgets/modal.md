@@ -2,7 +2,7 @@
 
 #### Dynamic classes
 ```
-body: 			cd-hide-overflow
+body: 			cd-disable-overflow
 cd-modal-wrapper: 	cd-show, cd-hide
 ```
 
@@ -23,4 +23,4 @@ cd-modal-wrapper: 	cd-show, cd-hide
 #### Close Modal
 - Remove class `cd-show` next to wrapper class `cd-modal-wrapper`.
 - Add class `cd-hide` next to wrapper class `cd-modal-wrapper`.
-- To show scroll, remove class `cd-hide-overflow`.
+- To show scroll, remove class `cd-disable-overflow`.
