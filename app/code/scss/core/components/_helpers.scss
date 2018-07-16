@@ -59,7 +59,11 @@
 
 // === Overflow === //
 .cd-hide-overflow {
-	overflow: hidden;
+	overflow-y: hidden;
+}
+
+.cd-disable-overflow {
+	overflow-y: scroll;
 }
 
 // === Position === //

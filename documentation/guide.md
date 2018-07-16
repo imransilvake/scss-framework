@@ -253,6 +253,7 @@ cd-center-align
 #### Overflow
 ```
 cd-hide-overflow
+cd-disable-overflow
 ```
 
 #### Visibility: Responsive Classes
@@ -266,9 +267,9 @@ cd-hidden
 ![Visibility Chart](https://github.com/imransilvake/SCSS-Boilerplate/blob/master/documentation/resources/classes-visibility-chart.png)
 
 ###### Important Information
-- You can combine `.cd-hide-*-up` and `.cd-hide-*-down` classes to show an element only on a given interval of screen sizes.
+- You can combine `.cd-hide-on-*-up` and `.cd-hide-on-*-down` classes to show an element only on a given interval of screen sizes.
 - `cd-hide-on-s-down` & `cd-hide-on-d-up`: shows the element only on tablet viewport. 
-- Using multiple `.cd-hide-*-up` or `.cd-hide-*-down` classes is redundant and pointless.
+- Using multiple `.cd-hide-on-*-up` or `.cd-hide-on-*-down` classes is redundant and pointless.
 
 
 #### Position
