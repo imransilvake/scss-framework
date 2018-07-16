@@ -133,7 +133,7 @@ box shadow: 1px 1px 1px cd-palette($cd-shadow, 4000);
 ```
 A function for the property z-index.
 
-@param $key:	normal | float | modal | loader
+@param $key:	hide | initial | normal | float | modal | loader
 
 Example:
 z-index: cd-zIndex(normal);
@@ -153,7 +153,7 @@ font-family: cd-fontFamily(roboto);
 ```
 A function for the property font-size.
 
-@param $key:	h1 | h2 | h3 | h4 | h5 | h6 | p | span | a | body
+@param $key:	h1 | h2 | h3 | h4 | h5 | h6 | s10 - s20
 
 Example:
 font-family: cd-fontSize(h1);
