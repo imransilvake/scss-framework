@@ -41,8 +41,9 @@ mini (m):		0 	- 	480
 
 #### Media Queries Styles
 ```
-@param $platformFirst:	mobile | desktop
-@param $device:		mini | smartphone | tablet | desktop | widescreen
+@param $platformFirst:			mobile | desktop
+@param $device:				mini | smartphone | tablet | desktop | widescreen
+@param $orientation (optional): 	portrait | landscape
 ```
 
 ###### Mobile First `(mobile friendly styles)`
@@ -54,6 +55,9 @@ min-width is used in the media queries
 @include cd-media(mobile, tablet) { }
 @include cd-media(mobile, desktop) { }
 @include cd-media(mobile, widescreen) { }
+
+@include cd-media(mobile, mini, portrait) { }
+@include cd-media(mobile, mini, landscape) { }
 ```
 
 ###### Desktop First `(desktop friendly styles)`
@@ -65,6 +69,9 @@ max-width is used in the media queries
 @include cd-media(desktop, tablet) { }
 @include cd-media(desktop, smartphone) { }
 @include cd-media(desktop, mini) { }
+
+@include cd-media(desktop, smartphone, portrait) { }
+@include cd-media(desktop, smartphone, landscape) { }
 ```
 
 
@@ -279,6 +286,7 @@ cd-vh-center
 cd-h-center
 cd-v-center
 ```
+
 
 ## Widgets
 

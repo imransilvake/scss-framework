@@ -16,8 +16,7 @@ SCSS Framework is a pure scss framework (no JavaScript) for building responsive,
 
 
 ## Browser Support
- - Last 2 Browser Versions (Chrome, Firefox, Safari, IE)
- - It can work for older versions although it is not yet tested.
+ - Support: `Chrome`, `Firefox`, `Safari`, `Internet Explorer`, `Microsoft Edge`
 
 
 ## Project Prefix
@@ -46,9 +45,6 @@ Please follow the link for the documentation: [GUIDE](documentation/guide.md)
 
 ## Future Work
 The core of the framework is complete and for the future work, only helpers or widgets will be added.
-
-- [ ] Media Queries
-  - [ ] Landscape
 
 
 ## License
