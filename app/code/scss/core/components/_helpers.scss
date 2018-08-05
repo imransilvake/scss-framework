@@ -64,6 +64,10 @@
 
 .cd-disable-overflow {
 	overflow-y: scroll;
+
+	* {
+		overflow: hidden;
+	}
 }
 
 // === Position === //
