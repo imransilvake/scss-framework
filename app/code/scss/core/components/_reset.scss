@@ -6,22 +6,19 @@
 	}
 }
 
+// === User Selection === //
+::selection {
+	background-color: cd-palette($cd-background, 2010);
+	color: cd-palette($cd-color, 1001);
+}
+
+// === Image === //
 img {
 	max-width: 100%;
 	vertical-align: middle;
 }
 
+// === Link === //
 a {
 	text-decoration: none;
-}
-
-ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-
-::selection {
-	background-color: $cd-selection-bg-color;
-	color: $cd-selection-color;
 }

@@ -1,25 +1,21 @@
 a, .cd-link {
-	color: $cd-link-color;
+	color: cd-palette($cd-color, 1013);
 
 	&:visited {
-		color: $cd-link-visited-color;
+		color: cd-palette($cd-color, 1015);
 	}
 
 	&:hover {
-		color: $cd-link-hover-color;
+		color: cd-palette($cd-color, 1014);
 		opacity: .9;
 	}
 
-	&:active {
-		color: $cd-link-active-color;
-	}
-
-	&.cd-active {
-		color: $cd-link-active-color;
+	&:active, &.cd-active {
+		color: cd-palette($cd-color, 1016);
 	}
 
 	&.cd-disabled {
-		color: $cd-link-disabled-color;
+		color: cd-palette($cd-color, 1007);
 		opacity: .4;
 		pointer-events: none;
 	}

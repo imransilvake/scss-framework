@@ -17,27 +17,31 @@
 			background-color: cd-palette($cd-background, 2001);
 			padding: 10px 0;
 
-			.cd-col {
-				&:last-child {
-					.cd-list-items {
-						margin-top: 14px;
+			.cd-row {
+				align-items: center;
 
-						li {
-							display: inline-block;
+				.cd-col {
+					&:last-child {
+						.cd-list-items {
+							margin-top: 20px;
 
-							a {
-								padding: 0 10px;
-							}
+							li {
+								display: inline-block;
 
-							&:first-child {
 								a {
-									padding-left: 0;
+									padding: 0 10px;
 								}
-							}
 
-							&:last-child {
-								a {
-									padding-right: 0;
+								&:first-child {
+									a {
+										padding-left: 0;
+									}
+								}
+
+								&:last-child {
+									a {
+										padding-right: 0;
+									}
 								}
 							}
 						}
@@ -88,15 +92,5 @@
 				}
 			}
 		}
-	}
-
-	// Common
-	.cd-common-navs-icon {
-		background-color: cd-palette($cd-background, 2000);
-		border-radius: 50%;
-		color: cd-palette($cd-color, 1001);
-		display: block;
-		font-size: 30px;
-		padding: 0 2px;
 	}
 }
