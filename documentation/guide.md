@@ -160,7 +160,7 @@ font-family: cd-fontFamily(roboto);
 ```
 A function for the property font-size.
 
-@param $key:	h1 | h2 | h3 | h4 | h5 | h6 | s10 - s20
+@param $key:	h1 | h2 | h3 | h4 | h5 | h6 | s10 - s20 | se1 - se6
 
 Example:
 font-family: cd-fontSize(h1);
@@ -180,7 +180,7 @@ font-family: cd-fontWeight(100);
 ```
 A function for the property line-height.
 
-@param $key:	1 | 1.1 | 1.2 | 1.3 | 1.4 | 1.5 | 1.6 | 1.7 | 1.8 | 1.9 | 2
+@param $key:	1 - 2.2
 
 Example:
 font-family: cd-lineHeight(1);
@@ -201,17 +201,18 @@ roboto:			'Roboto'
 
 #### Font Size
 ```
-h1:			36px
-h2:			30px
-h3:			26px
-h4:			22px
-h5:			18px
-h6:			15px
-p:			15px
+h1:			2.5rem
+h2:			2rem
+h3:			1.75rem
+h4:			1.5rem
+h5:			1.25rem
+h6:			1rem
+p: 			15px
+a:			15px
 span:			15px
-a:			15px
-body:			15px
-a:			15px
+pre:			14px
+code:			14px
+blockquote:		15px
 ```
 
 #### Line Height
@@ -221,11 +222,9 @@ body:			1.4
 
 #### Font Weight
 ```
-h1-h6:			400
-a:			400
-p:			300
-span:			300
-b:			700
+400: 			p, a, span
+500: 			h1-h6
+700: 			b, strong
 ```
 
 
@@ -246,8 +245,8 @@ Example:
 
 #### Opacity
 ```
-cd-opacity-high		(.5 -> 1)
-cd-opacity-low		(1 -> .9)
+cd-opacity-high		(hover effect: .5 -> 1)
+cd-opacity-low		(hover effect: 1 -> .9)
 ```
 
 #### Alignment
