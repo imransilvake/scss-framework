@@ -10,38 +10,27 @@
 				a {
 					text-transform: uppercase;
 				}
-			}
-		}
 
-		.cd-bottom {
-			background-color: cd-palette($cd-background, 2001);
-			padding: 10px 0;
+				&:last-child {
+					.cd-list-items {
+						margin: 0;
 
-			.cd-row {
-				align-items: center;
+						li {
+							display: inline-block;
 
-				.cd-col {
-					&:last-child {
-						.cd-list-items {
-							margin-top: 20px;
+							a {
+								padding: 0 10px;
+							}
 
-							li {
-								display: inline-block;
-
+							&:first-child {
 								a {
-									padding: 0 10px;
+									padding-left: 0;
 								}
+							}
 
-								&:first-child {
-									a {
-										padding-left: 0;
-									}
-								}
-
-								&:last-child {
-									a {
-										padding-right: 0;
-									}
+							&:last-child {
+								a {
+									padding-right: 0;
 								}
 							}
 						}
@@ -50,26 +39,76 @@
 			}
 		}
 
+		.cd-bottom {
+			background-color: cd-palette($cd-background, 2001);
+			padding: 40px 0 20px;
+
+			.cd-row {
+				align-items: center;
+
+				.cd-col {
+					p {
+						font-size: cd-fontSize(s20);
+						font-weight: cd-fontWeight(100);
+					}
+				}
+			}
+		}
+
 		// media
 		@include cd-media(desktop, mini) {
+			.cd-top {
+				.cd-col {
+					text-align: center;
+				}
+			}
+
 			.cd-bottom {
 				.cd-col {
-					&:first-child {
-						text-align: center;
-					}
+					text-align: center;
 				}
 			}
 		}
 	}
 
 	section {
-		&.cd-under-construction {
-			background-color: cd-palette($cd-background, 2002);
-			padding: 10px;
-		}
+		&.cd-daily-quotes {
+			margin-top: 60px;
 
-		&.cd-recent-posts {
-			padding: 10px;
+			.cd-graphic {
+				img {
+					width: 600px;
+				}
+			}
+
+			.cd-quotes {
+				align-items: center;
+				background-color: cd-palette($cd-background, 2002);
+				border-radius: 100px 0 0;
+				display: flex;
+				justify-content: center;
+
+				h5 {
+					font-family: cd-fontFamily(comics-san), serif;
+					padding: 0 20px;
+				}
+			}
+
+			// media
+			@include cd-media(desktop, smartphone) {
+				margin-top: 0;
+
+				.cd-quotes {
+					border-radius: 100px 0;
+					margin-bottom: 30px;
+
+					h5 {
+						font-size: cd-fontSize(s17);
+						padding: 30px;
+						text-align: center;
+					}
+				}
+			}
 		}
 	}
 
