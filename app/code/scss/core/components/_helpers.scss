@@ -108,3 +108,10 @@
 		opacity: .9;
 	}
 }
+
+// === List Style === //
+.cd-remove-bullets, .cd-remove-bullets-nested ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
