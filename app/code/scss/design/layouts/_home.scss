@@ -84,12 +84,20 @@
 			.cd-quotes {
 				align-items: center;
 				background-color: cd-palette($cd-background, 2002);
-				border-radius: 100px 0 0;
 				display: flex;
 				justify-content: center;
+				position: relative;
+
+				&::after {
+					@include cd-triangle(105px, 'bottom-right', true);
+					left: 0;
+					position: absolute;
+					top: 0;
+				}
 
 				h5 {
 					font-family: cd-fontFamily(comics-san), serif;
+					margin-top: 50px;
 					padding: 0 20px;
 				}
 			}
@@ -99,12 +107,17 @@
 				margin-top: 0;
 
 				.cd-quotes {
-					border-radius: 100px 0;
+					border-radius: 0;
 					margin-bottom: 30px;
+
+					&::after {
+						display: none;
+					}
 
 					h5 {
 						font-size: cd-fontSize(s17);
-						padding: 30px;
+						margin-top: 0;
+						padding: 20px;
 						text-align: center;
 					}
 				}
