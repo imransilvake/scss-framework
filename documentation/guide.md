@@ -232,10 +232,11 @@ body:			1.4
 
 ## Helpers
 
-#### Opacity
+#### Positions (vertical, horizontal)
 ```
-cd-opacity-high		(hover effect: .5 -> 1)
-cd-opacity-low		(hover effect: 1 -> .9)
+cd-vh-center
+cd-h-center
+cd-v-center
 ```
 
 #### Alignment
@@ -249,6 +250,12 @@ cd-center-align
 ```
 cd-hide-overflow
 cd-disable-overflow
+```
+
+#### Opacity
+```
+cd-opacity-high		(hover effect: .5 -> 1)
+cd-opacity-low		(hover effect: 1 -> .9)
 ```
 
 #### Visibility: Responsive Classes
@@ -266,14 +273,6 @@ cd-hidden
 - `cd-hide-on-s-down` & `cd-hide-on-d-up`: shows the element only on tablet viewport. 
 - Using multiple `.cd-hide-on-*-up` or `.cd-hide-on-*-down` classes is redundant and pointless.
 
-
-#### Position
-###### v: vertical, h: horizontal
-```
-cd-vh-center
-cd-h-center
-cd-v-center
-```
 
 #### List Style
 ```
