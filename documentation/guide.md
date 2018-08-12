@@ -228,38 +228,6 @@ body:			1.4
 ```
 
 
-## Utilities
-
-#### Triangle
-```
-@include cd-triangle();
-
-Default:
-@param $size: 		105px
-@param $direction: 	'bottom-left'
-@param $pueudo:		false
-
-Directions:
-@include cd-triangle(60px, 'bottom-left');
-@include cd-triangle(80px, 'bottom-right');
-@include cd-triangle(100px, 'top-left');
-@include cd-triangle(120px, 'top-right');
-
-Pueudo Classes: (before | after)
-@include cd-triangle(140px, 'bottom-right', true);
-```
-
-#### Font Face
-```
-With @font-face rule, you do not have to use one of the 'web-safe' fonts anymore.
-
-@param $keys: fontName, fontPath, fontWeight, fontStyle, fontExtentions
-
-Example:
-@include cd-fontFace('Roboto', './../../app/assets/fonts/roboto/Roboto-Thin', 100, null, woff2 woff);
-```
-
-
 ## Helpers
 
 #### Opacity
@@ -311,3 +279,25 @@ cd-v-center
 - Tooltip: [Link](widgets/tooltip.md)
 - Modal: [Link](widgets/modal.md)
 - Navbar: [Link](widgets/navbar.md)
+
+
+## Utilities
+
+#### Triangle
+```
+@include cd-triangle();
+
+Default:
+@param $size: 		105px
+@param $direction: 	'bottom-left'
+@param $pueudo:		false
+
+Directions:
+@include cd-triangle(60px, 'bottom-left');
+@include cd-triangle(80px, 'bottom-right');
+@include cd-triangle(100px, 'top-left');
+@include cd-triangle(120px, 'top-right');
+
+Pueudo Classes: (before | after)
+@include cd-triangle(140px, 'bottom-right', true);
+```
