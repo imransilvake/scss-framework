@@ -67,6 +67,8 @@
 			}
 
 			.cd-bottom {
+				padding-top: 20px;
+
 				.cd-col {
 					text-align: center;
 				}
@@ -92,16 +94,18 @@
 				position: relative;
 
 				&::after {
-					@include cd-triangle(105px, 'bottom-right', true, cd-palette($cd-color, 1001));
+					@include cd-triangle(100px, 'bottom-right', true, cd-palette($cd-color, 1001));
 					left: 0;
 					position: absolute;
 					top: 0;
 				}
 
 				h5 {
-					font-family: cd-fontFamily(comics-san), serif;
-					margin-top: 50px;
-					padding: 0 20px;
+					background-color: cd-palette($cd-background, 2001);
+					border: 1px solid cd-palette($cd-border, 3003);
+					font-weight: 200;
+					margin-top: 80px;
+					padding: 6px 10px;
 				}
 			}
 
@@ -111,7 +115,8 @@
 
 				.cd-quotes {
 					border-radius: 0;
-					margin-bottom: 30px;
+					margin-bottom: 5px;
+					padding: 10px;
 
 					&::after {
 						display: none;
@@ -120,7 +125,7 @@
 					h5 {
 						font-size: cd-fontSize(s17);
 						margin-top: 0;
-						padding: 20px;
+						padding: 5px;
 						text-align: center;
 					}
 				}

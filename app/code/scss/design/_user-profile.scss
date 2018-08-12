@@ -1,6 +1,6 @@
 .cd-up-wrapper {
 	header {
-		background-color: cd-palette($cd-background, 2009);
+		background-color: cd-palette($cd-background, 2001);
 
 		.cd-container {
 			position: relative;
@@ -24,12 +24,13 @@
 					}
 
 					h1 {
-						color: cd-palette($cd-color, 1001);
+						color: cd-palette($cd-color, 1000);
 					}
 
 					h5 {
-						color: cd-palette($cd-color, 1001);
+						color: cd-palette($cd-color, 1000);
 						font-weight: cd-fontWeight(100);
+						margin-top: -5px;
 					}
 				}
 			}
