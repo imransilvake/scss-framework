@@ -188,17 +188,18 @@
 												float: left;
 
 												.cd-number {
-													background-color: cd-palette($cd-background, 2006);
+													background-color: cd-palette($cd-background, 2001);
 													border-radius: 50%;
-													box-shadow: 1px 1px 1px cd-palette($cd-shadow, 4004);
-													color: cd-palette($cd-color, 1001);
+													box-shadow: 0 0 5px 0 cd-palette($cd-shadow, 4004);
+													color: cd-palette($cd-color, 1017);
 													height: 46px;
 													padding-top: 13px;
 													text-align: center;
 													width: 46px;
 
 													&.cd-current {
-														background-color: cd-palette($cd-background, 2016);
+														background-color: cd-palette($cd-background, 2017);
+														color: cd-palette($cd-color, 1001);
 													}
 												}
 											}
