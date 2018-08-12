@@ -1,22 +1,28 @@
+// variables
+$cd-triangle-border-bg:	cd-palette($cd-border, 3003);
+
+// mixin
 @mixin cd-triangle($size: 105px, $direction: 'bottom-left', $pueudo: false) {
 	@if $pueudo == true {
 		content: '';
 	}
 
-	// Directions
-	// Top - Left / Right
-	// Bottom - Left / Right
+	/**
+	* 	// === Directions: Top & Bottom === //
+	*	Top - Left / Right
+	*	Bottom - Left / Right
+	*/
 	@if $direction == 'bottom-left' {
-		border-bottom: $size solid cd-palette($cd-background, 2003);
+		border-bottom: $size solid $cd-triangle-border-bg;
 		border-right: $size solid transparent;
 	} @else if $direction == 'bottom-right' {
-		border-bottom: $size solid cd-palette($cd-background, 2003);
+		border-bottom: $size solid $cd-triangle-border-bg;
 		border-left: $size solid transparent;
 	} @else if $direction == 'top-left' {
 		border-right: $size solid transparent;
-		border-top: $size solid cd-palette($cd-background, 2003);
+		border-top: $size solid $cd-triangle-border-bg;
 	} @else if $direction == 'top-right' {
 		border-left: $size solid transparent;
-		border-top: $size solid cd-palette($cd-background, 2003);
+		border-top: $size solid $cd-triangle-border-bg;
 	}
 }
