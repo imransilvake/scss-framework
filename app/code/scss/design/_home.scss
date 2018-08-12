@@ -47,9 +47,12 @@
 				align-items: center;
 
 				.cd-col {
-					p {
-						font-size: cd-fontSize(s20);
+					span {
+						background-color: cd-palette($cd-background, 2010);
+						color: cd-palette($cd-color, 1001);
+						font-size: cd-fontSize(s19);
 						font-weight: cd-fontWeight(100);
+						padding: 0 5px;
 					}
 				}
 			}
@@ -89,7 +92,7 @@
 				position: relative;
 
 				&::after {
-					@include cd-triangle(105px, 'bottom-right', true);
+					@include cd-triangle(105px, 'bottom-right', true, cd-palette($cd-color, 1001));
 					left: 0;
 					position: absolute;
 					top: 0;

@@ -298,6 +298,7 @@ Default:
 @param $size: 		105px
 @param $direction: 	'bottom-left'
 @param $pueudo:		false
+@param $color:		transparent
 
 Directions:
 @include cd-triangle(60px, 'bottom-left');
@@ -307,4 +308,7 @@ Directions:
 
 Pueudo Classes: (before | after)
 @include cd-triangle(140px, 'bottom-right', true);
+
+Color:
+@include cd-triangle(140px, 'bottom-right', cd-palette($cd-color, 1001));
 ```
