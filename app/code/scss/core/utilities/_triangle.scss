@@ -7,11 +7,9 @@ $cd-triangle-border-bg:	cd-palette($cd-border, 3003);
 		content: '';
 	}
 
-	/**
-	* 	// === Directions: Top & Bottom === //
-	*	Top - Left / Right
-	*	Bottom - Left / Right
-	*/
+	// === Directions: Top & Bottom === //
+	// Top - Left / Right
+	// Bottom - Left / Right
 	@if $direction == 'bottom-left' {
 		border-bottom: $size solid $cd-triangle-border-bg;
 		border-right: $size solid transparent;
