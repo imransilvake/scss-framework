@@ -15,13 +15,15 @@
 	- [X] Font Weight: `cd-fontWeight`
 	- [X] Line Height: `cd-lineHeight`
 - [X] Typography
-- [X] Utilities
 - [X] Helpers
 
 #### WIDGETS
 - [X] Tooltip
 - [X] Modal
 - [X] Navigation
+
+#### Utilities
+- [X] Triangle
 
 
 ## Normalize CSS
