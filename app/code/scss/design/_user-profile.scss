@@ -29,7 +29,7 @@
 
 					h5 {
 						color: cd-palette($cd-color, 1000);
-						font-weight: cd-fontWeight(100);
+						font-weight: cd-fontWeight(300);
 						margin-top: -5px;
 					}
 				}
@@ -148,7 +148,7 @@
 												margin-left: 20px;
 
 												p {
-													font-weight: cd-fontWeight(200);
+													font-weight: cd-fontWeight(300);
 												}
 											}
 
@@ -208,7 +208,7 @@
 												margin-left: 20px;
 
 												p {
-													font-weight: cd-fontWeight(200);
+													font-weight: cd-fontWeight(300);
 												}
 											}
 
@@ -361,7 +361,7 @@
 				.cd-col {
 					h5 {
 						color: cd-palette($cd-color, 1000);
-						font-weight: cd-fontWeight(100);
+						font-weight: cd-fontWeight(300);
 
 						i {
 							color: cd-palette($cd-color, 1010);
@@ -376,14 +376,14 @@
 	.cd-common-tag {
 		border: 1px solid cd-palette($cd-border, 3003);
 		border-radius: 1px;
-		font-weight: cd-fontWeight(100);
+		font-weight: cd-fontWeight(300);
 		line-height: cd-lineHeight(2);
 		padding: 3px 5px;
 	}
 
 	.cd-common-sub-headline {
 		border-left: 3px solid cd-palette($cd-border, 3009);
-		font-weight: cd-fontWeight(200);
+		font-weight: cd-fontWeight(300);
 		margin-top: 5px;
 		padding-left: 5px;
 	}

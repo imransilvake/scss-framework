@@ -51,7 +51,7 @@
 						background-color: cd-palette($cd-background, 2010);
 						color: cd-palette($cd-color, 1001);
 						font-size: cd-fontSize(s19);
-						font-weight: cd-fontWeight(100);
+						font-weight: cd-fontWeight(300);
 						padding: 0 5px;
 					}
 				}
@@ -143,7 +143,7 @@
 				.cd-col {
 					h5 {
 						color: cd-palette($cd-color, 1000);
-						font-weight: cd-fontWeight(100);
+						font-weight: cd-fontWeight(300);
 
 						i {
 							color: cd-palette($cd-color, 1010);
