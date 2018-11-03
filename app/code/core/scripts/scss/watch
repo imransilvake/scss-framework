@@ -1,5 +1,5 @@
 # browser-sync
 npm run browser-sync &
 
-# watch for scss changes
-nodemon -e scss -x npm run compile
+# watch for all changes
+nodemon -e * -x npm run compile
