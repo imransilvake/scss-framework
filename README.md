@@ -1,6 +1,5 @@
 [![Software License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-
 # SCSS Framework
 SCSS Framework is a pure scss framework (no JavaScript) for building responsive, fast, robust, and adaptable web apps or sites. This framework is especially designed according to developer's need.
 
@@ -16,7 +15,11 @@ SCSS Framework is a pure scss framework (no JavaScript) for building responsive,
 
 
 ## Browser Support
- - Support: `Chrome`, `Firefox`, `Safari`, `Internet Explorer`, `Microsoft Edge`
+ - Chrome
+ - Firefox
+ - Safari
+ - Internet Explorer
+ - Microsoft Edge
 
 
 ## Project Prefix
@@ -30,13 +33,23 @@ npm: v4.2.0 or greater
 ```
 
 
-## NPM Commands
-###### NOTE: First run this command to install node modules: `npm install`.
+## Packages Update & Install
+```
+update: npm update
+install: npm install
+```
+
+
+## Serve & Build
 `npm compile`
-  - `SCSS Lint`, `SCSS-to-CSS`, `Autoprefixer (Last 2 versions)` and `CSS Minification`
+  - SCSS Lint
+  - SCSS-to-CSS
+  - Autoprefixer (Last 2 versions)
+  - CSS Minification
 
 `npm start`
-  - `npm compile` and `watch: HTML & SCSS`
+  - npm run compile
+  - watch: HTML & SCSS
 
 
 ## Documentation
