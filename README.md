@@ -48,7 +48,7 @@ install: npm install
   - CSS Minification
 
 `npm start`
-  - npm run compile
+  - `npm run compile`
   - watch: HTML & SCSS
 
 
