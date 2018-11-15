@@ -40,7 +40,7 @@ install: npm install
 ```
 
 
-## Serve & Build
+## Compile & Serve
 `npm compile`
   - SCSS Lint
   - SCSS-to-CSS
