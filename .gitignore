@@ -1,0 +1,9 @@
+# Folders
+node_modules/
+
+# Files
+.DS_Store
+.idea
+package-lock.json
+yarn.lock
+dist/css/normalize.css
