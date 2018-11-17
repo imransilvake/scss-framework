@@ -137,7 +137,7 @@ background color: cd-palette($cd-background, 2000);
 border: 1px solid cd-palette($cd-border, 3000);
 box shadow: 1px 1px 1px cd-palette($cd-shadow, 4000);
 ```
-###### NOTE: Here you can find the list of colors palette: [Color Palette](documentation/color-palette.md)
+###### NOTE: Here you can find the list of colors palette: [Color Palette](https://github.com/imransilvake/SCSS-Framework/blob/feature/publish/documentation/color-palette.md)
 
 #### Z Index: `cd-zIndex`
 ```
@@ -267,7 +267,7 @@ cd-visible
 cd-hidden
 ```
 
-![Visibility Chart](documentation/resources/classes-visibility-chart.png)
+![Visibility Chart](https://github.com/imransilvake/SCSS-Framework/blob/feature/publish/documentation/resources/classes-visibility-chart.png)
 
 ###### Important Information
 - You can combine `.cd-hide-on-*-up` and `.cd-hide-on-*-down` classes to show an element only on a given interval of screen sizes.
@@ -284,9 +284,9 @@ cd-remove-bullets-nested
 
 ## Widgets
 
-- Tooltip: [Link](documentation/widgets/tooltip.md)
-- Modal: [Link](documentation/widgets/modal.md)
-- Navbar: [Link](documentation/widgets/navbar.md)
+- Tooltip: [Link](https://github.com/imransilvake/SCSS-Framework/blob/feature/publish/documentation/widgets/tooltip.md)
+- Modal: [Link](https://github.com/imransilvake/SCSS-Framework/blob/feature/publish/documentation/widgets/modal.md)
+- Navbar: [Link](https://github.com/imransilvake/SCSS-Framework/blob/feature/publish/documentation/widgets/navbar.md)
 
 
 ## Utilities
