@@ -6,6 +6,12 @@ SCSS Framework is a pure scss framework (no JavaScript) for building responsive,
 ![Alt text](preview.png?raw=true "Resume")
 
 
+## Install Package
+```
+npm install @imransilvake/scss-framework --save
+```
+
+
 ## Content
   - SCSS Lint: [Rules](https://stylelint.io/user-guide/rules/)
   - Compile SCSS-to-CSS
@@ -24,12 +30,6 @@ SCSS Framework is a pure scss framework (no JavaScript) for building responsive,
 
 ## Project Prefix
 `cd`
-
-
-## Install Package
-```
-npm install @imransilvake/scss-framework --save
-```
 
 
 ## Documentation
