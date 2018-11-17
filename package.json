@@ -18,8 +18,6 @@
 		}
 	],
 	"license": "MIT",
-	"repository": "imransilvake/SCSS-Framework",
-	"main": "index.js",
 	"scripts": {
 		"compile": "./app/code/core/scripts/scss/compile",
 		"watch": "./app/code/core/scripts/scss/watch",

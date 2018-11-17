@@ -1,0 +1,11 @@
+# Lint scss
+stylelint "./app/code/scss/**/*.scss" --config ./app/code/core/configuration/.stylelintrc
+
+# Compile scss-to-css
+node-sass ./app/code/scss/main.scss ./dist/css/main.css --output-style=compact
+
+# Apply auto-prefixer to css
+postcss --use autoprefixer -b 'last 2 versions' -o ./dist/css/main.css ./dist/css/main.css
+
+# Minify css
+cleancss -o ./dist/css/main.min.css ./dist/css/main.css

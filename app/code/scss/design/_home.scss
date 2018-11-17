@@ -1,0 +1,156 @@
+.cd-home-wrapper {
+	header {
+		.cd-top {
+			background-color: cd-palette($cd-background, 2002);
+			padding: 10px 0;
+
+			.cd-col {
+				margin: 0;
+
+				a {
+					text-transform: uppercase;
+				}
+
+				&:last-child {
+					.cd-list-items {
+						margin: 0;
+
+						li {
+							display: inline-block;
+
+							a {
+								padding: 0 10px;
+							}
+
+							&:first-child {
+								a {
+									padding-left: 0;
+								}
+							}
+
+							&:last-child {
+								a {
+									padding-right: 0;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.cd-bottom {
+			background-color: cd-palette($cd-background, 2001);
+			padding: 40px 0 20px;
+
+			.cd-row {
+				align-items: center;
+
+				.cd-col {
+					span {
+						background-color: cd-palette($cd-background, 2010);
+						color: cd-palette($cd-color, 1001);
+						font-size: cd-fontSize(s19);
+						font-weight: cd-fontWeight(300);
+						padding: 0 5px;
+					}
+				}
+			}
+		}
+
+		// media
+		@include cd-media(desktop, mini) {
+			.cd-top {
+				.cd-col {
+					text-align: center;
+				}
+			}
+
+			.cd-bottom {
+				padding-top: 20px;
+
+				.cd-col {
+					text-align: center;
+				}
+			}
+		}
+	}
+
+	section {
+		&.cd-daily-quotes {
+			margin-top: 60px;
+
+			.cd-graphic {
+				img {
+					width: 500px;
+				}
+			}
+
+			.cd-quotes {
+				align-items: center;
+				background-color: cd-palette($cd-background, 2002);
+				display: flex;
+				justify-content: center;
+				position: relative;
+
+				&::after {
+					@include cd-triangle(100px, 'bottom-right', true, cd-palette($cd-color, 1001));
+					left: 0;
+					position: absolute;
+					top: 0;
+				}
+
+				h5 {
+					background-color: cd-palette($cd-background, 2001);
+					border: 1px solid cd-palette($cd-border, 3003);
+					font-weight: 200;
+					margin-top: 80px;
+					padding: 6px 10px;
+				}
+			}
+
+			// media
+			@include cd-media(desktop, smartphone) {
+				margin-top: 0;
+
+				.cd-quotes {
+					border-radius: 0;
+					margin-bottom: 5px;
+					padding: 10px;
+
+					&::after {
+						display: none;
+					}
+
+					h5 {
+						font-size: cd-fontSize(s17);
+						margin-top: 0;
+						padding: 5px;
+						text-align: center;
+					}
+				}
+			}
+		}
+	}
+
+	footer {
+		background-color: cd-palette($cd-background, 2002);
+
+		.cd-container {
+			.cd-row {
+				padding: 15px 0;
+
+				.cd-col {
+					h5 {
+						color: cd-palette($cd-color, 1000);
+						font-weight: cd-fontWeight(300);
+
+						i {
+							color: cd-palette($cd-color, 1010);
+						}
+					}
+				}
+			}
+		}
+	}
+}
