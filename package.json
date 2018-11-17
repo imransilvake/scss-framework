@@ -1,6 +1,6 @@
 {
 	"name": "@imransilvake/scss-framework",
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"description": "SCSS Framework a pure scss framework for building responsive, fast, robust, and adaptable web apps.",
 	"keywords": [
 		"scss",
@@ -9,6 +9,12 @@
 		"navbar",
 		"modal",
 		"color-palette",
+		"mobile-first",
+		"desktop-first",
+		"grid",
+		"flexbox-grid",
+		"typography",
+		"helpers",
 		"framework",
 		"package"
 	],
