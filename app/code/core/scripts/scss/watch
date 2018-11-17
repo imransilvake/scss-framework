@@ -1,2 +1,0 @@
-# Watch for changes
-nodemon -e html,scss -x npm run compile

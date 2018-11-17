@@ -1,2 +1,0 @@
-## Debug Output
-`@debug ($variable);`
