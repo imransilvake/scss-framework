@@ -48,8 +48,8 @@ install: npm install
   - CSS Minification
 
 `npm start`
-  - `npm run compile`
-  - watch: HTML & SCSS
+  - `npm run browser-sync`
+  - `npm run watch`
 
 
 ## Documentation
