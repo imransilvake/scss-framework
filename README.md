@@ -26,30 +26,10 @@ SCSS Framework is a pure scss framework (no JavaScript) for building responsive,
 `cd`
 
 
-## Requirements
+## Install Package
 ```
-node: v7.9.0 or greater
-npm: v4.2.0 or greater
+npm install @imransilvake/scss-framework --save
 ```
-
-
-## Packages Update & Install
-```
-update: npm update
-install: npm install
-```
-
-
-## Compile & Serve
-`npm compile`
-  - SCSS Lint
-  - SCSS-to-CSS
-  - Autoprefixer (Last 2 versions)
-  - CSS Minification
-
-`npm start`
-  - `npm run browser-sync`
-  - `npm run watch`
 
 
 ## Documentation
