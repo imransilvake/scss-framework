@@ -1,6 +1,3 @@
-# Clean dist css folder
-del ./dist/css/**/*.css
-
 # Lint scss
 stylelint "./app/code/scss/**/*.scss" --config ./app/code/core/configuration/.stylelintrc
 
