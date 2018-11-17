@@ -1,10 +1,14 @@
 {
-	"name": "scss-boilerplate",
+	"name": "@imransilvake/scss-framework",
 	"version": "1.0.0",
-	"description": "A SCSS boilerplate using npm scripts.",
+	"description": "SCSS Framework a pure scss framework for building responsive, fast, robust, and adaptable web apps.",
 	"keywords": [
 		"scss",
-		"html"
+		"scss-lint",
+		"css-minification",
+		"autoprefixer",
+		"framework",
+		"package"
 	],
 	"author": "Imran Khan",
 	"maintainers": [
