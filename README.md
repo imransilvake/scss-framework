@@ -267,7 +267,7 @@ cd-visible
 cd-hidden
 ```
 
-![Visibility Chart](https://github.com/imransilvake/SCSS-Boilerplate/blob/master/documentation/resources/classes-visibility-chart.png)
+![Visibility Chart](documentation/resources/classes-visibility-chart.png)
 
 ###### Important Information
 - You can combine `.cd-hide-on-*-up` and `.cd-hide-on-*-down` classes to show an element only on a given interval of screen sizes.
