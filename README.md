@@ -14,16 +14,16 @@ or
 yarn add @imransilvake/scss-framework
 ```
 
-Include main.scss & main.min.css file in your project:
+Include `main.scss` & `main.min.css` file in your project:
 ```
 main.scss (optional): For using functions (e.g: cd-palette, cd-zIndex)
 main.min.css: contains all your css
 
-scss file:
+scss:
 @import 'node_modules/@imransilvake/scss-framework/assets/scss/main.scss';
 @import 'node_modules/@imransilvake/scss-framework/dist/css/main.min.css';
 
-js/ts file:
+js/ts:
 import 'node_modules/@imransilvake/scss-framework/assets/scss/main.scss';
 import 'node_modules/@imransilvake/scss-framework/dist/css/main.min.css';
 ```
