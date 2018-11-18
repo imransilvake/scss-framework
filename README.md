@@ -1,5 +1,5 @@
 ## Documentation
-SCSS Framework is a pure scss framework (no JavaScript) for building responsive, fast, robust, and adaptable web apps or sites. This framework is especially designed according to developer's need.
+SCSS Framework is a pure minimal framework (no JavaScript) for building responsive, fast, robust, and adaptable web apps or sites. This framework is especially designed according to developer's need.
 
 #### CORE
 - [X] Normalize CSS
