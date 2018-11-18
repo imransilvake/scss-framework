@@ -1,7 +1,35 @@
 ## Documentation
 SCSS Framework is a pure minimal framework (no JavaScript) for building responsive, fast, robust, and adaptable web apps or sites. This framework is especially designed according to developer's need.
 
-#### CORE
+
+## Support
+If you like this minimal and clean scss framework, please give a star at the repository: [SCSS-Framwork](https://github.com/imransilvake/SCSS-Framework)
+
+
+## How to Include
+Install the package:
+```
+npm install @imransilvake/scss-framework --save
+or
+yarn add @imransilvake/scss-framework
+```
+
+Include main.scss & main.min.css file in your project:
+```
+main.scss (optional): For using functions (e.g: cd-palette, cd-zIndex)
+main.min.css: contains all your css
+
+scss file:
+@import 'node_modules/@imransilvake/scss-framework/assets/scss/main.scss';
+@import 'node_modules/@imransilvake/scss-framework/dist/css/main.min.css';
+
+js/ts file:
+import 'node_modules/@imransilvake/scss-framework/assets/scss/main.scss';
+import 'node_modules/@imransilvake/scss-framework/dist/css/main.min.css';
+```
+
+
+## CORE
 - [X] Normalize CSS
 - [X] Media Queries
 	- [X] Mobile First
