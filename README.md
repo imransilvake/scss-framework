@@ -3,7 +3,7 @@ SCSS Framework is a pure minimal framework (no JavaScript) for building responsi
 
 
 ## Support
-If you like this minimal and clean scss framework, please give a star at the repository: [SCSS-Framwork](https://github.com/imransilvake/SCSS-Framework)
+If you like this clean and minimal scss framework, please give a star at the repository: [SCSS-Framwork](https://github.com/imransilvake/SCSS-Framework).
 
 
 ## How to Include
