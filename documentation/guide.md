@@ -123,7 +123,7 @@ Ordering:		Yes (cd-col-order-device-column)
 ## Properties Functions
 
 #### Color Palette: `cd-palette`
-Here you can find the list of colors palette: [Color Palette](color-palette.md)
+List of colors palette: [Color Palette](color-palette.md)
 ```
 A color palette having code values assigned to each color.
 
