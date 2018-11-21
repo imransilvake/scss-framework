@@ -8,14 +8,6 @@
 		"browser-sync": "browser-sync start --server  --files '**/*.html, dist/css/main.min.css' --port 8080 --browser 'google chrome'",
 		"start": "npm run browser-sync & npm run watch"
 	},
-	"keywords": [
-		"scss",
-		"scss-lint",
-		"css-minification",
-		"autoprefixer",
-		"framework",
-		"package"
-	],
 	"author": "Imran Khan",
 	"maintainers": [
 		{
@@ -23,7 +15,6 @@
 			"email": "imransilvake@gmail.com"
 		}
 	],
-	"license": "MIT",
 	"devDependencies": {
 		"autoprefixer": "^9.3.1",
 		"browser-sync": "^2.26.3",
@@ -39,5 +30,14 @@
 	"dependencies": {
 		"font-awesome": "^4.7.0",
 		"normalize.css": "^8.0.1"
-	}
+	},
+	"license": "MIT",
+	"keywords": [
+		"scss",
+		"scss-lint",
+		"css-minification",
+		"autoprefixer",
+		"framework",
+		"package"
+	]
 }
