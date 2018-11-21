@@ -1,4 +1,4 @@
-// === Alignment === //
+// === alignment === //
 .cd-left-align {
 	text-align: left;
 }
@@ -11,7 +11,7 @@
 	text-align: center;
 }
 
-// === Visibility === //
+// === visibility === //
 .cd-hide {
 	display: none;
 }
@@ -28,20 +28,20 @@
 	visibility: hidden;
 }
 
-// platform loop
+// loop
 @each $platform, $device-list in $cd-devicePoints {
 	$down: 'down';
 	$up: 'up';
 	$direction: '';
 
-	// Check direction based on platform.
+	// check direction based on platform.
 	@if $platform == $platform-desktop {
 		$direction: $down
 	} @else {
 		$direction: $up
 	}
 
-	// devicePoints loop
+	// loop
 	@each $device, $map-value in $device-list {
 		$deviceFirstLetter: str-slice($device, 1, 1);
 
@@ -57,7 +57,7 @@
 	}
 }
 
-// === Overflow === //
+// === overflow === //
 .cd-hide-overflow {
 	overflow-y: hidden;
 }
@@ -70,7 +70,7 @@
 	}
 }
 
-// === Position === //
+// === position === //
 .cd-vh-center {
 	left: 50%;
 	position: absolute;
@@ -90,7 +90,7 @@
 	transform: translate(0, -50%);
 }
 
-// === Opacity === //
+// === opacity === //
 .cd-opacity-high {
 	opacity: .5;
 	transition: .5s;
@@ -109,7 +109,7 @@
 	}
 }
 
-// === List Style === //
+// === list style === //
 .cd-remove-bullets, .cd-remove-bullets-nested ul {
 	list-style: none;
 	margin: 0;

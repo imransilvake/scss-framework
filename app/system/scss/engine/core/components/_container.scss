@@ -5,7 +5,7 @@
 .cd-container {
 	padding: 0 15px;
 
-	// containerPoints loop
+	// loop
 	@each $device, $map-value in $cd-containerPoints {
 		// media queries
 		@include cd-media($platform-mobile, $device) {

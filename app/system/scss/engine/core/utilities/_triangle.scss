@@ -1,16 +1,16 @@
 // variables
 $cd-triangle-border-primary: cd-palette($cd-border, 3003);
 
-// mixin
+// mixin: triangle
 @mixin cd-triangle($size: 100px, $direction: 'bottom-left', $pueudo: false, $color: transparent) {
-	// Pueudo Classes
+	// pueudo classes
 	@if $pueudo == true {
 		content: '';
 	}
 
-	// === Directions: Top & Bottom === //
-	// Top - Left / Right
-	// Bottom - Left / Right
+	// === directions: top & bottom === //
+	// top - left / right
+	// bottom - left / right
 	@if $direction == 'bottom-left' {
 		border-bottom: $size solid $cd-triangle-border-primary;
 		border-right: $size solid $color;

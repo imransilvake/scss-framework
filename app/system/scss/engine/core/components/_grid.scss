@@ -8,14 +8,14 @@
 
 		// platform loop
 		@each $platform, $device-list in $cd-devicePoints {
-			// devicePoints loop
+			// loop
 			@each $device, $map-value in $device-list {
 				$platformFirstLetter: str-slice($platform, 1, 1);
 				$deviceFirstLetter: str-slice($device, 1, 1);
 
 				// media queries
 				@include cd-media($platform, $device) {
-					// grid columns loop
+					// loop
 					@for $column from 1 through $cd-columns {
 						$width: 100% / $cd-columns * $column;
 

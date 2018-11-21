@@ -1,4 +1,4 @@
-// Color Palette
+// color palette
 @function cd-palette($palette, $hex-code, $opacity: null) {
 	@if map-has-key($palette, $hex-code) {
 		$color: map-get($palette, $hex-code);
@@ -14,46 +14,51 @@
 	}
 }
 
-// Property: z-index
-@function cd-zIndex($key) {
-	@if map-has-key($cd-zIndex, $key) {
-		@return map-get($cd-zIndex, $key);
+// property: z-index
+@function cd-zIndex($key, $list: null) {
+	$list: if($list == null, $cd-zIndex, $list);
+	@if map-has-key($list, $key) {
+		@return map-get($list, $key);
 	} @else {
 		@error 'Unable to find a z-index: `#{$key}`.';
 	}
 }
 
-// Property: font-family
-@function cd-fontFamily($key) {
-	@if map-has-key($cd-fontFamily, $key) {
-		@return map-get($cd-fontFamily, $key);
+// property: font-family
+@function cd-fontFamily($key, $list: null) {
+	$list: if($list == null, $cd-fontFamily, $list);
+	@if map-has-key($list, $key) {
+		@return map-get($list, $key);
 	} @else {
 		@error 'Unable to find a font-family: `#{$key}`.';
 	}
 }
 
-// Property: font-size
-@function cd-fontSize($key) {
-	@if map-has-key($cd-fontSize, $key) {
-		@return map-get($cd-fontSize, $key);
+// property: font-size
+@function cd-fontSize($key, $list: null) {
+	$list: if($list == null, $cd-fontSize, $list);
+	@if map-has-key($list, $key) {
+		@return map-get($list, $key);
 	} @else {
 		@error 'Unable to find a font-size: `#{$key}`.';
 	}
 }
 
-// Property: font-weight
-@function cd-fontWeight($key) {
-	@if map-has-key($cd-fontWeight, $key) {
-		@return map-get($cd-fontWeight, $key);
+// property: font-weight
+@function cd-fontWeight($key, $list: null) {
+	$list: if($list == null, $cd-fontWeight, $list);
+	@if map-has-key($list, $key) {
+		@return map-get($list, $key);
 	} @else {
 		@error 'Unable to find a font-weight: `#{$key}`.';
 	}
 }
 
-// Property: line-height
-@function cd-lineHeight($key) {
-	@if map-has-key($cd-lineHeight, $key) {
-		@return map-get($cd-lineHeight, $key);
+// property: line-height
+@function cd-lineHeight($key, $list: null) {
+	$list: if($list == null, $cd-lineHeight, $list);
+	@if map-has-key($list, $key) {
+		@return map-get($list, $key);
 	} @else {
 		@error 'Unable to find a line-height: `#{$key}`.';
 	}

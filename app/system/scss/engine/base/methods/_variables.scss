@@ -1,4 +1,4 @@
-// Platforms and Devices
+// platforms and devices
 $platform-desktop:		desktop;
 $platform-mobile:		mobile;
 
@@ -8,7 +8,7 @@ $device-tablet:			tablet;
 $device-smartphone:		smartphone;
 $device-mini:			mini;
 
-// Media Queries
+// media queries
 $cd-devicePoints: (
 	$platform-desktop: (
 		$device-widescreen:	( min-width: 1201px ),
@@ -26,17 +26,17 @@ $cd-devicePoints: (
 	)
 );
 
-// Container
+// container
 $cd-containerPoints: (
 	$device-desktop:		992 - 30 + px,
 	$device-widescreen:		1200 - 30 + px
 );
 
-// Grid System
+// grid system
 $cd-columns: 	12 !default;
 $cd-gutter: 	15px !default;
 
-// Z Index: z-index
+// z-index
 $cd-zIndex: (
 	hide:		-1,
 	initial:	0,
@@ -46,13 +46,13 @@ $cd-zIndex: (
 	loader:		4
 );
 
-// Font Family: font-family
+// font-family
 $cd-fontFamily: (
 	roboto:		'Roboto',
 	comics-san:	'Comic Sans MS'
 );
 
-// Font Size: font-size
+// font-size
 $cd-fontSize: (
 	h1:		2.5rem,
 	h2:		2rem,
@@ -79,7 +79,7 @@ $cd-fontSize: (
 	se6:    6rem
 );
 
-// Font Weight: font-weight
+// font-weight
 $cd-fontWeight: (
 	100:	100,
 	200:	200,
@@ -92,7 +92,7 @@ $cd-fontWeight: (
 	900: 	900
 );
 
-// Line Height line-height
+// line-height
 $cd-lineHeight: (
 	1:		1,
 	1.1:	1.1,

@@ -55,9 +55,9 @@
 					}
 				}
 
-				// === Positions === Bottom: left right === //
+				// === positions === bottom: left right === //
 
-				// Bottom Left
+				// bottom left
 				&.cd-bottom-left {
 					ul {
 						box-shadow: 1px 1px 5px $cd-nav-shadow-color;
@@ -79,7 +79,7 @@
 					}
 				}
 
-				// Bottom Right
+				// bottom right
 				&.cd-bottom-right {
 					ul {
 						box-shadow: 1px 1px 5px $cd-nav-shadow-color;
@@ -101,9 +101,9 @@
 					}
 				}
 
-				// === Positions === Top: left & right === //
+				// === positions === top: left & right === //
 
-				// Top Left
+				// top left
 				&.cd-top-left {
 					ul {
 						bottom: 100%;
@@ -128,7 +128,7 @@
 					}
 				}
 
-				// Top Right
+				// top right
 				&.cd-top-right {
 					ul {
 						bottom: 100%;
@@ -153,9 +153,9 @@
 					}
 				}
 
-				// === Positions: Bottom & Top === //
+				// === positions: bottom & top === //
 
-				// Bottom
+				// bottom
 				&.cd-bottom {
 					ul {
 						li {
@@ -192,7 +192,7 @@
 					}
 				}
 
-				// Top
+				// top
 				&.cd-top {
 					ul {
 						bottom: 100%;
@@ -257,7 +257,7 @@
 		}
 	}
 
-	// Common
+	// common
 	.cd-transparent-overlay {
 		bottom: 0;
 		content: '';
