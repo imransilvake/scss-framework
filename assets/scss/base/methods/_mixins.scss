@@ -1,4 +1,4 @@
-// Media Queries
+// mixin: media queries
 @mixin cd-orientation($orientation) { @media screen and (orientation: $orientation) { @content; } }
 @mixin cd-media($platformFirst, $device, $orientation: '') {
 	@if map-has-key($cd-devicePoints, $platformFirst) {
@@ -37,7 +37,7 @@
 	}
 }
 
-// Font Face
+// mixin: font-face
 @mixin cd-fontFace($fontName, $fontPath, $fontWeight: null, $fontStyle: null, $fontExtentions: eot woff2 woff ttf svg) {
 	$src: null;
 

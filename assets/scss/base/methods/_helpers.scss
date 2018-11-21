@@ -1,4 +1,4 @@
-// String Replace
+// method: string replace
 @function cd-stringReplace($string, $search, $replace: '') {
 	$index: str-index($string, $search);
 
