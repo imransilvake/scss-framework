@@ -15,11 +15,11 @@ yarn add @imransilvake/scss-framework
 
 
 ## Content
-  - SCSS Lint: [Rules](https://stylelint.io/user-guide/rules/)
-  - Compile SCSS-to-CSS
+  - Lint: SCSS - [Rules](https://stylelint.io/user-guide/rules/)
+  - Compile: SCSS-to-CSS
   - Add Autoprefixer `(Last 2 versions)`
-  - Minify CSS
-  - Watch: `HTML & SCSS` files
+  - Minify: CSS
+  - Watches: `HTML & SCSS`
 
 
 ## Browser Support
@@ -30,13 +30,9 @@ yarn add @imransilvake/scss-framework
  - Microsoft Edge
 
 
-## Project Prefix
-`cd`
-
-
 ## Documentation
 Please follow the link for the documentation: [GUIDE](documentation/guide.md)
 
 
-## License
-MIT
+## Project Prefix
+`cd`
