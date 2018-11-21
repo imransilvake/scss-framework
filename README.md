@@ -17,7 +17,6 @@ yarn add @imransilvake/scss-framework
 ## Content
   - Lint: SCSS - [Rules](https://stylelint.io/user-guide/rules/)
   - Compile: SCSS-to-CSS
-  - Add Autoprefixer `(Last 2 versions)`
   - Minify: CSS
   - Watches: `HTML & SCSS`
 
