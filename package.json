@@ -3,8 +3,8 @@
 	"version": "1.0.0",
 	"description": "SCSS Framework a pure scss framework for building responsive, fast, robust, and adaptable web apps.",
 	"scripts": {
-		"compile": "./app/system/scripts/scss/compile",
-		"watch": "./app/system/scripts/scss/watch",
+		"compile": "./app/config/scripts/compile",
+		"watch": "./app/config/scripts/watch",
 		"browser-sync": "browser-sync start --server  --files '**/*.html, dist/css/main.min.css' --port 8080 --browser 'google chrome'",
 		"start": "npm run browser-sync & npm run watch"
 	},

@@ -1,8 +1,0 @@
-# lint: scss
-stylelint "./app/code/scss/**/*.scss" --config ./app/code/core/configuration/.stylelintrc
-
-# compile scss-to-css
-node-sass ./app/code/scss/main.scss ./dist/css/main.css --output-style=compact
-
-# minify: css
-cleancss -o ./dist/css/main.min.css ./dist/css/main.css
