@@ -1,35 +1,37 @@
 ## Setup
-
-#### Initial
-First create a `_colors.scss` file under `src/assets/scss` with the following content (you can extend the colors later).
+Include the following in your root scss file.
 ```
-// Color
-$cd-color: (
+@import '../node_modules/@imransilvake/scss-framework/assets/scss/main.scss';
+@import '../node_modules/@imransilvake/scss-framework/dist/css/main.min.css';
+```
+
+`main.scss` will let you use the following functions:
+- [X] Color Palette: `cd-palette`
+- [X] Z Index: `cd-zIndex`
+- [X] Font Family: `cd-fontFamily`
+- [X] Font Size: `cd-fontSize`
+- [X] Font Weight: `cd-fontWeight`
+- [X] Line Height: `cd-lineHeight`
+
+## Color Palette
+To define and use your own color palette, add it like:
+```
+$cd-custom: (
 	1000: #000000,
 	1001: #ffffff
 );
-
-// Background Color
-$cd-background: (
-	2000: #000000,
-	2001: #ffffff
-);
-
-// Border
-$cd-border: (
-	3000: #000000,
-	3001: #ffffff
-);
-
-// Box Shadow
-$cd-shadow: (
-	4000: #000000,
-	4001: #ffffff
-);
+```
+Now you can use it with the following way:
+```
+body {
+	color: cd-palette($cd-custom, 1000);
+}
 ```
 
-#### Angular Configuration
-###### To use inside scss files, include in `styles.scss`:
+
+## Angular Configuration
+
+#### To use inside scss files, include in `styles.scss`:
 ```
 // scss framework
 @import '../node_modules/@imransilvake/scss-framework/assets/scss/main.scss';
@@ -41,7 +43,7 @@ $cd-shadow: (
 // include your custom scss
 ```
 
-###### To use inside component scss files, create a `main.scss` file inside `src/assets/scss` and include:
+#### To use inside component scss files, create a `main.scss` file inside `src/assets/scss` and include:
 ```
 // Functions
 @import '../../../node_modules/@imransilvake/scss-framework/assets/scss/base/global';
@@ -72,7 +74,7 @@ border-top: 1px solid cd-palette($cd-border, 3001, .1);
 color: cd-palette($cd-color, 1001);
 ```
 
-#### React Configuration
+## React Configuration
 In your `styles.scss`/`app.scss` file, include:
 ```
 // scss framework
