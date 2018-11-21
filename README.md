@@ -61,7 +61,7 @@ mini (m):		0 	- 	480
 ```
 @param $platformFirst:			mobile | desktop
 @param $device:				mini | smartphone | tablet | desktop | widescreen
-@param $orientation (optional): 	portrait | landscape
+@param $orientation: 			portrait | landscape (optional)
 ```
 
 ###### Mobile First `(mobile friendly styles)`
@@ -139,6 +139,7 @@ Ordering:		Yes (cd-col-order-device-column)
 ## Properties Functions
 
 #### Color Palette: `cd-palette`
+List of colors palette: [Color Palette](https://github.com/imransilvake/SCSS-Framework/blob/feature/publish/documentation/color-palette.md)
 ```
 A color palette having code values assigned to each color.
 
@@ -152,13 +153,13 @@ background color: cd-palette($cd-background, 2000);
 border: 1px solid cd-palette($cd-border, 3000);
 box shadow: 1px 1px 1px cd-palette($cd-shadow, 4000);
 ```
-###### NOTE: Here you can find the list of colors palette: [Color Palette](https://github.com/imransilvake/SCSS-Framework/blob/feature/publish/documentation/color-palette.md)
 
 #### Z Index: `cd-zIndex`
 ```
 A function for the property z-index.
 
 @param $key:	hide | initial | normal | float | modal | loader
+@param $list:	custom list (optional)
 
 Example:
 z-index: cd-zIndex(normal);
@@ -168,7 +169,8 @@ z-index: cd-zIndex(normal);
 ```
 A function for the property font-family.
 
-@param $key:	roboto
+@param $key:	roboto | comics-san
+@param $list:	custom list (optional)
 
 Example:
 font-family: cd-fontFamily(roboto);
@@ -179,6 +181,7 @@ font-family: cd-fontFamily(roboto);
 A function for the property font-size.
 
 @param $key:	h1 | h2 | h3 | h4 | h5 | h6 | s10 - s20 | se1 - se6
+@param $list:	custom list (optional)
 
 Example:
 font-family: cd-fontSize(h1);
@@ -189,6 +192,7 @@ font-family: cd-fontSize(h1);
 A function for the property font-weight.
 
 @param $key:	100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900
+@param $list:	custom list (optional)
 
 Example:
 font-family: cd-fontWeight(100);
@@ -199,6 +203,7 @@ font-family: cd-fontWeight(100);
 A function for the property line-height.
 
 @param $key:	1 - 2.2
+@param $list:	custom list (optional)
 
 Example:
 font-family: cd-lineHeight(1);
@@ -297,7 +302,6 @@ cd-remove-bullets-nested
 
 
 ## Widgets
-
 - Tooltip: [Link](https://github.com/imransilvake/SCSS-Framework/blob/feature/publish/documentation/widgets/tooltip.md)
 - Modal: [Link](https://github.com/imransilvake/SCSS-Framework/blob/feature/publish/documentation/widgets/modal.md)
 - Navbar: [Link](https://github.com/imransilvake/SCSS-Framework/blob/feature/publish/documentation/widgets/navbar.md)
