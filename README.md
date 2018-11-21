@@ -32,7 +32,3 @@ yarn add @imransilvake/scss-framework
 
 ## Documentation
 Please follow the link for the documentation: [GUIDE](documentation/guide.md)
-
-
-## Project Prefix
-`cd`
