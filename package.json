@@ -2,6 +2,12 @@
 	"name": "@imransilvake/scss-framework",
 	"version": "1.0.0",
 	"description": "SCSS Framework a pure scss framework for building responsive, fast, robust, and adaptable web apps.",
+	"scripts": {
+		"compile": "./app/code/core/scripts/scss/compile",
+		"watch": "./app/code/core/scripts/scss/watch",
+		"browser-sync": "browser-sync start --server  --files '**/*.html, dist/css/main.min.css' --port 8080 --browser 'google chrome'",
+		"start": "npm run browser-sync & npm run watch"
+	},
 	"keywords": [
 		"scss",
 		"scss-lint",
@@ -18,12 +24,6 @@
 		}
 	],
 	"license": "MIT",
-	"scripts": {
-		"compile": "./app/code/core/scripts/scss/compile",
-		"watch": "./app/code/core/scripts/scss/watch",
-		"browser-sync": "browser-sync start --server  --files '**/*.html, dist/css/main.min.css' --port 8080 --browser 'google chrome'",
-		"start": "npm run browser-sync & npm run watch"
-	},
 	"devDependencies": {
 		"autoprefixer": "^9.3.1",
 		"browser-sync": "^2.26.3",
