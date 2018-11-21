@@ -1,4 +1,4 @@
-## Setup
+# Setup
 Include the following in your root scss file.
 ```
 @import '../node_modules/@imransilvake/scss-framework/assets/scss/main.scss';
@@ -12,6 +12,7 @@ Include the following in your root scss file.
 - [X] Font Size: `cd-fontSize`
 - [X] Font Weight: `cd-fontWeight`
 - [X] Line Height: `cd-lineHeight`
+
 
 ## Color Palette
 To define and use your own color palette, add it like:
@@ -31,7 +32,8 @@ body {
 
 ## Angular Configuration
 
-#### To use inside scss files, include in `styles.scss`:
+#### Use Inside SCSS Files
+Include in your root scss file.
 ```
 // scss framework
 @import '../node_modules/@imransilvake/scss-framework/assets/scss/main.scss';
@@ -43,12 +45,13 @@ body {
 // include your custom scss
 ```
 
-#### To use inside component scss files, create a `main.scss` file inside `src/assets/scss` and include:
+#### Use Inside Component SCSS Files
+Create a `main.scss` file inside `src/assets/scss` and include
 ```
 // Functions
 @import '../../../node_modules/@imransilvake/scss-framework/assets/scss/base/global';
 
-// Colors
+// Colors (your color scss file)
 @import 'colors';
 ```
 
@@ -69,13 +72,13 @@ body {
 @import 'main'; // short with the help of angular.json configuration
 
 usage:
+color: cd-palette($cd-color, 1001);
 background-color: cd-palette($cd-background, 2017);
 border-top: 1px solid cd-palette($cd-border, 3001, .1);
-color: cd-palette($cd-color, 1001);
 ```
 
 ## React Configuration
-In your `styles.scss`/`app.scss` file, include:
+In your `styles.scss` / `app.scss` file, include:
 ```
 // scss framework
 @import '../node_modules/@imransilvake/scss-framework/assets/scss/main.scss';
