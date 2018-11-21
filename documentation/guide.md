@@ -45,7 +45,7 @@ mini (m):		0 	- 	480
 ```
 @param $platformFirst:			mobile | desktop
 @param $device:				mini | smartphone | tablet | desktop | widescreen
-@param $orientation (optional): 	portrait | landscape
+@param $orientation: 			portrait | landscape (optional)
 ```
 
 ###### Mobile First `(mobile friendly styles)`
