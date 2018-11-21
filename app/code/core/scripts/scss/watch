@@ -1,2 +1,2 @@
-# Watch for changes
+# watch for: html, scss
 nodemon -e html,scss -x npm run compile
