@@ -29,7 +29,7 @@ body {
 
 
 ## Property Functions
-For property functions, you can checkout the documentation to see how to use it in your project. In case, someone needs a custom list in any of these functions, then follow this `cd-fontFamily` example:
+For other property functions, you can checkout the documentation to see how to use it in your project. In case, someone needs a custom list in any of these functions, then follow this `cd-fontFamily` example:
 ```
 // font-family
 $cd-custom-list: (
