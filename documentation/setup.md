@@ -21,9 +21,7 @@ $cd-custom: (
 	1000: #000000,
 	1001: #ffffff
 );
-```
-Now you can use it with the following way:
-```
+
 body {
 	color: cd-palette($cd-custom, 1000);
 }
