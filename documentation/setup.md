@@ -68,7 +68,7 @@ Create a `main.scss` file inside `src/assets/scss` and include
 @import 'colors';
 ```
 
-(1) Then set the following in `angular.json`
+Then set the following in `angular.json`
 ```
 "styles": [
 	"src/styles.scss"
@@ -80,7 +80,7 @@ Create a `main.scss` file inside `src/assets/scss` and include
 },
 ```
 
-(2) And in your `*.component.scss` file, you can use it like: 
+And in your `*.component.scss` file, you can use it like: 
 ```
 @import 'main'; // short with the help of angular.json configuration
 
