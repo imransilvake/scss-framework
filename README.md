@@ -2,13 +2,8 @@
 SCSS Framework is a pure minimal framework (no JavaScript) for building responsive, fast, robust, and adaptable web apps or sites. This framework is especially designed according to developer's need.
 
 
-## Support
-If you like this clean and minimal scss framework, please give a star at the repository: [SCSS-Framework](https://github.com/imransilvake/SCSS-Framework). And if possible help me improve this framework so that more people can use it in the future.
-
-
 ## Install Package
 Read how to include it in your project: [Setup](https://github.com/imransilvake/SCSS-Framework/blob/feature/publish/documentation/setup.md)
-
 ```
 npm install @imransilvake/scss-framework --save
 or
@@ -331,3 +326,7 @@ Pueudo Classes: (before | after)
 Color:
 @include cd-triangle(140px, 'bottom-right', cd-palette($cd-color, 1001));
 ```
+
+
+## Support
+If you like this clean and minimal scss framework, please give a star at the repository: [SCSS-Framework](https://github.com/imransilvake/SCSS-Framework). And if possible help me improve this framework so that more people can use it in the future.
