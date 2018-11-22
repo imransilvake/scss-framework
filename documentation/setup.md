@@ -30,6 +30,18 @@ body {
 ```
 
 
+## Property Functions
+For property functions, you can checkout the documentation to see how to use it in your project. In case, someone needs a custom list in any of these functions, then follow this `cd-fontFamily` example:
+```
+// font-family
+$cd-custom-list: (
+	comics-san:	'Comic Sans MS'
+);
+
+font-family: cd-fontFamily(comics-san, $cd-custom-list);
+```
+
+
 ## Angular Configuration
 
 #### Use Inside SCSS Files
