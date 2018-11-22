@@ -38,6 +38,7 @@ $cd-custom-list: (
 	comics-san:	'Comic Sans MS'
 );
 
+// added second argument for custom list
 font-family: cd-fontFamily(comics-san, $cd-custom-list);
 ```
 
