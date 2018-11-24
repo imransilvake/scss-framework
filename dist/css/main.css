@@ -1,14 +1,30 @@
-* { box-sizing: border-box; }
+* { box-sizing: inherit; }
 
-*::before, *::after { box-sizing: border-box; }
+*::before, *::after { box-sizing: inherit; }
 
-::selection { background-color: #e74c3c; color: white; }
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, cite, code, img, strong, sub, sup, b, u, i, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, embed, figure, figcaption, footer, header, menu, nav, section, audio, video { margin: 0; padding: 0; }
 
-img { max-width: 100%; vertical-align: middle; }
+html { box-sizing: border-box; }
 
-a { text-decoration: none; }
+html body article, html body aside, html body details, html body figcaption, html body figure, html body footer, html body header, html body hgroup, html body menu, html body nav, html body section { display: block; }
 
-body { color: #333333; font-family: "Roboto", sans-serif; line-height: 1.4; margin: 0; }
+html body ::selection { background-color: #e74c3c; color: white; }
+
+html body img { max-width: 100%; vertical-align: middle; }
+
+html body a { text-decoration: none; }
+
+@font-face { font-family: "Roboto"; font-weight: 100; src: url("/app/system/scss/engine/resources/fonts/roboto/Roboto-Thin.woff2") format("woff2"), url("/app/system/scss/engine/resources/fonts/roboto/Roboto-Thin.woff") format("woff"); }
+
+@font-face { font-family: "Roboto"; font-weight: 300; src: url("/app/system/scss/engine/resources/fonts/roboto/Roboto-Light.woff2") format("woff2"), url("/app/system/scss/engine/resources/fonts/roboto/Roboto-Light.woff") format("woff"); }
+
+@font-face { font-family: "Roboto"; font-weight: 400; src: url("/app/system/scss/engine/resources/fonts/roboto/Roboto-Regular.woff2") format("woff2"), url("/app/system/scss/engine/resources/fonts/roboto/Roboto-Regular.woff") format("woff"); }
+
+@font-face { font-family: "Roboto"; font-weight: 500; src: url("/app/system/scss/engine/resources/fonts/roboto/Roboto-Medium.woff2") format("woff2"), url("/app/system/scss/engine/resources/fonts/roboto/Roboto-Medium.woff") format("woff"); }
+
+@font-face { font-family: "Roboto"; font-weight: 700; src: url("/app/system/scss/engine/resources/fonts/roboto/Roboto-Bold.woff2") format("woff2"), url("/app/system/scss/engine/resources/fonts/roboto/Roboto-Bold.woff") format("woff"); }
+
+body { color: #333333; font-family: "Roboto", sans-serif; line-height: 1.4; }
 
 h1, h2, h3, h4, h5, h6, p { margin: 0; }
 
