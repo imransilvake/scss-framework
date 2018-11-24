@@ -25,7 +25,7 @@ yarn add @imransilvake/scss-framework
  - Chrome
  - Firefox
  - Safari
- - Internet Explorer
+ - Internet Explorer 11
  - Microsoft Edge
 
 
