@@ -1,4 +1,4 @@
-# 2.0.5 "stable-sword"
+# 2.0.6 "stable-sword"
 
 ### Bug Fixes
 * **normlize.css:** removed
