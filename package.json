@@ -1,6 +1,6 @@
 {
 	"name": "@imransilvake/scss-framework",
-	"version": "1.0.0",
+	"version": "2.0.5",
 	"description": "SCSS Framework a pure scss framework for building responsive, fast, robust, and adaptable web apps.",
 	"scripts": {
 		"compile": "./app/config/scripts/compile",
