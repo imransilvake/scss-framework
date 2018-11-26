@@ -1,5 +1,5 @@
 # Setup
-These two files must be needed in your project in order to use/include the complete scss framework.
+These two files must be needed in your project in order to include the scss framework.
 ```
 @import '../node_modules/@imransilvake/scss-framework/assets/scss/main.scss';
 @import '../node_modules/@imransilvake/scss-framework/dist/css/main.min.css';
