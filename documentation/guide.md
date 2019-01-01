@@ -160,7 +160,7 @@ font-family: cd-fontFamily(roboto);
 ```
 A function for the property font-size.
 
-@param $key:	h1 | h2 | h3 | h4 | h5 | h6 | s10 - s20 | se1 - se6
+@param $key:	h1 | h2 | h3 | h4 | h5 | h6 | s10 - s40 | se1 - se6
 @param $list:	custom list (optional)
 
 Example:
