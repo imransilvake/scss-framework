@@ -16,14 +16,14 @@
 		}
 	],
 	"devDependencies": {
-		"autoprefixer": "^9.4.7",
+		"autoprefixer": "^9.4.9",
 		"browser-sync": "^2.26.3",
 		"clean-css-cli": "^4.2.1",
 		"del-cli": "^1.1.0",
 		"gulp": "^4.0.0",
 		"node-sass": "^4.11.0",
 		"nodemon": "^1.18.10",
-		"postcss-cli": "^6.1.1",
+		"postcss-cli": "^6.1.2",
 		"stylelint": "^9.10.1",
 		"stylelint-order": "^2.0.0"
 	},
