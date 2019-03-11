@@ -14,13 +14,6 @@ yarn add @imransilvake/scss-framework
 ```
 
 
-## Content
-  - Lint: `SCSS` - [Rules](https://stylelint.io/user-guide/rules/)
-  - Compile: `SCSS-to-CSS`
-  - Minify: `CSS`
-  - Watches: `HTML & SCSS`
-
-
 ## Browser Support
  - Chrome
  - Firefox
