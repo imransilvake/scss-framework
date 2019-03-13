@@ -1,8 +1,8 @@
-## Color Palette
+# Color Palette
 
 ###### NOTE: `colors.scss` is used for default colors. You can provide your own list of colors as well.
 
-#### Color
+## Color
 ```
 $cd-color: (
 	1000: #000000,
@@ -25,7 +25,7 @@ $cd-color: (
 );
 ```
 
-#### Background Color
+## Background Color
 ```
 $cd-background: (
 	2000: #000000,
@@ -48,7 +48,7 @@ $cd-background: (
 );
 ```
 
-#### Border
+## Border
 ```
 $cd-border: (
 	3000: #000000,
@@ -71,7 +71,7 @@ $cd-border: (
 );
 ```
 
-#### Box Shadow
+## Box Shadow
 ```
 $cd-shadow: (
 	4000: #000000,
