@@ -1,4 +1,4 @@
-## Documentation
+# Documentation
 
 #### CORE
 - [X] Normalize CSS
