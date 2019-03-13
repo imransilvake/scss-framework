@@ -1,6 +1,6 @@
 # Modal
 
-## Dynamic classes
+## Dynamic Classes
 ```
 body: 			cd-hide-overflow
 cd-modal-wrapper: 	cd-show, cd-hide
