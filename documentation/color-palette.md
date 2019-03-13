@@ -1,4 +1,4 @@
-## Color Palette
+# Color Palette
 
 ###### NOTE: `colors.scss` is used for default colors. You can provide your own list of colors as well.
 
