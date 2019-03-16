@@ -1,6 +1,6 @@
 # 2.0.8
 ### Documentation
-* **documentation:** update documentation
+* **documentation/:** update documentation
 
 
 # 2.0.7
