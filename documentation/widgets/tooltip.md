@@ -1,8 +1,8 @@
 # Tooltip
 
 ## Positions
-`cd-left` `cd-right` `cd-top` `cd-bottom` `fixed-left` `fixed-right`
-###### NOTE: fixed-left | fixed-right can only be used together with top or bottom.
+`cd-left` `cd-right` `cd-top` `cd-bottom` `cd-fixed-left` `cd-fixed-right`
+###### NOTE: cd-fixed-left | cd-fixed-right can only be used together with top or bottom.
 
 
 ## Structure
