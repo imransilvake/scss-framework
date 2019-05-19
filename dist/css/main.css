@@ -14,7 +14,7 @@ html body img { max-width: 100%; vertical-align: middle; }
 
 html body a { text-decoration: none; }
 
-body { color: #333333; font-family: "Roboto", sans-serif; line-height: 1.5; }
+body { color: #333333; font-family: "Roboto", sans-serif; line-height: 1.4; }
 
 h1, h2, h3, h4, h5, h6, p { margin: 0; }
 
@@ -685,20 +685,21 @@ hr { border: 0; border-top: 1px solid #efefef; margin: 30px 0; }
   .cd-home-wrapper header .cd-bottom { padding-top: 20px; }
   .cd-home-wrapper header .cd-bottom .cd-col { text-align: center; } }
 
-.cd-home-wrapper section.cd-daily-quotes { margin-top: 60px; }
+.cd-home-wrapper section { margin-bottom: 30px; }
 
-.cd-home-wrapper section.cd-daily-quotes .cd-graphic img { width: 500px; }
+.cd-home-wrapper section.cd-feature .cd-row .cd-col { position: relative; }
 
-.cd-home-wrapper section.cd-daily-quotes .cd-quotes { align-items: center; background-color: #f8f8f8; display: flex; justify-content: center; position: relative; }
+.cd-home-wrapper section.cd-feature .cd-row .cd-col:first-child img { min-height: 530px; object-fit: cover; }
 
-.cd-home-wrapper section.cd-daily-quotes .cd-quotes::after { content: ''; border-bottom: 100px solid #efefef; border-left: 100px solid white; left: 0; position: absolute; top: 0; }
+.cd-home-wrapper section.cd-feature .cd-row .cd-col:first-child::after { background-color: rgba(0, 0, 0, 0.6); bottom: 0; content: ''; left: 15px; position: absolute; right: 15px; top: 0; }
 
-.cd-home-wrapper section.cd-daily-quotes .cd-quotes h5 { background-color: white; border: 1px solid #efefef; font-weight: 200; margin-top: 80px; padding: 6px 10px; }
+.cd-home-wrapper section.cd-feature .cd-side-wrapper { display: flex; margin-top: 30px; }
 
-@media (max-width: 767px) { .cd-home-wrapper section.cd-daily-quotes { margin-top: 0; }
-  .cd-home-wrapper section.cd-daily-quotes .cd-quotes { border-radius: 0; margin-bottom: 5px; padding: 10px; }
-  .cd-home-wrapper section.cd-daily-quotes .cd-quotes::after { display: none; }
-  .cd-home-wrapper section.cd-daily-quotes .cd-quotes h5 { font-size: 17px; margin-top: 0; padding: 5px; text-align: center; } }
+.cd-home-wrapper section.cd-feature .cd-side-wrapper img { max-height: 250px; object-fit: cover; width: calc(50% - 15px); }
+
+.cd-home-wrapper section.cd-feature .cd-side-wrapper img:first-child { margin-right: 15px; }
+
+.cd-home-wrapper section.cd-feature .cd-side-wrapper img:last-child { margin-left: 15px; }
 
 .cd-home-wrapper footer { background-color: #f8f8f8; }
 
