@@ -18,11 +18,11 @@ $cd-devicePoints: (
 		$device-mini:		( max-width: 480px )
 	),
 	$platform-mobile: (
-		$device-mini:		( max-width: 479px ),
-		$device-smartphone:	( min-width: 480px ),
-		$device-tablet:		( min-width: 767px ),
-		$device-desktop:	( min-width: 992px ),
-		$device-widescreen:	( min-width: 1200px )
+		$device-mini:		( max-width: 480px ),
+		$device-smartphone:	( min-width: 481px ),
+		$device-tablet:		( min-width: 768px ),
+		$device-desktop:	( min-width: 993px ),
+		$device-widescreen:	( min-width: 1201px )
 	)
 );
 
