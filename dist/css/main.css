@@ -24,7 +24,7 @@ p, span, a { font-weight: 400; }
 
 b, strong { font-weight: 700; }
 
-span { font-size: 15px; }
+span { font-size: 0.9375rem; }
 
 h1 { font-size: 2.5rem; }
 
@@ -38,15 +38,15 @@ h5 { font-size: 1.25rem; }
 
 h6 { font-size: 1rem; }
 
-p { font-size: 15px; }
+p { font-size: 0.9375rem; }
 
-a { font-size: 15px; }
+a { font-size: 0.9375rem; }
 
-code { background-color: #efefef; display: inline-block; font-size: 14px; padding: 10px; }
+code { background-color: #efefef; display: inline-block; font-size: 0.875rem; padding: 10px; }
 
-pre { font-size: 14px; }
+pre { font-size: 0.875rem; }
 
-blockquote { background-color: white; border-left: 2px solid #333333; color: dimgray; font-size: 15px; margin-left: 20px; margin-right: 20px; padding: 10px; white-space: normal; word-break: break-word; }
+blockquote { background-color: white; border-left: 2px solid #333333; color: dimgray; font-size: 0.9375rem; margin-left: 20px; margin-right: 20px; padding: 10px; white-space: normal; word-break: break-word; }
 
 .cd-container-fluid, .cd-container { margin: 0 auto; }
 
@@ -496,7 +496,7 @@ hr { border: 0; border-top: 1px solid #efefef; margin: 30px 0; }
 
 .cd-tooltip { cursor: help; display: inline-block; position: relative; }
 
-.cd-tooltip > span { background-color: rgba(0, 0, 0, 0.8); border-radius: 1px; box-shadow: 0 0 14px rgba(0, 0, 0, 0.1); color: white; display: block; font-size: 14px; padding: 4px 6px; position: absolute; visibility: hidden; white-space: nowrap; width: auto; z-index: 2; }
+.cd-tooltip > span { background-color: rgba(0, 0, 0, 0.8); border-radius: 1px; box-shadow: 0 0 14px rgba(0, 0, 0, 0.1); color: white; display: block; font-size: 0.875rem; padding: 4px 6px; position: absolute; visibility: hidden; white-space: nowrap; width: auto; z-index: 2; }
 
 .cd-tooltip > span.cd-arrow::after { border: 7px solid transparent; content: ''; position: absolute; }
 
