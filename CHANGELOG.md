@@ -1,3 +1,8 @@
+# 2.2.0
+### Change
+* **px to rem:** pixel value (px) will be converted to rem automatically.
+* **formula:** (pixels/16px) -> *rem
+
 # 2.1.0
 ### Fixes
 * **media-queries:** update media queries break points
