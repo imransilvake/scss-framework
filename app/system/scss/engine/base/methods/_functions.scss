@@ -38,7 +38,13 @@
 @function cd-fontSize($key, $list: null) {
 	$list: if($list == null, $cd-fontSize, $list);
 	@if map-has-key($list, $key) {
-		@return map-get($list, $key);
+		$value: map-get($list, $key);
+		// px
+		@if unit($value) == 'px' {
+			@return #{($value/16px)}rem;
+		}
+		// rem
+		@return $value;
 	} @else {
 		@error 'Unable to find a font-size: `#{$key}`.';
 	}
