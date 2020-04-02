@@ -1,5 +1,5 @@
 # 2.2.1
-### Fix
+### Fixes
 * **px to rem:** fix mixin function
 
 # 2.2.0
