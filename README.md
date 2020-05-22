@@ -6,7 +6,7 @@ SCSS Framework is a pure minimal framework (no JavaScript) for building responsi
 ![Alt text](preview.png?raw=true "Resume")
 
 
-## Install Package
+## Install
 Read: [Setup](documentation/setup.md)
 ```
 npm install @imransilvake/scss-framework --save
