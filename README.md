@@ -9,9 +9,8 @@ A minimal framework that provides Flexbox Grid System, Media Queries for mobile 
 ## Install
 Read: [Setup](documentation/setup.md)
 ```
-npm install @imransilvake/scss-framework --save
-or
-yarn add @imransilvake/scss-framework
+NPM: npm install @imransilvake/scss-framework --save
+YARN: yarn add @imransilvake/scss-framework
 ```
 
 
