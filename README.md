@@ -1,7 +1,7 @@
 [![Software License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 # SCSS Framework
-SCSS Framework is a pure minimal framework (no JavaScript) for building responsive, fast, robust, and adaptable web apps or sites. This framework is especially designed according to developer's need.
+A minimal framework that provides Flexbox Grid System, Media Queries for mobile and desktop and other useful utilities.
 
 ![Alt text](preview.png?raw=true "Resume")
 
