@@ -88,7 +88,7 @@ background-color: cd-palette($cd-background, 2017);
 border-top: 1px solid cd-palette($cd-border, 3001, .1);
 ```
 
-#### React Configuration
+#### React
 In your `styles.scss` / `app.scss` file, include:
 ```
 // scss framework
