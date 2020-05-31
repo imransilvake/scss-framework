@@ -31,10 +31,16 @@
 	"keywords": [
 		"framework",
 		"scss",
-		"flexbox",
-		"grid system",
+		"clean",
+		"minimal",
+		"grid",
+		"flexbox-grid",
 		"media queries",
-		"mobile",
-		"desktop"
+		"mobile-first",
+		"desktop-first",
+		"tooltip",
+		"navbar",
+		"typography",
+		"helpers"
 	]
 }
