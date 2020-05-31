@@ -1,3 +1,7 @@
+# 2.3.2
+### Colors Prefix
+* **colors.scss:** add prefix `sf`
+
 # 2.3.1
 ### Documentation
 * **documentation:** update documentation

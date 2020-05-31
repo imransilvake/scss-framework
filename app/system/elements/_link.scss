@@ -1,21 +1,21 @@
 a, .cd-link {
-	color: var(--c9);
+	color: var(--sfc9);
 
 	&:visited {
-		color: var(--c11);
+		color: var(--sfc11);
 	}
 
 	&:hover {
-		color: var(--c10);
+		color: var(--sfc10);
 		opacity: .9;
 	}
 
 	&:active, &.cd-active {
-		color: var(--c12);
+		color: var(--sfc12);
 	}
 
 	&.cd-disabled {
-		color: var(--c6);
+		color: var(--sfc6);
 		opacity: .4;
 		pointer-events: none;
 	}
