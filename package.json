@@ -1,6 +1,6 @@
 {
 	"name": "@imransilvake/scss-framework",
-	"version": "2.3.1",
+	"version": "2.3.2",
 	"description": "A minimal framework that provides Flexbox Grid system, Media queries breakpoints for mobile and desktop and other useful utilities.",
 	"keywords": [
 		"framework",
