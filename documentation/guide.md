@@ -163,7 +163,7 @@ line-height: cd-lineHeight(1);
 
 #### Default Color
 ```
-color:		#333333
+color:		    #333333
 ```
 
 #### Font Size
