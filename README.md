@@ -1,14 +1,21 @@
 # SCSS Framework
-SCSS Framework is a pure minimal framework (no JavaScript) for building responsive, fast, robust, and adaptable web apps or sites. This framework is especially designed according to developer's need.
+A minimal framework that provides Flexbox Grid System, Media Queries for mobile and desktop and other useful utilities.
 
 
-## Install Package
-Read how to include it in your project: [Setup](https://github.com/imransilvake/SCSS-Framework/blob/master/documentation/setup.md)
+## Install
+Read: [GUIDE](https://github.com/imransilvake/SCSS-Framework/blob/master/documentation/guide.md)
 ```
-npm install @imransilvake/scss-framework --save
-or
-yarn add @imransilvake/scss-framework
+NPM: npm install @imransilvake/scss-framework --save
+YARN: yarn add @imransilvake/scss-framework
 ```
+
+
+## Browser Support
+ - Chrome
+ - Firefox
+ - Safari
+ - Internet Explorer 11
+ - Microsoft Edge
 
 
 ## Documentation

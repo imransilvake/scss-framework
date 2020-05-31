@@ -18,11 +18,11 @@ $cd-devicePoints: (
 		$device-mini:		( max-width: 480px )
 	),
 	$platform-mobile: (
-		$device-mini:		( max-width: 479px ),
-		$device-smartphone:	( min-width: 480px ),
-		$device-tablet:		( min-width: 767px ),
-		$device-desktop:	( min-width: 992px ),
-		$device-widescreen:	( min-width: 1200px )
+		$device-mini:		( max-width: 480px ),
+		$device-smartphone:	( min-width: 481px ),
+		$device-tablet:		( min-width: 768px ),
+		$device-desktop:	( min-width: 993px ),
+		$device-widescreen:	( min-width: 1201px )
 	)
 );
 
@@ -44,12 +44,6 @@ $cd-zIndex: (
 	float:		2,
 	modal:		3,
 	loader:		4
-);
-
-// font-family
-$cd-fontFamily: (
-	roboto:		'Roboto',
-	comics-san:	'Comic Sans MS'
 );
 
 // font-size
@@ -91,12 +85,26 @@ $cd-fontSize: (
 	s38:    38px,
 	s39:    39px,
 	s40:    40px,
+	s41:    41px,
+	s42:    42px,
+	s43:    43px,
+	s44:    44px,
+	s45:    45px,
+	s46:    46px,
+	s47:    47px,
+	s48:    48px,
+	s49:    49px,
+	s50:    50px,
 	se1:    1rem,
 	se2:    2rem,
 	se3:    3rem,
 	se4:    4rem,
 	se5:    5rem,
-	se6:    6rem
+	se6:    6rem,
+	se7:    7rem,
+	se8:    8rem,
+	se9:    9rem,
+	se10:    10rem
 );
 
 // font-weight
