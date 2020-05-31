@@ -8,9 +8,7 @@
 - [X] Container
 - [X] Grid System
 - [X] Properties Functions
-	- [X] Color Palette: `cd-palette`
 	- [X] Z Index: `cd-zIndex`
-	- [X] Font Family: `cd-fontFamily`
 	- [X] Font Size: `cd-fontSize`
 	- [X] Font Weight: `cd-fontWeight`
 	- [X] Line Height: `cd-lineHeight`
@@ -19,11 +17,7 @@
 
 #### WIDGETS
 - [X] Tooltip
-- [X] Modal
 - [X] Navigation
-
-#### Utilities
-- [X] Triangle
 
 
 ## Media Queries
@@ -118,22 +112,6 @@ Ordering:		Yes (cd-col-order-device-column)
 
 ## Properties Functions
 
-#### Color Palette: `cd-palette`
-List of colors palette: [Color Palette](color-palette.md)
-```
-A color palette having code values assigned to each color.
-
-@param $palette:	color | background | border | shadow
-@param $hex-code:	hexadecimal color code
-@param $opacity:	0-1
-
-Example:
-color: cd-palette($cd-color, 1000);
-background color: cd-palette($cd-background, 2000);
-border: 1px solid cd-palette($cd-border, 3000);
-box shadow: 1px 1px 1px cd-palette($cd-shadow, 4000);
-```
-
 #### Z Index: `cd-zIndex`
 ```
 A function for the property z-index.
@@ -145,26 +123,17 @@ Example:
 z-index: cd-zIndex(normal);
 ```
 
-#### Font Family: `cd-fontFamily`
-```
-A function for the property font-family.
-
-@param $key:	roboto | comics-san
-@param $list:	custom list (optional)
-
-Example:
-font-family: cd-fontFamily(roboto);
-```
-
 #### Font Size: `cd-fontSize`
 ```
 A function for the property font-size.
+s10 = 10px
+se1 = 1rem
 
-@param $key:	h1 | h2 | h3 | h4 | h5 | h6 | s10 - s40 | se1 - se6
+@param $key:	h1 | h2 | h3 | h4 | h5 | h6 | s10 - s50 | se1 - se10
 @param $list:	custom list (optional)
 
 Example:
-font-family: cd-fontSize(h1);
+font-size: cd-fontSize(h1);
 ```
 
 #### Font Weight: `cd-fontWeight`
@@ -175,18 +144,18 @@ A function for the property font-weight.
 @param $list:	custom list (optional)
 
 Example:
-font-family: cd-fontWeight(100);
+font-weight: cd-fontWeight(100);
 ```
 
-#### Font Height: `cd-lineHeight`
+#### Line Height: `cd-lineHeight`
 ```
 A function for the property line-height.
 
-@param $key:	1 - 2.2
+@param $key:	1 - 2.5
 @param $list:	custom list (optional)
 
 Example:
-font-family: cd-lineHeight(1);
+line-height: cd-lineHeight(1);
 ```
 
 
@@ -194,12 +163,7 @@ font-family: cd-lineHeight(1);
 
 #### Default Color
 ```
-color:			cd-palette($cd-color, 1009)
-```
-
-#### Font Family
-```
-roboto:			'Roboto'
+color:		#333333
 ```
 
 #### Font Size
@@ -213,9 +177,6 @@ h6:			1rem
 p: 			15px
 a:			15px
 span:			15px
-pre:			14px
-code:			14px
-blockquote:		15px
 ```
 
 #### Line Height
@@ -250,7 +211,8 @@ cd-center-align
 #### Overflow
 ```
 cd-hide-overflow
-cd-disable-overflow
+cd-hide-overflow-x
+cd-hide-overflow-y
 ```
 
 #### Opacity
@@ -284,31 +246,4 @@ cd-remove-bullets-nested
 ## Widgets
 
 - Tooltip: [Link](widgets/tooltip.md)
-- Modal: [Link](widgets/modal.md)
 - Navbar: [Link](widgets/navbar.md)
-
-
-## Utilities
-
-#### Triangle
-```
-@include cd-triangle();
-
-Default:
-@param $size: 		105px
-@param $direction: 	'bottom-left'
-@param $pueudo:		false
-@param $color:		transparent
-
-Directions:
-@include cd-triangle(60px, 'bottom-left');
-@include cd-triangle(80px, 'bottom-right');
-@include cd-triangle(100px, 'top-left');
-@include cd-triangle(120px, 'top-right');
-
-Pueudo Classes: (before | after)
-@include cd-triangle(140px, 'bottom-right', true);
-
-Color:
-@include cd-triangle(140px, 'bottom-right', cd-palette($cd-color, 1001));
-```

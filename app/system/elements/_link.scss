@@ -1,0 +1,22 @@
+a, .cd-link {
+	color: var(--c9);
+
+	&:visited {
+		color: var(--c11);
+	}
+
+	&:hover {
+		color: var(--c10);
+		opacity: .9;
+	}
+
+	&:active, &.cd-active {
+		color: var(--c12);
+	}
+
+	&.cd-disabled {
+		color: var(--c6);
+		opacity: .4;
+		pointer-events: none;
+	}
+}

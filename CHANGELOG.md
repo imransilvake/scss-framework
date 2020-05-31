@@ -1,3 +1,10 @@
+# 2.3.0
+### Breaking Changes
+* **helpers.scss:** added new helper classes and removed unnecessary ones
+* **reset.scss:** updated
+* **utility - triangle:** removed
+* **widget - modal:** removed
+
 # 2.2.1
 ### Change
 * **px to rem:** fix mixin function

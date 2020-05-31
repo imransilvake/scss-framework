@@ -1,0 +1,45 @@
+// property: z-index
+@function cd-zIndex($key, $list: null) {
+	$list: if($list == null, $cd-zIndex, $list);
+	@if map-has-key($list, $key) {
+		@return map-get($list, $key);
+	} @else {
+		@error 'Unable to find a z-index: `#{$key}`.';
+	}
+}
+
+// property: font-size
+@function cd-fontSize($key, $list: null) {
+	$list: if($list == null, $cd-fontSize, $list);
+	@if map-has-key($list, $key) {
+		$value: map-get($list, $key);
+		// px
+		@if unit($value) == 'px' {
+			@return #{($value/16px)}rem;
+		}
+		// rem
+		@return $value;
+	} @else {
+		@error 'Unable to find a font-size: `#{$key}`.';
+	}
+}
+
+// property: font-weight
+@function cd-fontWeight($key, $list: null) {
+	$list: if($list == null, $cd-fontWeight, $list);
+	@if map-has-key($list, $key) {
+		@return map-get($list, $key);
+	} @else {
+		@error 'Unable to find a font-weight: `#{$key}`.';
+	}
+}
+
+// property: line-height
+@function cd-lineHeight($key, $list: null) {
+	$list: if($list == null, $cd-lineHeight, $list);
+	@if map-has-key($list, $key) {
+		@return map-get($list, $key);
+	} @else {
+		@error 'Unable to find a line-height: `#{$key}`.';
+	}
+}

@@ -16,13 +16,13 @@
 		"value-no-vendor-prefix": true,
 
 		"number-leading-zero": "never",
-		"number-max-precision": 2,
+		"number-max-precision": 3,
 		"number-no-trailing-zeros": true,
 
 		"string-no-newline": true,
 		"string-quotes": "single",
 
-		"unit-blacklist": ["em", "deg"],
+		"unit-blacklist": ["em"],
 		"unit-case": "lower",
 		"unit-no-unknown": true,
 
@@ -30,7 +30,7 @@
 		"property-no-unknown": true,
 		"property-no-vendor-prefix": true,
 
-		"selector-max-attribute": 0,
+		"selector-max-attribute": 1,
 		"selector-max-id": 0,
 		"selector-no-vendor-prefix": true,
 

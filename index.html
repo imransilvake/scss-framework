@@ -1,44 +1,305 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8"/>
+		<!-- Meta Tags -->
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
         <!-- Title -->
-        <title>Home</title>
-
-        <!-- Favicon -->
-		<link rel="shortcut icon" href="app/assets/png/favicon/home/favicon.ico">
-		<link rel="icon" type="image/png" sizes="32x32" href="app/assets/png/favicon/home/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="app/assets/png/favicon/home/favicon-16x16.png">
-		<link rel="apple-touch-icon" sizes="180x180" href="app/assets/png/favicon/home/apple-touch-icon.png">
-
-        <!-- Seo -->
-        <meta name="description" content="Home"/>
-        <meta name="author" content="Imran Khan"/>
-		<meta name="keywords" content="home" />
-
-        <!-- Viewport -->
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
-		<!-- Theme Color -->
-		<meta name="theme-color" content="#ffffff">
-
-		<!-- Other -->
-		<meta name="application-name" content="User Profile">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>SCSS Framework</title>
 
         <!-- Styles -->
-		<link rel="stylesheet" type="text/css" href="./node_modules/font-awesome/css/font-awesome.min.css"/>
         <link rel="stylesheet" type="text/css" href="./dist/css/main.min.css"/>
     </head>
     <body>
 		<div class="cd-container-fluid">
 			<div class="cd-container">
+				<!-- Navbar -->
+				<h1>Navbar</h1>
 				<div class="cd-center-align">
-					<a href="app/system/html/home.html">Home</a>
-					<a href="app/system/html/tooltip.html">Tooltip</a>
-					<a href="app/system/html/modal.html">Modal</a>
-					<a href="app/system/html/navbar.html">Navigation Menu</a>
+					<div class="cd-row cd-left-align">
+						<div class="cd-col">
+							<!-- Navigation Menu -->
+							<nav class="cd-navigation-menu-wrapper">
+								<ul class="cd-navigation-menu cd-remove-bullets-nested">
+									<li><a href="#">Item 1</a></li>
+									<li class="cd-dropdown cd-bottom-right">
+										<a href="#">Item 2 - Sub Menu</a>
+										<ul>
+											<li><a href="#">Item 1</a></li>
+											<li><a href="#">Item 2</a></li>
+											<li class="cd-dropdown cd-dropdown-sub">
+												<a href="#">Item 3 - Sub Menu</a>
+												<ul>
+													<li><a href="#">Item 1</a></li>
+													<li class="cd-dropdown cd-dropdown-sub">
+														<a href="#">Item 2 - Sub Menu</a>
+														<ul>
+															<li><a href="#">Item 1</a></li>
+															<li><a href="#">Item 2</a></li>
+															<li><a href="#">Item 3</a></li>
+															<li><a href="#">Item 4</a></li>
+														</ul>
+													</li>
+													<li><a href="#">Item 3</a></li>
+													<li><a href="#">Item 4</a></li>
+												</ul>
+											</li>
+											<li><a href="#">Item 4</a></li>
+										</ul>
+									</li>
+
+									<li><a href="#">Item 3</a></li>
+									<li><a href="#">Item 4</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<br>
+					<div class="cd-row cd-right-align">
+						<div class="cd-col">
+							<!-- Navigation Menu -->
+							<nav class="cd-navigation-menu-wrapper">
+								<ul class="cd-navigation-menu cd-remove-bullets-nested">
+									<li><a href="#">Item 1</a></li>
+									<li class="cd-dropdown cd-bottom-left">
+										<a href="#">Item 2 - Sub Menu</a>
+										<ul>
+											<li><a href="#">Item 1</a></li>
+											<li><a href="#">Item 2</a></li>
+											<li class="cd-dropdown cd-dropdown-sub">
+												<a href="#">Item 3 - Sub Menu</a>
+												<ul>
+													<li><a href="#">Item 1</a></li>
+													<li class="cd-dropdown cd-dropdown-sub">
+														<a href="#">Item 2 - Sub Menu</a>
+														<ul>
+															<li><a href="#">Item 1</a></li>
+															<li><a href="#">Item 2</a></li>
+															<li><a href="#">Item 3</a></li>
+															<li><a href="#">Item 4</a></li>
+														</ul>
+													</li>
+													<li><a href="#">Item 3</a></li>
+													<li><a href="#">Item 4</a></li>
+												</ul>
+											</li>
+											<li><a href="#">Item 4</a></li>
+										</ul>
+									</li>
+
+									<li><a href="#">Item 3</a></li>
+									<li><a href="#">Item 4</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<br>
+					<div class="cd-row cd-center-align">
+						<div class="cd-col">
+							<!-- Navigation Menu -->
+							<nav class="cd-navigation-menu-wrapper">
+								<ul class="cd-navigation-menu cd-m-items-break cd-remove-bullets-nested">
+									<li><a href="#">Item 1</a></li>
+									<li class="cd-dropdown cd-bottom">
+										<a href="#">Item 2 - Sub Menu</a>
+										<ul class="cd-h-center">
+											<li><a href="#">Item 1</a></li>
+											<li><a href="#">Item 2</a></li>
+											<li class="cd-dropdown cd-dropdown-sub">
+												<a href="#">Item 3 - Sub Menu</a>
+												<ul>
+													<li><a href="#">Item 1</a></li>
+													<li class="cd-dropdown cd-dropdown-sub">
+														<a href="#">Item 2 - Sub Menu</a>
+														<ul>
+															<li><a href="#">Item 1</a></li>
+															<li><a href="#">Item 2</a></li>
+															<li><a href="#">Item 3</a></li>
+															<li><a href="#">Item 4</a></li>
+														</ul>
+													</li>
+													<li><a href="#">Item 3</a></li>
+													<li><a href="#">Item 4</a></li>
+												</ul>
+											</li>
+											<li><a href="#">Item 4</a></li>
+										</ul>
+									</li>
+
+									<li><a href="#">Item 3</a></li>
+									<li><a href="#">Item 4</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<br><br><br>
+					<br><br><br>
+					<div class="cd-row cd-left-align">
+						<div class="cd-col">
+							<!-- Navigation Menu -->
+							<nav class="cd-navigation-menu-wrapper">
+								<ul class="cd-navigation-menu cd-remove-bullets-nested">
+									<li><a href="#">Item 1</a></li>
+									<li class="cd-dropdown cd-top-right">
+										<a href="#">Item 2 - Sub Menu</a>
+										<ul>
+											<li><a href="#">Item 1</a></li>
+											<li><a href="#">Item 2</a></li>
+											<li class="cd-dropdown cd-dropdown-sub">
+												<a href="#">Item 3 - Sub Menu</a>
+												<ul>
+													<li><a href="#">Item 1</a></li>
+													<li class="cd-dropdown cd-dropdown-sub">
+														<a href="#">Item 2 - Sub Menu</a>
+														<ul>
+															<li><a href="#">Item 1</a></li>
+															<li><a href="#">Item 2</a></li>
+															<li><a href="#">Item 3</a></li>
+															<li><a href="#">Item 4</a></li>
+														</ul>
+													</li>
+													<li><a href="#">Item 3</a></li>
+													<li><a href="#">Item 4</a></li>
+												</ul>
+											</li>
+											<li><a href="#">Item 4</a></li>
+										</ul>
+									</li>
+
+									<li><a href="#">Item 3</a></li>
+									<li><a href="#">Item 4</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<br>
+					<div class="cd-row cd-right-align">
+						<div class="cd-col">
+							<!-- Navigation Menu -->
+							<nav class="cd-navigation-menu-wrapper">
+								<ul class="cd-navigation-menu cd-remove-bullets-nested">
+									<li><a href="#">Item 1</a></li>
+									<li class="cd-dropdown cd-top-left">
+										<a href="#">Item 2 - Sub Menu</a>
+										<ul>
+											<li><a href="#">Item 1</a></li>
+											<li><a href="#">Item 2</a></li>
+											<li class="cd-dropdown cd-dropdown-sub">
+												<a href="#">Item 3 - Sub Menu</a>
+												<ul>
+													<li><a href="#">Item 1</a></li>
+													<li class="cd-dropdown cd-dropdown-sub">
+														<a href="#">Item 2 - Sub Menu</a>
+														<ul>
+															<li><a href="#">Item 1</a></li>
+															<li><a href="#">Item 2</a></li>
+															<li><a href="#">Item 3</a></li>
+															<li><a href="#">Item 4</a></li>
+														</ul>
+													</li>
+													<li><a href="#">Item 3</a></li>
+													<li><a href="#">Item 4</a></li>
+												</ul>
+											</li>
+											<li><a href="#">Item 4</a></li>
+										</ul>
+									</li>
+
+									<li><a href="#">Item 3</a></li>
+									<li><a href="#">Item 4</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<br>
+					<div class="cd-row cd-center-align">
+						<div class="cd-col">
+							<!-- Navigation Menu -->
+							<nav class="cd-navigation-menu-wrapper">
+								<ul class="cd-navigation-menu cd-m-items-break cd-remove-bullets-nested">
+									<li><a href="#">Item 1</a></li>
+									<li class="cd-dropdown cd-top">
+										<a href="#">Item 2 - Sub Menu</a>
+										<ul class="cd-h-center">
+											<li><a href="#">Item 1</a></li>
+											<li><a href="#">Item 2</a></li>
+											<li class="cd-dropdown cd-dropdown-sub">
+												<a href="#">Item 3 - Sub Menu</a>
+												<ul>
+													<li><a href="#">Item 1</a></li>
+													<li class="cd-dropdown cd-dropdown-sub">
+														<a href="#">Item 2 - Sub Menu</a>
+														<ul>
+															<li><a href="#">Item 1</a></li>
+															<li><a href="#">Item 2</a></li>
+															<li><a href="#">Item 3</a></li>
+															<li><a href="#">Item 4</a></li>
+														</ul>
+													</li>
+													<li><a href="#">Item 3</a></li>
+													<li><a href="#">Item 4</a></li>
+												</ul>
+											</li>
+											<li><a href="#">Item 4</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Item 3</a></li>
+									<li><a href="#">Item 4</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+
+				<br><br><br>
+				<br><br><br>
+				<br><br><br>
+				<br><br><br>
+				<br><br><br>
+
+				<!-- Tooltip -->
+				<h1>Tooltip</h1>
+				<div class="cd-center-align">
+					<a class="cd-tooltip">
+						Bottom
+						<span class="cd-arrow cd-bottom">Bottom Position</span>
+					</a>
+					<br>
+					<a class="cd-tooltip">
+						Top
+						<span class="cd-arrow cd-top">Top Position</span>
+					</a>
+					<br>
+					<a class="cd-tooltip">
+						Left
+						<span class="cd-arrow cd-left">Left Position</span>
+					</a>
+					<br>
+					<a class="cd-tooltip">
+						Right
+						<span class="cd-arrow cd-right">Right Position</span>
+					</a>
+					<br>
+					<a class="cd-tooltip">
+						Top: Left Fixed
+						<span class="cd-arrow cd-top cd-fixed-left">Top: Left Fixed Position</span>
+					</a>
+					<br>
+					<a class="cd-tooltip">
+						Top: Right Fixed
+						<span class="cd-arrow cd-top cd-fixed-right">Top: Right Fixed Position</span>
+					</a>
+					<br>
+					<a class="cd-tooltip">
+						Bottom: Left Fixed
+						<span class="cd-arrow cd-bottom cd-fixed-left">Bottom: Left Fixed Position</span>
+					</a>
+					<br>
+					<a class="cd-tooltip">
+						Bottom: Right Fixed
+						<span class="cd-arrow cd-bottom cd-fixed-right">Bottom: Right Fixed Position</span>
+					</a>
 				</div>
 			</div>
 		</div>
