@@ -1,7 +1,8 @@
 # Setup
-There are two files provided by scss framework.
+`Angular & React:`
+There are two files provided by scss framework. You have to include these in your root scss file. 
 ```
-@import '../node_modules/@imransilvake/scss-framework/assets/scss/main.scss';
+@import '../node_modules/@imransilvake/scss-framework/dist/scss/main.scss';
 @import '../node_modules/@imransilvake/scss-framework/dist/css/main.min.css';
 ```
 
@@ -25,15 +26,4 @@ $cd-custom-list: (
 
 // add second argument for custom list
 font-size: cd-fontSize(comics-san, $cd-custom-list);
-```
-
-
-## Configuration
-
-#### Angular & React
-Include in your root scss file.
-```
-// scss framework
-@import '../node_modules/@imransilvake/scss-framework/assets/scss/main.scss';
-@import '../node_modules/@imransilvake/scss-framework/dist/css/main.min.css';
 ```
