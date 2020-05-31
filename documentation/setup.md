@@ -1,7 +1,7 @@
 # Setup
 There are two files provided by scss framework.
 ```
-@import '../node_modules/@imransilvake/scss-framework/assets/scss/main.scss';
+@import '../node_modules/@imransilvake/scss-framework/dist/scss/main.scss';
 @import '../node_modules/@imransilvake/scss-framework/dist/css/main.min.css';
 ```
 
