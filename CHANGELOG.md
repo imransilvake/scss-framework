@@ -1,3 +1,7 @@
+# 2.3.1
+### Documentation
+* **documentation/:** update documentation
+
 # 2.3.0
 ### Breaking Changes
 * **helpers.scss:** added new helper classes and removed unnecessary ones
