@@ -1,5 +1,4 @@
 # Setup
-`Angular & React:`
 There are two files provided by scss framework. You have to include these in your root scss file. 
 ```
 @import '../node_modules/@imransilvake/scss-framework/dist/scss/main.scss';
